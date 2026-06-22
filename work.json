@@ -6,6 +6,125 @@
             "operands": [
                 {
                     "linkedBlockIndex": -1,
+                    "uid": "49c1a2e0-a929-4508-b4f8-34792cf38152",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_add_ex_atk_num_this_turn",
+            "uid": "1135c318-54e8-41c8-a589-e171936fa853",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_play_an_attack",
+            "uid": "e5374eb0-ce66-4ae7-893a-2eee9c83a649",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_ignore_armor",
+            "uid": "ea563a5f-9d9b-482d-bb6b-c88023430268",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "da21e60f-1534-45fe-9bfb-424c75a31d45",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_review_red",
+            "uid": "9a5dfa9c-5a31-4f9a-9dfc-eb868cca6364",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "605a9ae3-75ba-474c-a5ab-0093f993da1d",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_review_black",
+            "uid": "b8b29be4-0318-4786-aa3a-077b5c6d1069",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_cancel_dmg",
+            "uid": "ddf38b35-f7c8-4b30-a255-686136aa090c",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_cancel_atk",
+            "uid": "c83027e6-696d-4219-b163-c03ac7679157",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_play_douge",
+            "uid": "f9147997-f15a-49a6-9fe4-a6bf4588d2c8",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "c0d3323e-ddae-43a5-b726-b424afe697b4",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_add_ex_dmg_reduce",
+            "uid": "722c7de9-7832-467d-a964-274d0fc99590",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "1364e19a-59ed-4d7e-8ccc-bbfabeb08914",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_add_ex_dmg_to_no_hand",
+            "uid": "cf54b746-6726-42a2-8909-9898e9ba8e9d",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "f603c7ac-5b31-4337-a63f-afe6ff722f94",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_add_ex_atk_num",
+            "uid": "d63355fc-b126-4e81-8258-3db89cad52ab",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
                     "uid": "0faa36b7-815c-41dc-9f21-dfceb82ec739",
                     "type": 3,
                     "data": ""
@@ -781,6 +900,266 @@
             ],
             "attrs": [],
             "id": "zhangba"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "f603c7ac-5b31-4337-a63f-afe6ff722f94",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_add_ex_atk_num",
+                    "uid": "d63355fc-b126-4e81-8258-3db89cad52ab",
+                    "x": 737.0,
+                    "y": 187.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_liannu"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "1364e19a-59ed-4d7e-8ccc-bbfabeb08914",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_add_ex_dmg_to_no_hand",
+                    "uid": "cf54b746-6726-42a2-8909-9898e9ba8e9d",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_guding"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "c0d3323e-ddae-43a5-b726-b424afe697b4",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_add_ex_dmg_reduce",
+                    "uid": "722c7de9-7832-467d-a964-274d0fc99590",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_baiyin"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "cd4849b9-3c08-41ee-9f9f-07406a9cf6d6",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_discard_card",
+                    "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_zhuque"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "da21e60f-1534-45fe-9bfb-424c75a31d45",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_review_red",
+                    "uid": "9a5dfa9c-5a31-4f9a-9dfc-eb868cca6364",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_play_douge",
+                    "uid": "f9147997-f15a-49a6-9fe4-a6bf4588d2c8",
+                    "x": 1066.0,
+                    "y": 196.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_bagua"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_cancel_atk",
+                    "uid": "c83027e6-696d-4219-b163-c03ac7679157",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_renwang"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_cancel_dmg",
+                    "uid": "ddf38b35-f7c8-4b30-a255-686136aa090c",
+                    "x": 1169.0,
+                    "y": 277.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "cd4849b9-3c08-41ee-9f9f-07406a9cf6d6",
+                            "type": 3,
+                            "data": "3"
+                        }
+                    ],
+                    "id": "a_discard_card",
+                    "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
+                    "x": 1153.0,
+                    "y": 452.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_hanbing"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "605a9ae3-75ba-474c-a5ab-0093f993da1d",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_review_black",
+                    "uid": "b8b29be4-0318-4786-aa3a-077b5c6d1069",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_cancel_dmg",
+                    "uid": "ddf38b35-f7c8-4b30-a255-686136aa090c",
+                    "x": 1155.0,
+                    "y": 273.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_tengjia"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "b34647b3-b968-4242-86c1-def3428d0009",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_take_damage",
+                    "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_guanshi"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "49c1a2e0-a929-4508-b4f8-34792cf38152",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_add_ex_atk_num_this_turn",
+                    "uid": "1135c318-54e8-41c8-a589-e171936fa853",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_qinglong"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_ignore_armor",
+                    "uid": "ea563a5f-9d9b-482d-bb6b-c88023430268",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_qinggang"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_play_an_attack",
+                    "uid": "e5374eb0-ce66-4ae7-893a-2eee9c83a649",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_zhangba"
         }
     ]
 }
