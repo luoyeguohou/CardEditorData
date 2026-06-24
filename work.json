@@ -3,6 +3,20 @@
     "export": "c://",
     "blocks": [
         {
+            "operands": [],
+            "id": "a_negation",
+            "uid": "e8e95f2b-0b06-4dda-aa17-10422c383b0a",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_douge",
+            "uid": "f35f15fc-71ed-487b-85f1-09239e9bc2c2",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
             "operands": [
                 {
                     "linkedBlockIndex": -1,
@@ -364,7 +378,15 @@
             "id": "attack"
         },
         {
-            "blocks": [],
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_douge",
+                    "uid": "f35f15fc-71ed-487b-85f1-09239e9bc2c2",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
             "attrs": [],
             "id": "douge"
         },
@@ -583,7 +605,15 @@
             "id": "heal_rain"
         },
         {
-            "blocks": [],
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_negation",
+                    "uid": "e8e95f2b-0b06-4dda-aa17-10422c383b0a",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
             "attrs": [],
             "id": "negation"
         },
