@@ -3,6 +3,46 @@
     "export": "c://",
     "blocks": [
         {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "9840cb0c-53bf-4d72-b28e-116cd001f1ca",
+                    "type": 3,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "127c7ff9-86b7-4e44-a9d4-6e4902a03cb6",
+                    "type": 3,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "3a5ee651-15e3-40ad-8e25-981c5e7ec4c7",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_search_card",
+            "uid": "c2c23399-6bdb-49c0-a5cb-935f94be997b",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_self_draw_card",
+            "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
             "operands": [],
             "id": "a_negation",
             "uid": "e8e95f2b-0b06-4dda-aa17-10422c383b0a",
@@ -243,6 +283,20 @@
             "operands": [
                 {
                     "linkedBlockIndex": -1,
+                    "uid": "63595e7a-219d-4345-85ed-9a6e3d0ba29b",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_self_discard_item",
+            "uid": "85969750-1b7a-4444-a09e-f130605b3d17",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
                     "uid": "f20f39b0-374d-4d37-9c41-48430e78b612",
                     "type": 3,
                     "data": ""
@@ -284,6 +338,13 @@
             ],
             "id": "a_card_clash",
             "uid": "ab859d63-7600-4fbb-8e62-bd9302fc3b38",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_heal_until_full",
+            "uid": "6284328e-ca8f-4cc6-b9bd-514ef838c3c7",
             "x": 623.0,
             "y": 178.0
         },
@@ -506,7 +567,7 @@
                             "linkedBlockIndex": -1,
                             "uid": "cd4849b9-3c08-41ee-9f9f-07406a9cf6d6",
                             "type": 3,
-                            "data": "2"
+                            "data": "1"
                         }
                     ],
                     "id": "a_discard_card",
@@ -784,8 +845,8 @@
                     ],
                     "id": "a_equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
-                    "x": 623.0,
-                    "y": 178.0
+                    "x": 695.0,
+                    "y": 200.0
                 }
             ],
             "attrs": [],
@@ -1190,6 +1251,345 @@
             ],
             "attrs": [],
             "id": "e_s_zhangba"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "cd4849b9-3c08-41ee-9f9f-07406a9cf6d6",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_discard_card",
+                    "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_big_discard"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "e304a2a8-089d-40c2-b989-49a1dd1deb1c",
+                            "type": 3,
+                            "data": "3"
+                        }
+                    ],
+                    "id": "a_draw_card",
+                    "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_big_supply"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "e304a2a8-089d-40c2-b989-49a1dd1deb1c",
+                            "type": 3,
+                            "data": "4"
+                        }
+                    ],
+                    "id": "a_draw_card",
+                    "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
+                    "x": 1108.0,
+                    "y": 249.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "cd4849b9-3c08-41ee-9f9f-07406a9cf6d6",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_discard_card",
+                    "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
+                    "x": 1113.0,
+                    "y": 513.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_big_draw"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "525af38e-77ad-46ac-a127-68b79b0f8477",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_card_clash",
+                    "uid": "ab859d63-7600-4fbb-8e62-bd9302fc3b38",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "3"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 1105.0,
+                    "y": 206.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_duiquan"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "86eba427-3f15-4d7c-9223-4cec46e1e3ad",
+                            "type": 3,
+                            "data": "attack"
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "339e1c2e-3e1d-4e12-aac9-c15cc8b34b6d",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_require_card",
+                    "uid": "3a4dbdcb-be4f-4cf1-b6a6-d2600828d420",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "cd4849b9-3c08-41ee-9f9f-07406a9cf6d6",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_discard_card",
+                    "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
+                    "x": 1113.0,
+                    "y": 338.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_rouquan"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "86eba427-3f15-4d7c-9223-4cec46e1e3ad",
+                            "type": 3,
+                            "data": "douge"
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "339e1c2e-3e1d-4e12-aac9-c15cc8b34b6d",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_require_card",
+                    "uid": "3a4dbdcb-be4f-4cf1-b6a6-d2600828d420",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "b34647b3-b968-4242-86c1-def3428d0009",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_take_damage",
+                    "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
+                    "x": 1188.0,
+                    "y": 289.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_zhouji"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "63595e7a-219d-4345-85ed-9a6e3d0ba29b",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_self_discard_item",
+                    "uid": "85969750-1b7a-4444-a09e-f130605b3d17",
+                    "x": 1176.0,
+                    "y": 280.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "b34647b3-b968-4242-86c1-def3428d0009",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_take_damage",
+                    "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
+                    "x": 1169.0,
+                    "y": 561.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_xiujian"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_heal_until_full",
+                    "uid": "6284328e-ca8f-4cc6-b9bd-514ef838c3c7",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_guard_item"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9840cb0c-53bf-4d72-b28e-116cd001f1ca",
+                            "type": 3,
+                            "data": "attack"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "127c7ff9-86b7-4e44-a9d4-6e4902a03cb6",
+                            "type": 3,
+                            "data": "2"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "3a5ee651-15e3-40ad-8e25-981c5e7ec4c7",
+                            "type": 3,
+                            "data": "0"
+                        }
+                    ],
+                    "id": "a_search_card",
+                    "uid": "c2c23399-6bdb-49c0-a5cb-935f94be997b",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_ready_fight"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9840cb0c-53bf-4d72-b28e-116cd001f1ca",
+                            "type": 3,
+                            "data": "douge"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "127c7ff9-86b7-4e44-a9d4-6e4902a03cb6",
+                            "type": 3,
+                            "data": "2"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "3a5ee651-15e3-40ad-8e25-981c5e7ec4c7",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_search_card",
+                    "uid": "c2c23399-6bdb-49c0-a5cb-935f94be997b",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_defend_gesture"
         }
     ]
 }
