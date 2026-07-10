@@ -375,7 +375,7 @@
                 }
             ],
             "attrs": [],
-            "id": "attack"
+            "id": "e_attack"
         },
         {
             "blocks": [
@@ -388,7 +388,7 @@
                 }
             ],
             "attrs": [],
-            "id": "douge"
+            "id": "e_douge"
         },
         {
             "blocks": [
@@ -408,7 +408,7 @@
                 }
             ],
             "attrs": [],
-            "id": "heal"
+            "id": "e_heal"
         },
         {
             "blocks": [
@@ -442,7 +442,7 @@
                 }
             ],
             "attrs": [],
-            "id": "spell_clash"
+            "id": "e_spell_clash"
         },
         {
             "blocks": [
@@ -496,7 +496,7 @@
                 }
             ],
             "attrs": [],
-            "id": "rust"
+            "id": "e_rust"
         },
         {
             "blocks": [
@@ -516,7 +516,7 @@
                 }
             ],
             "attrs": [],
-            "id": "discard"
+            "id": "e_discard"
         },
         {
             "blocks": [
@@ -529,7 +529,7 @@
                 }
             ],
             "attrs": [],
-            "id": "duel"
+            "id": "e_duel"
         },
         {
             "blocks": [
@@ -569,7 +569,7 @@
                 }
             ],
             "attrs": [],
-            "id": "nanman"
+            "id": "e_nanman"
         },
         {
             "blocks": [
@@ -589,7 +589,7 @@
                 }
             ],
             "attrs": [],
-            "id": "steal"
+            "id": "e_steal"
         },
         {
             "blocks": [
@@ -602,7 +602,7 @@
                 }
             ],
             "attrs": [],
-            "id": "heal_rain"
+            "id": "e_heal_rain"
         },
         {
             "blocks": [
@@ -615,7 +615,7 @@
                 }
             ],
             "attrs": [],
-            "id": "negation"
+            "id": "e_negation"
         },
         {
             "blocks": [
@@ -635,7 +635,7 @@
                 }
             ],
             "attrs": [],
-            "id": "supply"
+            "id": "e_supply"
         },
         {
             "blocks": [
@@ -689,7 +689,7 @@
                 }
             ],
             "attrs": [],
-            "id": "foresee"
+            "id": "e_foresee"
         },
         {
             "blocks": [
@@ -709,7 +709,7 @@
                 }
             ],
             "attrs": [],
-            "id": "liannu"
+            "id": "e_liannu"
         },
         {
             "blocks": [
@@ -729,7 +729,7 @@
                 }
             ],
             "attrs": [],
-            "id": "guding"
+            "id": "e_guding"
         },
         {
             "blocks": [
@@ -749,7 +749,7 @@
                 }
             ],
             "attrs": [],
-            "id": "baiyin"
+            "id": "e_baiyin"
         },
         {
             "blocks": [
@@ -769,7 +769,7 @@
                 }
             ],
             "attrs": [],
-            "id": "zhuque"
+            "id": "e_zhuque"
         },
         {
             "blocks": [
@@ -789,7 +789,7 @@
                 }
             ],
             "attrs": [],
-            "id": "bagua"
+            "id": "e_bagua"
         },
         {
             "blocks": [
@@ -809,7 +809,7 @@
                 }
             ],
             "attrs": [],
-            "id": "renwang"
+            "id": "e_renwang"
         },
         {
             "blocks": [
@@ -829,7 +829,7 @@
                 }
             ],
             "attrs": [],
-            "id": "hanbing"
+            "id": "e_hanbing"
         },
         {
             "blocks": [
@@ -849,7 +849,7 @@
                 }
             ],
             "attrs": [],
-            "id": "tengjia"
+            "id": "e_tengjia"
         },
         {
             "blocks": [
@@ -869,7 +869,7 @@
                 }
             ],
             "attrs": [],
-            "id": "guanshi"
+            "id": "e_guanshi"
         },
         {
             "blocks": [
@@ -889,7 +889,7 @@
                 }
             ],
             "attrs": [],
-            "id": "qinglong"
+            "id": "e_qinglong"
         },
         {
             "blocks": [
@@ -909,7 +909,7 @@
                 }
             ],
             "attrs": [],
-            "id": "qinggang"
+            "id": "e_qinggang"
         },
         {
             "blocks": [
@@ -929,7 +929,7 @@
                 }
             ],
             "attrs": [],
-            "id": "zhangba"
+            "id": "e_zhangba"
         },
         {
             "blocks": [
@@ -949,7 +949,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_liannu"
+            "id": "e_s_liannu"
         },
         {
             "blocks": [
@@ -969,7 +969,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_guding"
+            "id": "e_s_guding"
         },
         {
             "blocks": [
@@ -989,7 +989,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_baiyin"
+            "id": "e_s_baiyin"
         },
         {
             "blocks": [
@@ -1036,7 +1036,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_bagua"
+            "id": "e_s_bagua"
         },
         {
             "blocks": [
@@ -1049,7 +1049,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_renwang"
+            "id": "e_s_renwang"
         },
         {
             "blocks": [
@@ -1096,7 +1096,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_hanbing"
+            "id": "e_s_hanbing"
         },
         {
             "blocks": [
@@ -1123,7 +1123,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_tengjia"
+            "id": "e_s_tengjia"
         },
         {
             "blocks": [
@@ -1143,7 +1143,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_guanshi"
+            "id": "e_s_guanshi"
         },
         {
             "blocks": [
@@ -1163,7 +1163,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_qinglong"
+            "id": "e_s_qinglong"
         },
         {
             "blocks": [
@@ -1176,7 +1176,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_qinggang"
+            "id": "e_s_qinggang"
         },
         {
             "blocks": [
@@ -1189,7 +1189,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_zhangba"
+            "id": "e_s_zhangba"
         }
     ]
 }
