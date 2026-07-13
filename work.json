@@ -6,6 +6,214 @@
             "operands": [
                 {
                     "linkedBlockIndex": -1,
+                    "uid": "c28d02ec-370a-449e-8039-a5826a5276db",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_draw_when_use_red_atk",
+            "uid": "333349cb-6059-4907-9a66-4d4604142312",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "f35d5727-a61a-4157-82b2-341dec708d76",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_equip_ex_item",
+            "uid": "c4a7ebd4-d81c-4c96-8760-2c093f55b46c",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_sheshenyiji",
+            "uid": "c309b243-8bc2-4655-8a5d-424a427e9519",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "3b243554-7d6c-43b8-a45f-eaf8514a7603",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_add_hand_limitation",
+            "uid": "616d13e5-8d85-449a-b5ad-889e8a069ed5",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "8515e493-f810-47da-9fc8-fd2f2174eec7",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_self_take_dmg",
+            "uid": "28ce07ba-5ac8-4ed0-ae8f-477c3241ca51",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_discard_all_card",
+            "uid": "12781181-bc1b-4427-9506-19289ba6e7a4",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "41e23f4d-0af7-4326-9d5f-b03602646cde",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_ex_douge_required",
+            "uid": "8c6abff3-6db9-4eec-b454-c7e4a10b77a4",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "f8bb0e2f-da62-4c63-ae96-aa9096a8b000",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_zhiheng",
+            "uid": "6cdd2355-b621-40ab-8f8d-f1968ca70beb",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "c5e720b5-0040-4501-b65b-e36285a8dac4",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_draw_after_use_skill_this_turn",
+            "uid": "d888407a-e988-4967-8018-acb3fd543b73",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "87bc1e0b-fb03-40db-95af-ae6e5ab3540c",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_ex_draw",
+            "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "85ec1c4a-24cd-4e8e-a339-7896e048f7ef",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_next_atk_ex_dmg_this_turn",
+            "uid": "04a45657-a8c9-4630-88f2-9ddbccfdfda7",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "ef17d75d-4957-4659-b6fd-74a3c1e7126b",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_add_ex_atk_num",
+            "uid": "8a1f80ef-8d0f-4fc6-ad12-45a14ce5c0f0",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "3d872858-0057-4116-8d06-19e62bda7dba",
+                    "type": 3,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "c743404b-13f1-4231-90bc-ac291f3d4465",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_self_discard_card_todo",
+            "uid": "f8910fd5-c0ee-43fb-8537-08739256aff2",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_satisfy_require",
+            "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_play_atk_not_count",
+            "uid": "bc77892a-df5f-4dc9-ad98-d3cc5da48cc1",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "1ca2fd72-393c-4b68-a1aa-f032650bf65c",
+                    "type": 3,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "f1c1b8af-b9da-4bf6-8318-ed80ac7654e4",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_search_card_type",
+            "uid": "38e833c2-df60-4060-8a3b-c894b355a6a3",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
                     "uid": "9840cb0c-53bf-4d72-b28e-116cd001f1ca",
                     "type": 3,
                     "data": ""
@@ -13,12 +221,6 @@
                 {
                     "linkedBlockIndex": -1,
                     "uid": "127c7ff9-86b7-4e44-a9d4-6e4902a03cb6",
-                    "type": 3,
-                    "data": ""
-                },
-                {
-                    "linkedBlockIndex": -1,
-                    "uid": "3a5ee651-15e3-40ad-8e25-981c5e7ec4c7",
                     "type": 3,
                     "data": ""
                 }
@@ -1542,12 +1744,6 @@
                             "uid": "127c7ff9-86b7-4e44-a9d4-6e4902a03cb6",
                             "type": 3,
                             "data": "2"
-                        },
-                        {
-                            "linkedBlockIndex": -1,
-                            "uid": "3a5ee651-15e3-40ad-8e25-981c5e7ec4c7",
-                            "type": 3,
-                            "data": "0"
                         }
                     ],
                     "id": "a_search_card",
@@ -1574,10 +1770,422 @@
                             "uid": "127c7ff9-86b7-4e44-a9d4-6e4902a03cb6",
                             "type": 3,
                             "data": "2"
+                        }
+                    ],
+                    "id": "a_search_card",
+                    "uid": "c2c23399-6bdb-49c0-a5cb-935f94be997b",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_defend_gesture"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "1ca2fd72-393c-4b68-a1aa-f032650bf65c",
+                            "type": 3,
+                            "data": "item"
                         },
                         {
                             "linkedBlockIndex": -1,
-                            "uid": "3a5ee651-15e3-40ad-8e25-981c5e7ec4c7",
+                            "uid": "f1c1b8af-b9da-4bf6-8318-ed80ac7654e4",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_search_card_type",
+                    "uid": "38e833c2-df60-4060-8a3b-c894b355a6a3",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_item_search"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "e304a2a8-089d-40c2-b989-49a1dd1deb1c",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_draw_card",
+                    "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
+                    "x": 1069.0,
+                    "y": 189.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_play_atk_not_count",
+                    "uid": "bc77892a-df5f-4dc9-ad98-d3cc5da48cc1",
+                    "x": 1068.0,
+                    "y": 459.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_lianquan"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "3"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_zhengbei"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_satisfy_require",
+                    "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_longdan_douge"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_play_an_attack",
+                    "uid": "e5374eb0-ce66-4ae7-893a-2eee9c83a649",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_longdan_attack_use"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_satisfy_require",
+                    "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_longdan_attack"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_baoku"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "b34647b3-b968-4242-86c1-def3428d0009",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_take_damage",
+                    "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
+                    "x": 1077.0,
+                    "y": 315.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "3d872858-0057-4116-8d06-19e62bda7dba",
+                            "type": 3,
+                            "data": "3"
+                        },
+                        {
+                            "linkedBlockIndex": 0,
+                            "uid": "c743404b-13f1-4231-90bc-ac291f3d4465",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_self_discard_card_todo",
+                    "uid": "f8910fd5-c0ee-43fb-8537-08739256aff2",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_pojun"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "807d8abf-e0fc-43a2-b7dd-15a3f8996fdf",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_heal",
+                    "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_chongsheng"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "ef17d75d-4957-4659-b6fd-74a3c1e7126b",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_add_ex_atk_num",
+                    "uid": "8a1f80ef-8d0f-4fc6-ad12-45a14ce5c0f0",
+                    "x": 696.0,
+                    "y": 190.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_jisu"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "85ec1c4a-24cd-4e8e-a339-7896e048f7ef",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_next_atk_ex_dmg_this_turn",
+                    "uid": "04a45657-a8c9-4630-88f2-9ddbccfdfda7",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_zhongji"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "87bc1e0b-fb03-40db-95af-ae6e5ab3540c",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_ex_draw",
+                    "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_duanti"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "4a24a107-790f-4ccd-a623-4197b3f21cc9",
+                            "type": 3,
+                            "data": "3"
+                        }
+                    ],
+                    "id": "a_foresee",
+                    "uid": "9eee9aa0-553c-4bb5-874c-27327f8d56b5",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_guanxing"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "c5e720b5-0040-4501-b65b-e36285a8dac4",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_draw_after_use_skill_this_turn",
+                    "uid": "d888407a-e988-4967-8018-acb3fd543b73",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_jizhi"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "f8bb0e2f-da62-4c63-ae96-aa9096a8b000",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_zhiheng",
+                    "uid": "6cdd2355-b621-40ab-8f8d-f1968ca70beb",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_zhiheng"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "3d872858-0057-4116-8d06-19e62bda7dba",
+                            "type": 3,
+                            "data": "2"
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "c743404b-13f1-4231-90bc-ac291f3d4465",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_self_discard_card_todo",
+                    "uid": "f8910fd5-c0ee-43fb-8537-08739256aff2",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "807d8abf-e0fc-43a2-b7dd-15a3f8996fdf",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_heal",
+                    "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
+                    "x": 1076.0,
+                    "y": 308.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_huifu"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "41e23f4d-0af7-4326-9d5f-b03602646cde",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_ex_douge_required",
+                    "uid": "8c6abff3-6db9-4eec-b454-c7e4a10b77a4",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_lianji"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9840cb0c-53bf-4d72-b28e-116cd001f1ca",
+                            "type": 3,
+                            "data": "attack"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "127c7ff9-86b7-4e44-a9d4-6e4902a03cb6",
                             "type": 3,
                             "data": "1"
                         }
@@ -1589,7 +2197,375 @@
                 }
             ],
             "attrs": [],
-            "id": "e_defend_gesture"
+            "id": "e_s_feiti"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_yiji"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "8515e493-f810-47da-9fc8-fd2f2174eec7",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_self_take_dmg",
+                    "uid": "28ce07ba-5ac8-4ed0-ae8f-477c3241ca51",
+                    "x": 1113.0,
+                    "y": 214.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_discard_all_card",
+                    "uid": "12781181-bc1b-4427-9506-19289ba6e7a4",
+                    "x": 1126.0,
+                    "y": 472.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_pofang"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "3b243554-7d6c-43b8-a45f-eaf8514a7603",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_add_hand_limitation",
+                    "uid": "616d13e5-8d85-449a-b5ad-889e8a069ed5",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_qianxun"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 651.0,
+                    "y": 176.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 1102.0,
+                    "y": 378.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "8515e493-f810-47da-9fc8-fd2f2174eec7",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_self_take_dmg",
+                    "uid": "28ce07ba-5ac8-4ed0-ae8f-477c3241ca51",
+                    "x": 1081.0,
+                    "y": 171.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_sheshen"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "605a9ae3-75ba-474c-a5ab-0093f993da1d",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_review_black",
+                    "uid": "b8b29be4-0318-4786-aa3a-077b5c6d1069",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "cd4849b9-3c08-41ee-9f9f-07406a9cf6d6",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_discard_card",
+                    "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
+                    "x": 1203.0,
+                    "y": 303.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_ganglie"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "525af38e-77ad-46ac-a127-68b79b0f8477",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_card_clash",
+                    "uid": "ab859d63-7600-4fbb-8e62-bd9302fc3b38",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 999.0,
+                    "y": 262.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_shenling"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_jiguanchaijie"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "3d872858-0057-4116-8d06-19e62bda7dba",
+                            "type": 3,
+                            "data": "3"
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "c743404b-13f1-4231-90bc-ac291f3d4465",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_self_discard_card_todo",
+                    "uid": "f8910fd5-c0ee-43fb-8537-08739256aff2",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "1ca2fd72-393c-4b68-a1aa-f032650bf65c",
+                            "type": 3,
+                            "data": "item"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "f1c1b8af-b9da-4bf6-8318-ed80ac7654e4",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_search_card_type",
+                    "uid": "38e833c2-df60-4060-8a3b-c894b355a6a3",
+                    "x": 1059.0,
+                    "y": 225.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_jiguanjiansuo"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_sheshenyiji",
+                    "uid": "c309b243-8bc2-4655-8a5d-424a427e9519",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_sheshenyiji"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "3d872858-0057-4116-8d06-19e62bda7dba",
+                            "type": 3,
+                            "data": "1"
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "c743404b-13f1-4231-90bc-ac291f3d4465",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_self_discard_card_todo",
+                    "uid": "f8910fd5-c0ee-43fb-8537-08739256aff2",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "b34647b3-b968-4242-86c1-def3428d0009",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_take_damage",
+                    "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
+                    "x": 1081.0,
+                    "y": 290.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_fangyufanji"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "c28d02ec-370a-449e-8039-a5826a5276db",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_draw_when_use_red_atk",
+                    "uid": "333349cb-6059-4907-9a66-4d4604142312",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_neijiashenfa"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "f35d5727-a61a-4157-82b2-341dec708d76",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_equip_ex_item",
+                    "uid": "c4a7ebd4-d81c-4c96-8760-2c093f55b46c",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_item_master"
         }
     ]
 }
