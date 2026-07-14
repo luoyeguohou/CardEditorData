@@ -11,7 +11,7 @@
                     "data": ""
                 }
             ],
-            "id": "discard_item",
+            "id": "a_discard_certain_item",
             "uid": "3d61dbf3-c0a7-4374-90d9-e907e836d201",
             "x": 623.0,
             "y": 178.0
@@ -3339,7 +3339,7 @@
                             "data": "fenghuo"
                         }
                     ],
-                    "id": "discard_item",
+                    "id": "a_discard_certain_item",
                     "uid": "3d61dbf3-c0a7-4374-90d9-e907e836d201",
                     "x": 1609.0,
                     "y": 736.0
@@ -3393,7 +3393,7 @@
                             "data": "yujinxian"
                         }
                     ],
-                    "id": "discard_item",
+                    "id": "a_discard_certain_item",
                     "uid": "3d61dbf3-c0a7-4374-90d9-e907e836d201",
                     "x": 1419.0,
                     "y": 581.0
