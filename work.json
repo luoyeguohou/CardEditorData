@@ -6,12 +6,33 @@
             "operands": [
                 {
                     "linkedBlockIndex": -1,
+                    "uid": "cf9d163f-66a2-478d-aa63-536f79134f59",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "discard_item",
+            "uid": "3d61dbf3-c0a7-4374-90d9-e907e836d201",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_jiguan_bird",
+            "uid": "51063d9b-f61d-41fd-ae0a-f513ba5c1091",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
                     "uid": "ee786533-7857-4a53-b101-72eb0083d892",
                     "type": 3,
                     "data": ""
                 }
             ],
-            "id": "ex_heal_next_heal",
+            "id": "a_ex_heal_next_heal",
             "uid": "cac08b91-e869-4641-b2f3-69ea52582887",
             "x": 623.0,
             "y": 178.0
@@ -25,14 +46,14 @@
                     "data": ""
                 }
             ],
-            "id": "ex_dmg_next_atk",
+            "id": "a_ex_dmg_next_atk",
             "uid": "638849cd-9ce1-469a-ad2d-607819be3370",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "cant_use_heal",
+            "id": "a_cant_use_heal",
             "uid": "ce00252a-de67-4171-8487-1097b3987310",
             "x": 623.0,
             "y": 178.0
@@ -46,7 +67,7 @@
                     "data": ""
                 }
             ],
-            "id": "draw_less_card_at_start",
+            "id": "a_draw_less_card_at_start",
             "uid": "ab210a5e-ad74-477d-88ea-473736514963",
             "x": 623.0,
             "y": 178.0
@@ -3064,7 +3085,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "draw_less_card_at_start",
+                    "id": "a_draw_less_card_at_start",
                     "uid": "ab210a5e-ad74-477d-88ea-473736514963",
                     "x": 623.0,
                     "y": 178.0
@@ -3077,7 +3098,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "cant_use_heal",
+                    "id": "a_cant_use_heal",
                     "uid": "ce00252a-de67-4171-8487-1097b3987310",
                     "x": 623.0,
                     "y": 178.0
@@ -3117,7 +3138,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "ex_dmg_next_atk",
+                    "id": "a_ex_dmg_next_atk",
                     "uid": "638849cd-9ce1-469a-ad2d-607819be3370",
                     "x": 661.0,
                     "y": 157.0
@@ -3157,7 +3178,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "ex_heal_next_heal",
+                    "id": "a_ex_heal_next_heal",
                     "uid": "cac08b91-e869-4641-b2f3-69ea52582887",
                     "x": 623.0,
                     "y": 178.0
@@ -3165,6 +3186,255 @@
             ],
             "attrs": [],
             "id": "e_s_heal_ex"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "807d8abf-e0fc-43a2-b7dd-15a3f8996fdf",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_heal",
+                    "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_wine"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "0faa36b7-815c-41dc-9f21-dfceb82ec739",
+                            "type": 3,
+                            "data": "fenghuo"
+                        }
+                    ],
+                    "id": "a_equip_item",
+                    "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_fenghuo"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "0faa36b7-815c-41dc-9f21-dfceb82ec739",
+                            "type": 3,
+                            "data": "yujinxian"
+                        }
+                    ],
+                    "id": "a_equip_item",
+                    "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
+                    "x": 624.0,
+                    "y": 186.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_yujinxian"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_jiguan_bird",
+                    "uid": "51063d9b-f61d-41fd-ae0a-f513ba5c1091",
+                    "x": 705.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_jiguan_bird"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "c610006b-a6d8-46e9-b8ff-5b62de0becbd",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_reduce_dmg_by",
+                    "uid": "32a75a80-a607-4422-9245-bdd40135c700",
+                    "x": 1154.0,
+                    "y": 257.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 0,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 695.0,
+                    "y": 282.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 3,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 4,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 1153.0,
+                    "y": 496.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 1625.0,
+                    "y": 473.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "cf9d163f-66a2-478d-aa63-536f79134f59",
+                            "type": 3,
+                            "data": "fenghuo"
+                        }
+                    ],
+                    "id": "discard_item",
+                    "uid": "3d61dbf3-c0a7-4374-90d9-e907e836d201",
+                    "x": 1609.0,
+                    "y": 736.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_fenghuo"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 1000.0,
+                    "y": 348.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 1444.0,
+                    "y": 301.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "cf9d163f-66a2-478d-aa63-536f79134f59",
+                            "type": 3,
+                            "data": "yujinxian"
+                        }
+                    ],
+                    "id": "discard_item",
+                    "uid": "3d61dbf3-c0a7-4374-90d9-e907e836d201",
+                    "x": 1419.0,
+                    "y": 581.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 4,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 0,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "ee786533-7857-4a53-b101-72eb0083d892",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_ex_heal_next_heal",
+                    "uid": "cac08b91-e869-4641-b2f3-69ea52582887",
+                    "x": 1099.0,
+                    "y": 88.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_yujinxian"
         }
     ]
 }
