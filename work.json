@@ -334,18 +334,12 @@
             "operands": [
                 {
                     "linkedBlockIndex": -1,
-                    "uid": "1ca2fd72-393c-4b68-a1aa-f032650bf65c",
-                    "type": 3,
-                    "data": ""
-                },
-                {
-                    "linkedBlockIndex": -1,
                     "uid": "f1c1b8af-b9da-4bf6-8318-ed80ac7654e4",
                     "type": 3,
                     "data": ""
                 }
             ],
-            "id": "a_search_card_type",
+            "id": "a_draw_item_card",
             "uid": "38e833c2-df60-4060-8a3b-c894b355a6a3",
             "x": 623.0,
             "y": 178.0
@@ -1927,18 +1921,12 @@
                     "operands": [
                         {
                             "linkedBlockIndex": -1,
-                            "uid": "1ca2fd72-393c-4b68-a1aa-f032650bf65c",
-                            "type": 3,
-                            "data": "item"
-                        },
-                        {
-                            "linkedBlockIndex": -1,
                             "uid": "f1c1b8af-b9da-4bf6-8318-ed80ac7654e4",
                             "type": 3,
                             "data": "1"
                         }
                     ],
-                    "id": "a_search_card_type",
+                    "id": "a_draw_item_card",
                     "uid": "38e833c2-df60-4060-8a3b-c894b355a6a3",
                     "x": 623.0,
                     "y": 178.0
@@ -2594,18 +2582,12 @@
                     "operands": [
                         {
                             "linkedBlockIndex": -1,
-                            "uid": "1ca2fd72-393c-4b68-a1aa-f032650bf65c",
-                            "type": 3,
-                            "data": "item"
-                        },
-                        {
-                            "linkedBlockIndex": -1,
                             "uid": "f1c1b8af-b9da-4bf6-8318-ed80ac7654e4",
                             "type": 3,
                             "data": "1"
                         }
                     ],
-                    "id": "a_search_card_type",
+                    "id": "a_draw_item_card",
                     "uid": "38e833c2-df60-4060-8a3b-c894b355a6a3",
                     "x": 1059.0,
                     "y": 225.0
