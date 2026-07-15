@@ -1940,13 +1940,13 @@
                 {
                     "operands": [
                         {
-                            "linkedBlockIndex": 1,
+                            "linkedBlockIndex": 2,
                             "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
                             "type": 0,
                             "data": ""
                         },
                         {
-                            "linkedBlockIndex": 2,
+                            "linkedBlockIndex": 1,
                             "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
                             "type": 0,
                             "data": ""
@@ -1958,25 +1958,25 @@
                     "y": 178.0
                 },
                 {
-                    "operands": [
-                        {
-                            "linkedBlockIndex": -1,
-                            "uid": "e304a2a8-089d-40c2-b989-49a1dd1deb1c",
-                            "type": 3,
-                            "data": "1"
-                        }
-                    ],
-                    "id": "a_draw_card",
-                    "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
-                    "x": 1069.0,
-                    "y": 189.0
-                },
-                {
                     "operands": [],
                     "id": "a_play_atk_not_count",
                     "uid": "bc77892a-df5f-4dc9-ad98-d3cc5da48cc1",
                     "x": 1068.0,
                     "y": 459.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 1080.0,
+                    "y": 171.0
                 }
             ],
             "attrs": [],
