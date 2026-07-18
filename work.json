@@ -171,7 +171,14 @@
             "y": 178.0
         },
         {
-            "operands": [],
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "483caeef-adec-4279-89a8-64b7788773e7",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
             "id": "a_sheshenyiji",
             "uid": "c309b243-8bc2-4655-8a5d-424a427e9519",
             "x": 623.0,
@@ -2599,7 +2606,14 @@
         {
             "blocks": [
                 {
-                    "operands": [],
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "483caeef-adec-4279-89a8-64b7788773e7",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
                     "id": "a_sheshenyiji",
                     "uid": "c309b243-8bc2-4655-8a5d-424a427e9519",
                     "x": 623.0,
