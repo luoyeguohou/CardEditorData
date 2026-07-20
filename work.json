@@ -619,12 +619,26 @@
             "operands": [
                 {
                     "linkedBlockIndex": -1,
+                    "uid": "5211f226-cd3d-4db1-a60a-5302d4d28a09",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_steal_card",
+            "uid": "1898310f-a650-471e-b50c-93968fe07bd0",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
                     "uid": "6c5c8ce2-d405-4fe0-b64d-88352a175463",
                     "type": 3,
                     "data": ""
                 }
             ],
-            "id": "a_steal",
+            "id": "a_steal_hand",
             "uid": "39cfedf8-799c-4904-b987-15756e45b777",
             "x": 623.0,
             "y": 178.0
@@ -1014,7 +1028,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_steal",
+                    "id": "a_steal_hand",
                     "uid": "39cfedf8-799c-4904-b987-15756e45b777",
                     "x": 623.0,
                     "y": 178.0
@@ -3593,6 +3607,26 @@
             ],
             "attrs": [],
             "id": "e_s_item_master_up"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "5211f226-cd3d-4db1-a60a-5302d4d28a09",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_steal_card",
+                    "uid": "1898310f-a650-471e-b50c-93968fe07bd0",
+                    "x": 721.0,
+                    "y": 174.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_fankui"
         }
     ]
 }
