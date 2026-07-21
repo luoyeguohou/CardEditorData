@@ -6,6 +6,20 @@
             "operands": [
                 {
                     "linkedBlockIndex": -1,
+                    "uid": "8ab2596c-ce78-40f1-9563-ffaf00f9ee89",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_self_discard_card",
+            "uid": "2c084724-c252-491a-a2a8-da6b3a786485",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
                     "uid": "34bd38d3-0037-4bb3-b60f-906d436c94fe",
                     "type": 3,
                     "data": ""
@@ -1717,15 +1731,15 @@
                     "operands": [
                         {
                             "linkedBlockIndex": -1,
-                            "uid": "cd4849b9-3c08-41ee-9f9f-07406a9cf6d6",
+                            "uid": "8ab2596c-ce78-40f1-9563-ffaf00f9ee89",
                             "type": 3,
                             "data": "2"
                         }
                     ],
-                    "id": "a_discard_card",
-                    "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
-                    "x": 1113.0,
-                    "y": 513.0
+                    "id": "a_self_discard_card",
+                    "uid": "2c084724-c252-491a-a2a8-da6b3a786485",
+                    "x": 1078.0,
+                    "y": 499.0
                 }
             ],
             "attrs": [],
