@@ -535,6 +535,12 @@
             "operands": [
                 {
                     "linkedBlockIndex": -1,
+                    "uid": "596b9668-9f97-4d7c-804f-6b61d1184533",
+                    "type": 3,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
                     "uid": "a71d7603-202e-449d-82ad-d3c1ddabe3b0",
                     "type": 3,
                     "data": ""
@@ -4209,6 +4215,12 @@
             "blocks": [
                 {
                     "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "596b9668-9f97-4d7c-804f-6b61d1184533",
+                            "type": 3,
+                            "data": "1"
+                        },
                         {
                             "linkedBlockIndex": -1,
                             "uid": "a71d7603-202e-449d-82ad-d3c1ddabe3b0",
