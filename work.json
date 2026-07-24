@@ -3,6 +3,20 @@
     "export": "c://",
     "blocks": [
         {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "b6a07700-05fb-48be-9a5c-4f2ad299eed4",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_reduce_draw_every_turn",
+            "uid": "b1b8e260-45d2-4fad-a3c0-4b68acd79a71",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
             "operands": [],
             "id": "a_fog_shield",
             "uid": "252ea7bb-554d-4fca-9069-124e655a84d0",
@@ -4690,13 +4704,13 @@
                 {
                     "operands": [
                         {
-                            "linkedBlockIndex": 1,
+                            "linkedBlockIndex": 2,
                             "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
                             "type": 0,
                             "data": ""
                         },
                         {
-                            "linkedBlockIndex": 2,
+                            "linkedBlockIndex": 1,
                             "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
                             "type": 0,
                             "data": ""
@@ -4711,20 +4725,6 @@
                     "operands": [
                         {
                             "linkedBlockIndex": -1,
-                            "uid": "87bc1e0b-fb03-40db-95af-ae6e5ab3540c",
-                            "type": 3,
-                            "data": "-1"
-                        }
-                    ],
-                    "id": "a_ex_draw",
-                    "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
-                    "x": 1289.0,
-                    "y": 216.0
-                },
-                {
-                    "operands": [
-                        {
-                            "linkedBlockIndex": -1,
                             "uid": "d3aa9393-a114-4a24-ac8f-e152f50968e6",
                             "type": 3,
                             "data": "1"
@@ -4734,6 +4734,20 @@
                     "uid": "21f320bf-9ae4-47ce-aac1-dc2798a14c67",
                     "x": 1250.0,
                     "y": 470.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "b6a07700-05fb-48be-9a5c-4f2ad299eed4",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_reduce_draw_every_turn",
+                    "uid": "b1b8e260-45d2-4fad-a3c0-4b68acd79a71",
+                    "x": 1268.0,
+                    "y": 200.0
                 }
             ],
             "attrs": [],
@@ -5708,15 +5722,15 @@
                     "operands": [
                         {
                             "linkedBlockIndex": -1,
-                            "uid": "87bc1e0b-fb03-40db-95af-ae6e5ab3540c",
+                            "uid": "b6a07700-05fb-48be-9a5c-4f2ad299eed4",
                             "type": 3,
-                            "data": "-1"
+                            "data": "1"
                         }
                     ],
-                    "id": "a_ex_draw",
-                    "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
-                    "x": 623.0,
-                    "y": 178.0
+                    "id": "a_reduce_draw_every_turn",
+                    "uid": "b1b8e260-45d2-4fad-a3c0-4b68acd79a71",
+                    "x": 941.0,
+                    "y": 281.0
                 }
             ],
             "attrs": [],
