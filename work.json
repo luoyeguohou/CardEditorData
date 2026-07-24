@@ -6004,7 +6004,7 @@
                             "linkedBlockIndex": -1,
                             "uid": "068140eb-4bef-4410-b791-0443432f0af5",
                             "type": 3,
-                            "data": "st_shuangzi_yang"
+                            "data": "s_shuangzi_yang"
                         }
                     ],
                     "id": "a_transform_skill",
@@ -6126,7 +6126,7 @@
                             "linkedBlockIndex": -1,
                             "uid": "068140eb-4bef-4410-b791-0443432f0af5",
                             "type": 3,
-                            "data": "e_s_shuangzi_yin"
+                            "data": "s_shuangzi_yin"
                         }
                     ],
                     "id": "a_transform_skill",
