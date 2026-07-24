@@ -4983,7 +4983,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_s_shenyong_1"
+            "id": "e_s_shenyong_2"
         },
         {
             "blocks": [
@@ -5735,6 +5735,40 @@
             ],
             "attrs": [],
             "id": "e_dragon"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "f8d28fda-49d2-4601-b99d-c4de957d89ef",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_same_number_or_suit_with_last_card_played",
+                    "uid": "c9dc35db-109a-4f5e-8735-0a27ce96c770",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 1149.0,
+                    "y": 238.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_jianying"
         }
     ]
 }
