@@ -3,6 +3,40 @@
     "export": "c://",
     "blocks": [
         {
+            "operands": [],
+            "id": "a_dragon_egg",
+            "uid": "f5410dfb-9ed9-47f3-b29e-ba00be5598e2",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "1f25e200-6ced-403e-9aec-0da034bdc4ec",
+                    "type": 3,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "f7f9d213-a8b1-4184-abf3-370527901e2c",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_require_2_card",
+            "uid": "f8dfd20b-256f-4d83-aa03-f191cf0f8682",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_nothing",
+            "uid": "2034ee5b-14b5-4ed7-8550-af4d09ff52d8",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
             "operands": [
                 {
                     "linkedBlockIndex": -1,
@@ -5623,6 +5657,72 @@
             ],
             "attrs": [],
             "id": "e_s_clash_to_draw"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_nothing",
+                    "uid": "2034ee5b-14b5-4ed7-8550-af4d09ff52d8",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_trash"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_dragon_egg",
+                    "uid": "f5410dfb-9ed9-47f3-b29e-ba00be5598e2",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_dragonEgg"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "1f25e200-6ced-403e-9aec-0da034bdc4ec",
+                            "type": 3,
+                            "data": "douge"
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "f7f9d213-a8b1-4184-abf3-370527901e2c",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_require_2_card",
+                    "uid": "f8dfd20b-256f-4d83-aa03-f191cf0f8682",
+                    "x": 719.0,
+                    "y": 210.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "b34647b3-b968-4242-86c1-def3428d0009",
+                            "type": 3,
+                            "data": "3"
+                        }
+                    ],
+                    "id": "a_take_damage",
+                    "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
+                    "x": 1131.0,
+                    "y": 364.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_dragon"
         }
     ]
 }
