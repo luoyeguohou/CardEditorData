@@ -3,6 +3,151 @@
     "export": "c://",
     "blocks": [
         {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "90d03262-890e-400c-8003-9027dd3660c2",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_ex_draw_by_wuzhong",
+            "uid": "4f250ac1-4ed5-4314-bbda-6f9cbb9c1403",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_no_atk_limit_this_turn",
+            "uid": "9a6ae957-eb69-430d-840a-d8846486b401",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_turn_hands_to_random_suit",
+            "uid": "0ebbdb83-5da5-46c4-8a30-ca95acfa5338",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_ignore_dmg",
+            "uid": "3f97d1e3-4757-4765-9d1a-b91bdc159384",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "f8d28fda-49d2-4601-b99d-c4de957d89ef",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_same_number_or_suit_with_last_card_played",
+            "uid": "c9dc35db-109a-4f5e-8735-0a27ce96c770",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "cf713e4e-5402-4fd2-9bbe-6723fa3d772b",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_play_atk_ex_dmg_if_point_outnumber",
+            "uid": "763d01b4-a774-4f3c-a39c-7ffb1dcfb3a7",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "071b56dd-3f2c-4bfa-87d0-d9339fe6564b",
+                    "type": 3,
+                    "data": "1"
+                }
+            ],
+            "id": "a_keep_hands",
+            "uid": "1eb3c3c3-4caf-41e8-9255-babe51e2a5d6",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "0fb5bad0-30e5-41a5-a035-58d1ec30d8cd",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_get_token_eq_discard_number",
+            "uid": "7963d684-b613-4032-bd8c-f9451fbda8ba",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "3441ba28-e356-49f0-b5a6-dbabcf68f3b2",
+                    "type": 0,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "70a54017-163a-4e3b-811a-eca9336732e3",
+                    "type": 0,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "dbb8e708-9083-4c46-b8be-55cef64dfdea",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_review_check_heart_spade_club",
+            "uid": "b6f3289a-d649-45d3-a8db-e8df2439b821",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_discard_x_shence_card_to_deal_dmg",
+            "uid": "297e92ea-0c86-4e39-967f-00d08bc83b04",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "d935ff78-31c4-46ac-ace0-925c26886151",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_if_same_suit_shence",
+            "uid": "3e0e95a4-61ab-4656-8c15-66ab2435234e",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_review_shence",
+            "uid": "59fdb877-c12d-4e56-aaa5-929afc9922fc",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
             "operands": [],
             "id": "a_discard_all_hand",
             "uid": "582826b6-fbe2-4d80-b8da-b07229247aee",
@@ -4766,7 +4911,7 @@
                 }
             ],
             "attrs": [],
-            "id": "st_shenyong"
+            "id": "e_s_shenyong"
         },
         {
             "blocks": [
@@ -4792,7 +4937,7 @@
                 }
             ],
             "attrs": [],
-            "id": "st_shenyong_1"
+            "id": "e_s_shenyong_1"
         },
         {
             "blocks": [
@@ -4859,7 +5004,625 @@
                 }
             ],
             "attrs": [],
-            "id": "st_shenyong_3"
+            "id": "e_s_shenyong_3"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_review_shence",
+                    "uid": "59fdb877-c12d-4e56-aaa5-929afc9922fc",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_shence"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "d935ff78-31c4-46ac-ace0-925c26886151",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_if_same_suit_shence",
+                    "uid": "3e0e95a4-61ab-4656-8c15-66ab2435234e",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "e304a2a8-089d-40c2-b989-49a1dd1deb1c",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_draw_card",
+                    "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
+                    "x": 1023.0,
+                    "y": 214.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_shence_1"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_discard_x_shence_card_to_deal_dmg",
+                    "uid": "297e92ea-0c86-4e39-967f-00d08bc83b04",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_shence_2"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 3,
+                            "uid": "3441ba28-e356-49f0-b5a6-dbabcf68f3b2",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "70a54017-163a-4e3b-811a-eca9336732e3",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "dbb8e708-9083-4c46-b8be-55cef64dfdea",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_review_check_heart_spade_club",
+                    "uid": "b6f3289a-d649-45d3-a8db-e8df2439b821",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "b34647b3-b968-4242-86c1-def3428d0009",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_take_damage",
+                    "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
+                    "x": 1081.0,
+                    "y": 685.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 1198.0,
+                    "y": 453.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "614e647f-6f73-4323-bdc9-19edd0de79a5",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_self_heal",
+                    "uid": "ee884388-f75e-4de3-aeff-c66d50aafeae",
+                    "x": 1111.0,
+                    "y": 162.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_duanchang"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "cd4849b9-3c08-41ee-9f9f-07406a9cf6d6",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_discard_card",
+                    "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_yiduan"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_yiduan_2"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "0fb5bad0-30e5-41a5-a035-58d1ec30d8cd",
+                            "type": 3,
+                            "data": "fali"
+                        }
+                    ],
+                    "id": "a_get_token_eq_discard_number",
+                    "uid": "7963d684-b613-4032-bd8c-f9451fbda8ba",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_mifa"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "da2cb88d-00d0-4ada-b8c0-357e94aba648",
+                            "type": 3,
+                            "data": "fali"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "356fe356-5a3d-49ec-80df-caf8aaf4c543",
+                            "type": 3,
+                            "data": "2"
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "45653e85-f171-4acc-8da2-04733c7d23ea",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_spend_token_todo",
+                    "uid": "098463a3-34ee-4693-997f-7ffd90240a14",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_play_atk_not_count",
+                    "uid": "bc77892a-df5f-4dc9-ad98-d3cc5da48cc1",
+                    "x": 1218.0,
+                    "y": 345.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_huoqiu"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "da2cb88d-00d0-4ada-b8c0-357e94aba648",
+                            "type": 3,
+                            "data": "fali"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "356fe356-5a3d-49ec-80df-caf8aaf4c543",
+                            "type": 3,
+                            "data": "6"
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "45653e85-f171-4acc-8da2-04733c7d23ea",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_spend_token_todo",
+                    "uid": "098463a3-34ee-4693-997f-7ffd90240a14",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "b34647b3-b968-4242-86c1-def3428d0009",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_take_damage",
+                    "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
+                    "x": 1045.0,
+                    "y": 392.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_huimiefengbao"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "da2cb88d-00d0-4ada-b8c0-357e94aba648",
+                            "type": 3,
+                            "data": "fali"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "356fe356-5a3d-49ec-80df-caf8aaf4c543",
+                            "type": 3,
+                            "data": "1"
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "45653e85-f171-4acc-8da2-04733c7d23ea",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_spend_token_todo",
+                    "uid": "098463a3-34ee-4693-997f-7ffd90240a14",
+                    "x": 616.0,
+                    "y": 201.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 1056.0,
+                    "y": 270.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_qianghua"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 573.0,
+                    "y": 204.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "807d8abf-e0fc-43a2-b7dd-15a3f8996fdf",
+                            "type": 3,
+                            "data": "3"
+                        }
+                    ],
+                    "id": "a_heal",
+                    "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
+                    "x": 1100.0,
+                    "y": 190.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "506e5940-83fa-42e9-9823-c74504189854",
+                            "type": 3,
+                            "data": "fali"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "48f11481-2e26-4200-a007-8a306dca5479",
+                            "type": 3,
+                            "data": "5"
+                        }
+                    ],
+                    "id": "a_get_token",
+                    "uid": "99ae5a17-7857-46f1-a3d8-43f7526cf362",
+                    "x": 1094.0,
+                    "y": 433.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_niepan"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "071b56dd-3f2c-4bfa-87d0-d9339fe6564b",
+                            "type": 3,
+                            "data": "3"
+                        }
+                    ],
+                    "id": "a_keep_hands",
+                    "uid": "1eb3c3c3-4caf-41e8-9255-babe51e2a5d6",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_yongheng"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_satisfy_require",
+                    "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_yongsheng"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "3b7cc4eb-9839-484f-8c9e-363b41c2d16b",
+                            "type": 3,
+                            "data": "heal"
+                        }
+                    ],
+                    "id": "a_use_card",
+                    "uid": "8c930b2f-481b-4175-a8de-63ec08563f56",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_yongsheng_1"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_satisfy_require",
+                    "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_guangshu"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "cf713e4e-5402-4fd2-9bbe-6723fa3d772b",
+                            "type": 3,
+                            "data": "10"
+                        }
+                    ],
+                    "id": "a_play_atk_ex_dmg_if_point_outnumber",
+                    "uid": "763d01b4-a774-4f3c-a39c-7ffb1dcfb3a7",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_guangshu_1"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_ignore_dmg",
+                    "uid": "3f97d1e3-4757-4765-9d1a-b91bdc159384",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_langren"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_turn_hands_to_random_suit",
+                    "uid": "0ebbdb83-5da5-46c4-8a30-ca95acfa5338",
+                    "x": 1235.0,
+                    "y": 225.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_no_atk_limit_this_turn",
+                    "uid": "9a6ae957-eb69-430d-840a-d8846486b401",
+                    "x": 1214.0,
+                    "y": 428.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_baoqi"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "87bc1e0b-fb03-40db-95af-ae6e5ab3540c",
+                            "type": 3,
+                            "data": "-1"
+                        }
+                    ],
+                    "id": "a_ex_draw",
+                    "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_draw_lese_s_3"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "87bc1e0b-fb03-40db-95af-ae6e5ab3540c",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_ex_draw",
+                    "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_ex_draw"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "90d03262-890e-400c-8003-9027dd3660c2",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_ex_draw_by_wuzhong",
+                    "uid": "4f250ac1-4ed5-4314-bbda-6f9cbb9c1403",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "st_draw_ex_wuzhong"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "525af38e-77ad-46ac-a127-68b79b0f8477",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_card_clash",
+                    "uid": "ab859d63-7600-4fbb-8e62-bd9302fc3b38",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 979.0,
+                    "y": 243.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_clash_to_draw"
         }
     ]
 }
