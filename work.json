@@ -3,6 +3,370 @@
     "export": "c://",
     "blocks": [
         {
+            "operands": [],
+            "id": "a_discard_all_hand",
+            "uid": "582826b6-fbe2-4d80-b8da-b07229247aee",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "dc8b9e87-b221-4ae0-8a50-9a25dc48c9f9",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_lose_hp",
+            "uid": "85e3faa4-a304-423c-b118-c077b7ecceca",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "0ac3c40b-563b-4b54-ba20-4ebff3cfa358",
+                    "type": 0,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "354bffaa-0aa8-44fb-af6c-9aa7ab7e93ae",
+                    "type": 0,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "ecc5d6c6-223f-4a05-93a3-20edc5065fcd",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_target_choose",
+            "uid": "28519862-6f6b-42aa-bf83-8fc1523776c5",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "da2cb88d-00d0-4ada-b8c0-357e94aba648",
+                    "type": 3,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "356fe356-5a3d-49ec-80df-caf8aaf4c543",
+                    "type": 3,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "45653e85-f171-4acc-8da2-04733c7d23ea",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_spend_token_todo",
+            "uid": "098463a3-34ee-4693-997f-7ffd90240a14",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "506e5940-83fa-42e9-9823-c74504189854",
+                    "type": 3,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "48f11481-2e26-4200-a007-8a306dca5479",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_get_token",
+            "uid": "99ae5a17-7857-46f1-a3d8-43f7526cf362",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_xiongqi",
+            "uid": "17919408-8281-443b-a0b5-ca856755aa8a",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_swap_targets_hand",
+            "uid": "e1865e38-40cc-43b6-8f77-ca0e2cb7ed45",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_jiang",
+            "uid": "46eee70c-e448-4dd3-8848-ac71f2b9a66d",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "614e647f-6f73-4323-bdc9-19edd0de79a5",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_self_heal",
+            "uid": "ee884388-f75e-4de3-aeff-c66d50aafeae",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_handlimit_eq_tm_alive",
+            "uid": "702c8f91-5d9e-46bb-97cf-ecf2d65423db",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_choose_to_discard_base_on_self_hp_lost",
+            "uid": "c60bb915-a239-4779-a56b-6471bece6c4c",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "6754457e-9dd1-461b-9a55-c096a6a8220f",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_discard_a_card_if_heart",
+            "uid": "1f820179-8f85-498a-a3c2-7e7530226e07",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "3b7cc4eb-9839-484f-8c9e-363b41c2d16b",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_use_card",
+            "uid": "8c930b2f-481b-4175-a8de-63ec08563f56",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "142b7797-a63c-4da9-b4e5-e4eea2c5a973",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_forever_hand_limit",
+            "uid": "28542b5e-a231-4eca-b607-0ffad5b375c8",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "d3aa9393-a114-4a24-ac8f-e152f50968e6",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_ex_dmg_by_atk_this_turn",
+            "uid": "21f320bf-9ae4-47ce-aac1-dc2798a14c67",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "fa16ef7e-8511-422c-8df9-7bc30cb6eff4",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_ex_dmg_this_time",
+            "uid": "366e8d1c-3bf6-4866-9673-3a85c211e130",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_cant_respond",
+            "uid": "749401f2-5ad9-43a2-9934-23fcbb951dd2",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "33672e91-13dd-4043-97ae-7fe881a05030",
+                    "type": 0,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "93fac417-2731-4113-9eb1-8bb91db4e8ef",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_review_check_black_and_red",
+            "uid": "1fbb6205-a81e-4705-9ddd-1c9b910304e6",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_no_others_can_respond_your_card",
+            "uid": "93202833-69a1-4bf3-aef8-a50532042b1f",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_no_atk_limit_this_turn",
+            "uid": "2d0c06e5-3d5a-42e0-9f59-31c05ffcc43d",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "844ffa0c-0dd7-482c-960d-58e59927b267",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_take_the_dmg_instead_and_if_self_full_hp",
+            "uid": "74ce3088-9ffe-49fd-b773-1284967007a6",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "1da6634a-57aa-434b-bb7f-bcbe798ba11a",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_next_turn_ex_atk_time",
+            "uid": "f3069ba7-1a95-46ba-a4d7-8a3b465b826c",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "a35daf94-d502-4bf5-acb2-562a807d0132",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_next_turn_ex_draw",
+            "uid": "cfe0c5cf-ec5f-477f-b45d-eaf4b44c3175",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "dcbab6d3-4968-4244-b09b-9c949b6ce903",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_give_hands",
+            "uid": "b1b53ff7-f435-41e1-9e23-5419bbb9addf",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_give_all_hands",
+            "uid": "1c10d787-6a6c-40bb-b3d1-54dd26c6b728",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_as_play_a_atk_now",
+            "uid": "a5d744ae-0706-48d9-8bb3-ef70b162324d",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "8b2cb4f6-8522-4a6d-8b8a-87bcd718f95d",
+                    "type": 0,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "1c45f17f-1f36-4545-b838-e18ebb32f3f6",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_review_check_spade_then_black",
+            "uid": "50b38b23-37a9-4861-86b7-359907d3dc43",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_cant_be_target_on_black_skill",
+            "uid": "d60373c5-4610-425b-882b-0de899996258",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "a71d7603-202e-449d-82ad-d3c1ddabe3b0",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_discard_if_last_card_or_item_draw",
+            "uid": "b75b506b-a7b9-48b5-b9b2-959a79798b84",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
             "operands": [
                 {
                     "linkedBlockIndex": -1,
@@ -3641,6 +4005,861 @@
             ],
             "attrs": [],
             "id": "e_s_fankui"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "807d8abf-e0fc-43a2-b7dd-15a3f8996fdf",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_heal",
+                    "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_shixue"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "a71d7603-202e-449d-82ad-d3c1ddabe3b0",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_discard_if_last_card_or_item_draw",
+                    "uid": "b75b506b-a7b9-48b5-b9b2-959a79798b84",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_qipai"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_cant_be_target_on_black_skill",
+                    "uid": "d60373c5-4610-425b-882b-0de899996258",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_weimu"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "8b2cb4f6-8522-4a6d-8b8a-87bcd718f95d",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "1c45f17f-1f36-4545-b838-e18ebb32f3f6",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_review_check_spade_then_black",
+                    "uid": "50b38b23-37a9-4861-86b7-359907d3dc43",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "b34647b3-b968-4242-86c1-def3428d0009",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_take_damage",
+                    "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
+                    "x": 1099.0,
+                    "y": 167.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "b34647b3-b968-4242-86c1-def3428d0009",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_take_damage",
+                    "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
+                    "x": 1080.0,
+                    "y": 428.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_leiji"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "e304a2a8-089d-40c2-b989-49a1dd1deb1c",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_draw_card",
+                    "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_huaxiong"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_as_play_a_atk_now",
+                    "uid": "a5d744ae-0706-48d9-8bb3-ef70b162324d",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_mingce"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "807d8abf-e0fc-43a2-b7dd-15a3f8996fdf",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_heal",
+                    "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_qingnang"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 4,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 573.0,
+                    "y": 176.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 3,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 1084.0,
+                    "y": 305.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_give_all_hands",
+                    "uid": "1c10d787-6a6c-40bb-b3d1-54dd26c6b728",
+                    "x": 1549.0,
+                    "y": 389.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "a35daf94-d502-4bf5-acb2-562a807d0132",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_next_turn_ex_draw",
+                    "uid": "cfe0c5cf-ec5f-477f-b45d-eaf4b44c3175",
+                    "x": 1535.0,
+                    "y": 579.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "1da6634a-57aa-434b-bb7f-bcbe798ba11a",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_next_turn_ex_atk_time",
+                    "uid": "f3069ba7-1a95-46ba-a4d7-8a3b465b826c",
+                    "x": 1027.0,
+                    "y": 635.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_mingjian"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "844ffa0c-0dd7-482c-960d-58e59927b267",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_take_the_dmg_instead_and_if_self_full_hp",
+                    "uid": "74ce3088-9ffe-49fd-b773-1284967007a6",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "e304a2a8-089d-40c2-b989-49a1dd1deb1c",
+                            "type": 3,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_draw_card",
+                    "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
+                    "x": 1273.0,
+                    "y": 264.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_huituo"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_no_atk_limit_this_turn",
+                    "uid": "2d0c06e5-3d5a-42e0-9f59-31c05ffcc43d",
+                    "x": 1049.0,
+                    "y": 216.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_no_others_can_respond_your_card",
+                    "uid": "93202833-69a1-4bf3-aef8-a50532042b1f",
+                    "x": 1045.0,
+                    "y": 422.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_xiongluan"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "33672e91-13dd-4043-97ae-7fe881a05030",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "93fac417-2731-4113-9eb1-8bb91db4e8ef",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_review_check_black_and_red",
+                    "uid": "1fbb6205-a81e-4705-9ddd-1c9b910304e6",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_cant_respond",
+                    "uid": "749401f2-5ad9-43a2-9934-23fcbb951dd2",
+                    "x": 1193.0,
+                    "y": 380.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "fa16ef7e-8511-422c-8df9-7bc30cb6eff4",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_ex_dmg_this_time",
+                    "uid": "366e8d1c-3bf6-4866-9673-3a85c211e130",
+                    "x": 1208.0,
+                    "y": 155.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_tianji"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "87bc1e0b-fb03-40db-95af-ae6e5ab3540c",
+                            "type": 3,
+                            "data": "-1"
+                        }
+                    ],
+                    "id": "a_ex_draw",
+                    "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
+                    "x": 1289.0,
+                    "y": 216.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "d3aa9393-a114-4a24-ac8f-e152f50968e6",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_ex_dmg_by_atk_this_turn",
+                    "uid": "21f320bf-9ae4-47ce-aac1-dc2798a14c67",
+                    "x": 1250.0,
+                    "y": 470.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_huchi"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "142b7797-a63c-4da9-b4e5-e4eea2c5a973",
+                            "type": 3,
+                            "data": "4"
+                        }
+                    ],
+                    "id": "a_forever_hand_limit",
+                    "uid": "28542b5e-a231-4eca-b607-0ffad5b375c8",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_keji"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_satisfy_require",
+                    "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_qingcheng"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "87bc1e0b-fb03-40db-95af-ae6e5ab3540c",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_ex_draw",
+                    "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_yingzi"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_satisfy_require",
+                    "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_jijiu"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "3b7cc4eb-9839-484f-8c9e-363b41c2d16b",
+                            "type": 3,
+                            "data": "heal"
+                        }
+                    ],
+                    "id": "a_use_card",
+                    "uid": "8c930b2f-481b-4175-a8de-63ec08563f56",
+                    "x": 649.0,
+                    "y": 149.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_jijiu_1"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "fa16ef7e-8511-422c-8df9-7bc30cb6eff4",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_ex_dmg_this_time",
+                    "uid": "366e8d1c-3bf6-4866-9673-3a85c211e130",
+                    "x": 1296.0,
+                    "y": 292.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 0,
+                            "uid": "6754457e-9dd1-461b-9a55-c096a6a8220f",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_discard_a_card_if_heart",
+                    "uid": "1f820179-8f85-498a-a3c2-7e7530226e07",
+                    "x": 779.0,
+                    "y": 268.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_jianchu"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "e304a2a8-089d-40c2-b989-49a1dd1deb1c",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_draw_card",
+                    "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
+                    "x": 1080.0,
+                    "y": 189.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_choose_to_discard_base_on_self_hp_lost",
+                    "uid": "c60bb915-a239-4779-a56b-6471bece6c4c",
+                    "x": 1094.0,
+                    "y": 444.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_yinghun"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_play_atk_not_count",
+                    "uid": "bc77892a-df5f-4dc9-ad98-d3cc5da48cc1",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_luanji"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_handlimit_eq_tm_alive",
+                    "uid": "702c8f91-5d9e-46bb-97cf-ecf2d65423db",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_gongsheng"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 3,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 4,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 1037.0,
+                    "y": 389.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "dcbab6d3-4968-4244-b09b-9c949b6ce903",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_give_hands",
+                    "uid": "b1b53ff7-f435-41e1-9e23-5419bbb9addf",
+                    "x": 1140.0,
+                    "y": 113.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 1502.0,
+                    "y": 377.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "614e647f-6f73-4323-bdc9-19edd0de79a5",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_self_heal",
+                    "uid": "ee884388-f75e-4de3-aeff-c66d50aafeae",
+                    "x": 1481.0,
+                    "y": 643.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_rende"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_jiang",
+                    "uid": "46eee70c-e448-4dd3-8848-ac71f2b9a66d",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_jiang"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_swap_targets_hand",
+                    "uid": "e1865e38-40cc-43b6-8f77-ca0e2cb7ed45",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_dimeng"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_xiongqi",
+                    "uid": "17919408-8281-443b-a0b5-ca856755aa8a",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_xiongqi"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "506e5940-83fa-42e9-9823-c74504189854",
+                            "type": 3,
+                            "data": "t_shenyong"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "48f11481-2e26-4200-a007-8a306dca5479",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_get_token",
+                    "uid": "99ae5a17-7857-46f1-a3d8-43f7526cf362",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "st_shenyong"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "506e5940-83fa-42e9-9823-c74504189854",
+                            "type": 3,
+                            "data": "t_shenyong"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "48f11481-2e26-4200-a007-8a306dca5479",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_get_token",
+                    "uid": "99ae5a17-7857-46f1-a3d8-43f7526cf362",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "st_shenyong_1"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "0ac3c40b-563b-4b54-ba20-4ebff3cfa358",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "354bffaa-0aa8-44fb-af6c-9aa7ab7e93ae",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 3,
+                            "uid": "ecc5d6c6-223f-4a05-93a3-20edc5065fcd",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_target_choose",
+                    "uid": "28519862-6f6b-42aa-bf83-8fc1523776c5",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "dc8b9e87-b221-4ae0-8a50-9a25dc48c9f9",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_lose_hp",
+                    "uid": "85e3faa4-a304-423c-b118-c077b7ecceca",
+                    "x": 1009.0,
+                    "y": 172.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_discard_all_hand",
+                    "uid": "582826b6-fbe2-4d80-b8da-b07229247aee",
+                    "x": 1100.0,
+                    "y": 400.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "87bc1e0b-fb03-40db-95af-ae6e5ab3540c",
+                            "type": 3,
+                            "data": "-1"
+                        }
+                    ],
+                    "id": "a_ex_draw",
+                    "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
+                    "x": 1081.0,
+                    "y": 535.0
+                }
+            ],
+            "attrs": [],
+            "id": "st_shenyong_3"
         }
     ]
 }
