@@ -4766,8 +4766,8 @@
                     ],
                     "id": "a_do_things",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
-                    "x": 623.0,
-                    "y": 178.0
+                    "x": 973.0,
+                    "y": 482.0
                 },
                 {
                     "operands": [
@@ -4775,13 +4775,13 @@
                             "linkedBlockIndex": -1,
                             "uid": "d3aa9393-a114-4a24-ac8f-e152f50968e6",
                             "type": 3,
-                            "data": "2"
+                            "data": "1"
                         }
                     ],
                     "id": "a_ex_dmg_by_atk_this_turn",
                     "uid": "21f320bf-9ae4-47ce-aac1-dc2798a14c67",
-                    "x": 1248.0,
-                    "y": 485.0
+                    "x": 1422.0,
+                    "y": 766.0
                 },
                 {
                     "operands": [
@@ -4794,8 +4794,42 @@
                     ],
                     "id": "a_reduce_draw_this_turn",
                     "uid": "d53df211-eaa6-4931-92cd-4dd03379081b",
-                    "x": 1246.0,
-                    "y": 169.0
+                    "x": 1411.0,
+                    "y": 451.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 4,
+                            "uid": "0898db86-66a0-45ca-ae2d-c3ab1ed57863",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 0,
+                            "uid": "a8eccf47-41c3-407c-8341-4efe656b915b",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_target_choose_2",
+                    "uid": "f5ff297a-a9b4-4862-9b77-5156b19bd76b",
+                    "x": 573.0,
+                    "y": 177.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "87bc1e0b-fb03-40db-95af-ae6e5ab3540c",
+                            "type": 3,
+                            "data": " 1"
+                        }
+                    ],
+                    "id": "a_ex_draw",
+                    "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
+                    "x": 1147.0,
+                    "y": 122.0
                 }
             ],
             "attrs": [],
