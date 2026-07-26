@@ -4337,15 +4337,15 @@
                     "operands": [
                         {
                             "linkedBlockIndex": -1,
-                            "uid": "807d8abf-e0fc-43a2-b7dd-15a3f8996fdf",
+                            "uid": "614e647f-6f73-4323-bdc9-19edd0de79a5",
                             "type": 3,
                             "data": "1"
                         }
                     ],
-                    "id": "a_heal",
-                    "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
-                    "x": 623.0,
-                    "y": 178.0
+                    "id": "a_self_heal",
+                    "uid": "ee884388-f75e-4de3-aeff-c66d50aafeae",
+                    "x": 827.0,
+                    "y": 201.0
                 }
             ],
             "attrs": [],
