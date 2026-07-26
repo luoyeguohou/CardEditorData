@@ -6,6 +6,20 @@
             "operands": [
                 {
                     "linkedBlockIndex": -1,
+                    "uid": "3124408c-8a1a-4ff3-a378-f7f7388e9f1a",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_reduce_draw_this_turn",
+            "uid": "d53df211-eaa6-4931-92cd-4dd03379081b",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
                     "uid": "b6a07700-05fb-48be-9a5c-4f2ad299eed4",
                     "type": 3,
                     "data": ""
@@ -4766,22 +4780,22 @@
                     ],
                     "id": "a_ex_dmg_by_atk_this_turn",
                     "uid": "21f320bf-9ae4-47ce-aac1-dc2798a14c67",
-                    "x": 1250.0,
-                    "y": 470.0
+                    "x": 1248.0,
+                    "y": 485.0
                 },
                 {
                     "operands": [
                         {
                             "linkedBlockIndex": -1,
-                            "uid": "b6a07700-05fb-48be-9a5c-4f2ad299eed4",
+                            "uid": "3124408c-8a1a-4ff3-a378-f7f7388e9f1a",
                             "type": 3,
                             "data": "1"
                         }
                     ],
-                    "id": "a_reduce_draw_every_turn",
-                    "uid": "b1b8e260-45d2-4fad-a3c0-4b68acd79a71",
-                    "x": 1268.0,
-                    "y": 200.0
+                    "id": "a_reduce_draw_this_turn",
+                    "uid": "d53df211-eaa6-4931-92cd-4dd03379081b",
+                    "x": 1246.0,
+                    "y": 169.0
                 }
             ],
             "attrs": [],
