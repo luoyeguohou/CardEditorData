@@ -6,6 +6,26 @@
             "operands": [
                 {
                     "linkedBlockIndex": -1,
+                    "uid": "9bcfa38b-d690-4844-ad5b-b33a2e6ee66e",
+                    "type": 3,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "7d2cc58b-4608-4552-81b0-885a59077400",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_self_get_token",
+            "uid": "ff3da21d-081d-45b4-b2e0-a2546658f6e6",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
                     "uid": "3124408c-8a1a-4ff3-a378-f7f7388e9f1a",
                     "type": 3,
                     "data": ""
@@ -5187,21 +5207,21 @@
                     "operands": [
                         {
                             "linkedBlockIndex": -1,
-                            "uid": "506e5940-83fa-42e9-9823-c74504189854",
+                            "uid": "9bcfa38b-d690-4844-ad5b-b33a2e6ee66e",
                             "type": 3,
                             "data": "t_shenyong"
                         },
                         {
                             "linkedBlockIndex": -1,
-                            "uid": "48f11481-2e26-4200-a007-8a306dca5479",
+                            "uid": "7d2cc58b-4608-4552-81b0-885a59077400",
                             "type": 3,
                             "data": "1"
                         }
                     ],
-                    "id": "a_get_token",
-                    "uid": "99ae5a17-7857-46f1-a3d8-43f7526cf362",
-                    "x": 623.0,
-                    "y": 178.0
+                    "id": "a_self_get_token",
+                    "uid": "ff3da21d-081d-45b4-b2e0-a2546658f6e6",
+                    "x": 695.0,
+                    "y": 166.0
                 }
             ],
             "attrs": [],
@@ -5276,7 +5296,7 @@
                             "linkedBlockIndex": -1,
                             "uid": "da2cb88d-00d0-4ada-b8c0-357e94aba648",
                             "type": 3,
-                            "data": "shenyong"
+                            "data": "t_shenyong"
                         },
                         {
                             "linkedBlockIndex": -1,
