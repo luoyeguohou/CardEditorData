@@ -5353,15 +5353,15 @@
                     "operands": [
                         {
                             "linkedBlockIndex": -1,
-                            "uid": "e304a2a8-089d-40c2-b989-49a1dd1deb1c",
+                            "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
                             "type": 3,
                             "data": "1"
                         }
                     ],
-                    "id": "a_draw_card",
-                    "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
-                    "x": 1023.0,
-                    "y": 214.0
+                    "id": "a_self_draw_card",
+                    "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
+                    "x": 1102.0,
+                    "y": 291.0
                 }
             ],
             "attrs": [],
