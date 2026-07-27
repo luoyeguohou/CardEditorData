@@ -5232,8 +5232,8 @@
                     ],
                     "id": "a_target_choose_3",
                     "uid": "28519862-6f6b-42aa-bf83-8fc1523776c5",
-                    "x": 623.0,
-                    "y": 178.0
+                    "x": 1069.0,
+                    "y": 257.0
                 },
                 {
                     "operands": [
@@ -5246,15 +5246,15 @@
                     ],
                     "id": "a_lose_hp",
                     "uid": "85e3faa4-a304-423c-b118-c077b7ecceca",
-                    "x": 1009.0,
-                    "y": 172.0
+                    "x": 1543.0,
+                    "y": 132.0
                 },
                 {
                     "operands": [],
                     "id": "a_discard_all_hand",
                     "uid": "582826b6-fbe2-4d80-b8da-b07229247aee",
-                    "x": 1100.0,
-                    "y": 400.0
+                    "x": 1563.0,
+                    "y": 326.0
                 },
                 {
                     "operands": [
@@ -5267,8 +5267,34 @@
                     ],
                     "id": "a_ex_draw",
                     "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
-                    "x": 1081.0,
-                    "y": 535.0
+                    "x": 1599.0,
+                    "y": 537.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "da2cb88d-00d0-4ada-b8c0-357e94aba648",
+                            "type": 3,
+                            "data": "shenyong"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "356fe356-5a3d-49ec-80df-caf8aaf4c543",
+                            "type": 3,
+                            "data": "3"
+                        },
+                        {
+                            "linkedBlockIndex": 0,
+                            "uid": "45653e85-f171-4acc-8da2-04733c7d23ea",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_spend_token_todo",
+                    "uid": "098463a3-34ee-4693-997f-7ffd90240a14",
+                    "x": 684.0,
+                    "y": 185.0
                 }
             ],
             "attrs": [],
