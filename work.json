@@ -3170,11 +3170,18 @@
                     "y": 214.0
                 },
                 {
-                    "operands": [],
-                    "id": "a_discard_all_card",
-                    "uid": "12781181-bc1b-4427-9506-19289ba6e7a4",
-                    "x": 1126.0,
-                    "y": 472.0
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "cd4849b9-3c08-41ee-9f9f-07406a9cf6d6",
+                            "type": 3,
+                            "data": "2"
+                        }
+                    ],
+                    "id": "a_discard_card",
+                    "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
+                    "x": 1125.0,
+                    "y": 511.0
                 }
             ],
             "attrs": [],
