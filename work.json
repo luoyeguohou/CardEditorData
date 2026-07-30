@@ -1750,7 +1750,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_attack"
+            "id": "e_s_chaofeng"
         },
         {
             "blocks": [
@@ -2911,7 +2911,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_item_search"
+            "id": "e_s_chaofeng"
         },
         {
             "blocks": [
@@ -3097,7 +3097,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_s_chongsheng"
+            "id": "e_s_chaofeng"
         },
         {
             "blocks": [
@@ -3539,7 +3539,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_s_jiguanchaijie"
+            "id": "e_s_chaofeng"
         },
         {
             "blocks": [
