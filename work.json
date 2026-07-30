@@ -3,6 +3,13 @@
     "export": "c://",
     "blocks": [
         {
+            "operands": [],
+            "id": "a_rage",
+            "uid": "8f2e08d6-bb4a-4f26-94b5-e992cc108ea2",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
             "operands": [
                 {
                     "linkedBlockIndex": -1,
@@ -7251,6 +7258,19 @@
             ],
             "attrs": [],
             "id": "e_s_dakeji_1"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_rage",
+                    "uid": "8f2e08d6-bb4a-4f26-94b5-e992cc108ea2",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_rage_attack"
         }
     ]
 }
