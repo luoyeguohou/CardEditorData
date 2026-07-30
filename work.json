@@ -1750,7 +1750,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_s_jiguanchaijie"
+            "id": "e_attack"
         },
         {
             "blocks": [
@@ -2911,7 +2911,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_s_jiguanchaijie"
+            "id": "e_item_search"
         },
         {
             "blocks": [
@@ -3097,7 +3097,7 @@
                 }
             ],
             "attrs": [],
-            "id": "e_s_jiguanchaijie"
+            "id": "e_s_chongsheng"
         },
         {
             "blocks": [
