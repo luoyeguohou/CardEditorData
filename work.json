@@ -11,7 +11,7 @@
                     "data": ""
                 }
             ],
-            "id": "check_hand_minus_hp",
+            "id": "a_check_hand_minus_hp",
             "uid": "939e6360-7107-43bb-b932-deecec48aa63",
             "x": 623.0,
             "y": 178.0
@@ -7236,7 +7236,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "check_hand_minus_hp",
+                    "id": "a_check_hand_minus_hp",
                     "uid": "939e6360-7107-43bb-b932-deecec48aa63",
                     "x": 623.0,
                     "y": 178.0
