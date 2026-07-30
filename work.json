@@ -3,6 +3,13 @@
     "export": "c://",
     "blocks": [
         {
+            "operands": [],
+            "id": "a_draw_or_heal_when_deal_dmg_this_turn",
+            "uid": "112ea36e-eb3a-4ff3-bd18-8db97a3e4747",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
             "operands": [
                 {
                     "linkedBlockIndex": -1,
@@ -266,9 +273,15 @@
                     "uid": "cf713e4e-5402-4fd2-9bbe-6723fa3d772b",
                     "type": 3,
                     "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "6fad623d-ffba-4863-a534-789653512d30",
+                    "type": 3,
+                    "data": ""
                 }
             ],
-            "id": "a_play_atk_ex_dmg_if_point_outnumber",
+            "id": "a_play_atk_ex_dmg_if_point_outnumber_and_cant_respond_lower_then",
             "uid": "763d01b4-a774-4f3c-a39c-7ffb1dcfb3a7",
             "x": 623.0,
             "y": 178.0
@@ -3180,8 +3193,8 @@
                     ],
                     "id": "a_discard_card",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
-                    "x": 1125.0,
-                    "y": 511.0
+                    "x": 1100.0,
+                    "y": 523.0
                 }
             ],
             "attrs": [],
@@ -5594,7 +5607,7 @@
                             "linkedBlockIndex": -1,
                             "uid": "b34647b3-b968-4242-86c1-def3428d0009",
                             "type": 3,
-                            "data": "2"
+                            "data": "3"
                         }
                     ],
                     "id": "a_take_damage",
@@ -5640,13 +5653,13 @@
                             "linkedBlockIndex": -1,
                             "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
                             "type": 3,
-                            "data": "1"
+                            "data": "2"
                         }
                     ],
                     "id": "a_self_draw_card",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
-                    "x": 1056.0,
-                    "y": 270.0
+                    "x": 1167.0,
+                    "y": 369.0
                 }
             ],
             "attrs": [],
@@ -5787,9 +5800,15 @@
                             "uid": "cf713e4e-5402-4fd2-9bbe-6723fa3d772b",
                             "type": 3,
                             "data": "10"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "6fad623d-ffba-4863-a534-789653512d30",
+                            "type": 3,
+                            "data": "3"
                         }
                     ],
-                    "id": "a_play_atk_ex_dmg_if_point_outnumber",
+                    "id": "a_play_atk_ex_dmg_if_point_outnumber_and_cant_respond_lower_then",
                     "uid": "763d01b4-a774-4f3c-a39c-7ffb1dcfb3a7",
                     "x": 623.0,
                     "y": 178.0
@@ -5822,7 +5841,7 @@
                             "data": ""
                         },
                         {
-                            "linkedBlockIndex": 2,
+                            "linkedBlockIndex": 3,
                             "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
                             "type": 0,
                             "data": ""
@@ -5844,8 +5863,35 @@
                     "operands": [],
                     "id": "a_no_atk_limit_this_turn",
                     "uid": "9a6ae957-eb69-430d-840a-d8846486b401",
-                    "x": 1214.0,
+                    "x": 1445.0,
+                    "y": 427.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 4,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 989.0,
                     "y": 428.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_draw_or_heal_when_deal_dmg_this_turn",
+                    "uid": "112ea36e-eb3a-4ff3-bd18-8db97a3e4747",
+                    "x": 1393.0,
+                    "y": 656.0
                 }
             ],
             "attrs": [],
@@ -6033,7 +6079,7 @@
                             "linkedBlockIndex": -1,
                             "uid": "9da4b8d8-f181-404c-8f64-33215c829a1a",
                             "type": 3,
-                            "data": "1"
+                            "data": "2"
                         }
                     ],
                     "id": "a_self_draw_card",
