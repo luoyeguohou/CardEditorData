@@ -136,7 +136,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_if_target_has_same_num_ type_hand_then",
+            "id": "a_if_target_has_same_num_type_hand_then",
             "uid": "13f52b85-e1f0-434b-86ff-e43ba57f8927",
             "x": 623.0,
             "y": 178.0
@@ -7656,7 +7656,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_if_target_has_same_num_ type_hand_then",
+                    "id": "a_if_target_has_same_num_type_hand_then",
                     "uid": "13f52b85-e1f0-434b-86ff-e43ba57f8927",
                     "x": 597.0,
                     "y": 186.0
