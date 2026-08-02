@@ -3,6 +3,20 @@
     "export": "c://",
     "blocks": [
         {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "fc508f89-d1ff-458e-8334-4c5434f264f3",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_choose_1_unit_take_dmg",
+            "uid": "7994d1c6-6feb-4443-952e-e60c83191277",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
             "operands": [],
             "id": "a_dahuifu",
             "uid": "1704452b-875c-407e-b4c3-491f4886f3af",
@@ -7552,15 +7566,15 @@
                     "operands": [
                         {
                             "linkedBlockIndex": -1,
-                            "uid": "b34647b3-b968-4242-86c1-def3428d0009",
+                            "uid": "fc508f89-d1ff-458e-8334-4c5434f264f3",
                             "type": 3,
                             "data": "1"
                         }
                     ],
-                    "id": "a_take_damage",
-                    "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
-                    "x": 1261.0,
-                    "y": 314.0
+                    "id": "a_choose_1_unit_take_dmg",
+                    "uid": "7994d1c6-6feb-4443-952e-e60c83191277",
+                    "x": 1149.0,
+                    "y": 304.0
                 }
             ],
             "attrs": [],
