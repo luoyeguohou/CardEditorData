@@ -3,6 +3,150 @@
     "export": "c://",
     "blocks": [
         {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "67f06011-1ddf-41d4-ad29-7b4238b810a4",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_check_if_have_hands",
+            "uid": "a60a589d-f49a-4cd4-9cf3-8bc40939e5b4",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "c5bbd95f-623d-4c7b-8aa1-156df57d56be",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_gain_skill_this_turn",
+            "uid": "b97bcdfe-1221-49c2-a795-b92da70a3bad",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "4fdd5d9a-102e-43cd-9005-03109a60f379",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_do_to_all_with_no_hands",
+            "uid": "0dbbd64f-aa06-45a9-b3e1-8c79ee1bf51b",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "e5be315c-935d-4d4b-94a3-9290c5bc8c50",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_if_target_has_same_num_hands_then",
+            "uid": "befa4e07-9364-46cf-b87a-5a5127b09602",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "9e4cdd2f-2a1c-4877-b90d-86de899678ff",
+                    "type": 0,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "45888c28-494d-482b-a313-ef448529490e",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_self_choose",
+            "uid": "8a6ee5e4-10ce-49fa-9ed5-c5038805ca70",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "56c6f193-ca7b-4898-86a8-6d363ce1ab2d",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_if_target_has_same_num_ type_hand_then",
+            "uid": "13f52b85-e1f0-434b-86ff-e43ba57f8927",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_watch_hand",
+            "uid": "45bdb7c3-d4f1-4cd0-bb4a-e983b40b6eec",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "8c05dc20-76d2-44d1-95d3-3301aa7f596d",
+                    "type": 3,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "37eebcdc-5b09-4a6e-86ed-f7af861079ed",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_self_discard_all_item_if_at_least_x_then",
+            "uid": "6e412a4a-d982-4f37-b455-19389f6a6341",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "5da8082f-122e-4ead-8a63-c2e78f8e849f",
+                    "type": 3,
+                    "data": ""
+                },
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "02d88afb-5a7d-4ec0-a7da-7c8315491b16",
+                    "type": 0,
+                    "data": ""
+                }
+            ],
+            "id": "a_discard_item_todo_",
+            "uid": "207fc6df-c8ac-4ab9-8706-ae7f737e3a52",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_swap_hands",
+            "uid": "544bb260-fcb9-4d62-ba99-44ccdff3bacd",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
             "operands": [],
             "id": "a_lose_this_skill",
             "uid": "8836ae13-d9fa-4a05-93d5-c75d41fb33ff",
@@ -7300,6 +7444,387 @@
             ],
             "attrs": [],
             "id": "e_rage_attack"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_swap_hands",
+                    "uid": "544bb260-fcb9-4d62-ba99-44ccdff3bacd",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_zhuanyi"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_play_atk_not_count",
+                    "uid": "bc77892a-df5f-4dc9-ad98-d3cc5da48cc1",
+                    "x": 1191.0,
+                    "y": 385.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "5da8082f-122e-4ead-8a63-c2e78f8e849f",
+                            "type": 3,
+                            "data": "1"
+                        },
+                        {
+                            "linkedBlockIndex": 0,
+                            "uid": "02d88afb-5a7d-4ec0-a7da-7c8315491b16",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_discard_item_todo_",
+                    "uid": "207fc6df-c8ac-4ab9-8706-ae7f737e3a52",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_touzhi"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "8c05dc20-76d2-44d1-95d3-3301aa7f596d",
+                            "type": 3,
+                            "data": "2"
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "37eebcdc-5b09-4a6e-86ed-f7af861079ed",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_self_discard_all_item_if_at_least_x_then",
+                    "uid": "6e412a4a-d982-4f37-b455-19389f6a6341",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "b34647b3-b968-4242-86c1-def3428d0009",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_take_damage",
+                    "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
+                    "x": 1261.0,
+                    "y": 314.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_zhutie"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "506e5940-83fa-42e9-9823-c74504189854",
+                            "type": 3,
+                            "data": "t_qi"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "48f11481-2e26-4200-a007-8a306dca5479",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_get_token",
+                    "uid": "99ae5a17-7857-46f1-a3d8-43f7526cf362",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_miaozhun"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "da2cb88d-00d0-4ada-b8c0-357e94aba648",
+                            "type": 3,
+                            "data": "t_qi"
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "356fe356-5a3d-49ec-80df-caf8aaf4c543",
+                            "type": 3,
+                            "data": "1"
+                        },
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "45653e85-f171-4acc-8da2-04733c7d23ea",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_spend_token_todo",
+                    "uid": "098463a3-34ee-4693-997f-7ffd90240a14",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [],
+                    "id": "a_watch_hand",
+                    "uid": "45bdb7c3-d4f1-4cd0-bb4a-e983b40b6eec",
+                    "x": 1053.0,
+                    "y": 377.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_miaozhun_1"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "56c6f193-ca7b-4898-86a8-6d363ce1ab2d",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_if_target_has_same_num_ type_hand_then",
+                    "uid": "13f52b85-e1f0-434b-86ff-e43ba57f8927",
+                    "x": 597.0,
+                    "y": 186.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "b34647b3-b968-4242-86c1-def3428d0009",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_take_damage",
+                    "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
+                    "x": 928.0,
+                    "y": 257.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_tongyuan"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "9e4cdd2f-2a1c-4877-b90d-86de899678ff",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "45888c28-494d-482b-a313-ef448529490e",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_self_choose",
+                    "uid": "8a6ee5e4-10ce-49fa-9ed5-c5038805ca70",
+                    "x": 857.0,
+                    "y": 211.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "e304a2a8-089d-40c2-b989-49a1dd1deb1c",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_draw_card",
+                    "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
+                    "x": 1213.0,
+                    "y": 139.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "cd4849b9-3c08-41ee-9f9f-07406a9cf6d6",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_discard_card",
+                    "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
+                    "x": 1215.0,
+                    "y": 400.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 0,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 4,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 535.0,
+                    "y": 435.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 5,
+                            "uid": "e5be315c-935d-4d4b-94a3-9290c5bc8c50",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_if_target_has_same_num_hands_then",
+                    "uid": "befa4e07-9364-46cf-b87a-5a5127b09602",
+                    "x": 935.0,
+                    "y": 755.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "cd4849b9-3c08-41ee-9f9f-07406a9cf6d6",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_discard_card",
+                    "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
+                    "x": 1325.0,
+                    "y": 747.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_tiaozhengshenfa"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "4fdd5d9a-102e-43cd-9005-03109a60f379",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_to_all_with_no_hands",
+                    "uid": "0dbbd64f-aa06-45a9-b3e1-8c79ee1bf51b",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "b34647b3-b968-4242-86c1-def3428d0009",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_take_damage",
+                    "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
+                    "x": 1054.0,
+                    "y": 198.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_hengsao"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "c5bbd95f-623d-4c7b-8aa1-156df57d56be",
+                            "type": 3,
+                            "data": "e_s_cequan"
+                        }
+                    ],
+                    "id": "a_gain_skill_this_turn",
+                    "uid": "b97bcdfe-1221-49c2-a795-b92da70a3bad",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_cequan"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "fd80dc5f-17e0-4858-aac1-f3f30fb408c7",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "573151b6-0bf7-49e1-adf5-c3fcd7693527",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_check_if_has_hands",
+                    "uid": "9eac679f-6220-4806-9ef7-a9ffd80e496d",
+                    "x": 856.0,
+                    "y": 199.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "67f06011-1ddf-41d4-ad29-7b4238b810a4",
+                            "type": 3,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_check_if_have_hands",
+                    "uid": "a60a589d-f49a-4cd4-9cf3-8bc40939e5b4",
+                    "x": 1183.0,
+                    "y": 204.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_s_cequan"
         }
     ]
 }
