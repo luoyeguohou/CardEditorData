@@ -3,16 +3,51 @@
     "export": "c://",
     "blocks": [
         {
+            "operands": [],
+            "id": "a_dahuifu",
+            "uid": "1704452b-875c-407e-b4c3-491f4886f3af",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
             "operands": [
                 {
                     "linkedBlockIndex": -1,
-                    "uid": "67f06011-1ddf-41d4-ad29-7b4238b810a4",
+                    "uid": "dfc0319b-eb8b-4e42-bec2-6fa235de8055",
                     "type": 3,
                     "data": ""
                 }
             ],
-            "id": "a_check_if_have_hands",
-            "uid": "a60a589d-f49a-4cd4-9cf3-8bc40939e5b4",
+            "id": "a_draw_from_self_deck",
+            "uid": "92ef9eca-65ca-4e9c-959e-2b8996de7c80",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [
+                {
+                    "linkedBlockIndex": -1,
+                    "uid": "2fe67ff5-7245-418b-b191-87925c6c6225",
+                    "type": 3,
+                    "data": ""
+                }
+            ],
+            "id": "a_foresee_self_deck",
+            "uid": "21dc80c0-58bd-4f46-8d03-6dae8d559d09",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_put_all_hands_on_top_of_self_deck",
+            "uid": "00a0bc29-2f5f-4ea6-800b-6d9a6383af11",
+            "x": 623.0,
+            "y": 178.0
+        },
+        {
+            "operands": [],
+            "id": "a_search_self_deck",
+            "uid": "15f15d82-bbc4-4fe2-9d70-1f6cf091f1ba",
             "x": 623.0,
             "y": 178.0
         },
@@ -7791,13 +7826,13 @@
                 {
                     "operands": [
                         {
-                            "linkedBlockIndex": -1,
+                            "linkedBlockIndex": 1,
                             "uid": "fd80dc5f-17e0-4858-aac1-f3f30fb408c7",
                             "type": 0,
                             "data": ""
                         },
                         {
-                            "linkedBlockIndex": -1,
+                            "linkedBlockIndex": 2,
                             "uid": "573151b6-0bf7-49e1-adf5-c3fcd7693527",
                             "type": 0,
                             "data": ""
@@ -7805,26 +7840,145 @@
                     ],
                     "id": "a_check_if_has_hands",
                     "uid": "9eac679f-6220-4806-9ef7-a9ffd80e496d",
-                    "x": 856.0,
-                    "y": 199.0
+                    "x": 623.0,
+                    "y": 178.0
                 },
                 {
                     "operands": [
                         {
                             "linkedBlockIndex": -1,
-                            "uid": "67f06011-1ddf-41d4-ad29-7b4238b810a4",
+                            "uid": "cd4849b9-3c08-41ee-9f9f-07406a9cf6d6",
                             "type": 3,
-                            "data": ""
+                            "data": "1"
                         }
                     ],
-                    "id": "a_check_if_have_hands",
-                    "uid": "a60a589d-f49a-4cd4-9cf3-8bc40939e5b4",
-                    "x": 1183.0,
-                    "y": 204.0
+                    "id": "a_discard_card",
+                    "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
+                    "x": 1078.0,
+                    "y": 211.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "fa16ef7e-8511-422c-8df9-7bc30cb6eff4",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_ex_dmg_this_time",
+                    "uid": "366e8d1c-3bf6-4866-9673-3a85c211e130",
+                    "x": 1061.0,
+                    "y": 473.0
                 }
             ],
             "attrs": [],
             "id": "e_s_cequan"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_search_self_deck",
+                    "uid": "15f15d82-bbc4-4fe2-9d70-1f6cf091f1ba",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_jiansuo"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [],
+                    "id": "a_put_all_hands_on_top_of_self_deck",
+                    "uid": "00a0bc29-2f5f-4ea6-800b-6d9a6383af11",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_xiqu"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": 1,
+                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
+                            "type": 0,
+                            "data": ""
+                        },
+                        {
+                            "linkedBlockIndex": 2,
+                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
+                            "type": 0,
+                            "data": ""
+                        }
+                    ],
+                    "id": "a_do_things",
+                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
+                    "x": 623.0,
+                    "y": 178.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "2fe67ff5-7245-418b-b191-87925c6c6225",
+                            "type": 3,
+                            "data": "3"
+                        }
+                    ],
+                    "id": "a_foresee_self_deck",
+                    "uid": "21dc80c0-58bd-4f46-8d03-6dae8d559d09",
+                    "x": 1195.0,
+                    "y": 196.0
+                },
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "dfc0319b-eb8b-4e42-bec2-6fa235de8055",
+                            "type": 3,
+                            "data": "1"
+                        }
+                    ],
+                    "id": "a_draw_from_self_deck",
+                    "uid": "92ef9eca-65ca-4e9c-959e-2b8996de7c80",
+                    "x": 1166.0,
+                    "y": 419.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_yujianziji"
+        },
+        {
+            "blocks": [
+                {
+                    "operands": [
+                        {
+                            "linkedBlockIndex": -1,
+                            "uid": "afd9a153-ba70-42c2-9aa6-f69a37339e7d",
+                            "type": 3,
+                            "data": "hengsao"
+                        }
+                    ],
+                    "id": "a_gain_skill",
+                    "uid": "64b6c707-62df-429a-b8c8-bb60519ff36b",
+                    "x": 623.0,
+                    "y": 178.0
+                }
+            ],
+            "attrs": [],
+            "id": "e_tansuo"
+        },
+        {
+            "blocks": [],
+            "attrs": [],
+            "id": "e_dahuifu"
         }
     ]
 }
