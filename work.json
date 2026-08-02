@@ -6884,7 +6884,7 @@
                             "data": ""
                         },
                         {
-                            "linkedBlockIndex": 5,
+                            "linkedBlockIndex": 3,
                             "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
                             "type": 0,
                             "data": ""
@@ -6899,20 +6899,6 @@
                     "operands": [
                         {
                             "linkedBlockIndex": -1,
-                            "uid": "cbf31037-7faf-4c27-adc1-a495a62e65e0",
-                            "type": 3,
-                            "data": "t_jianxin"
-                        }
-                    ],
-                    "id": "a_discard_all_token",
-                    "uid": "221646f1-f161-4ed5-a317-8d18af5fe691",
-                    "x": 1343.0,
-                    "y": 268.0
-                },
-                {
-                    "operands": [
-                        {
-                            "linkedBlockIndex": -1,
                             "uid": "afd9a153-ba70-42c2-9aa6-f69a37339e7d",
                             "type": 3,
                             "data": "s_jianxinyouzai"
@@ -6920,35 +6906,22 @@
                     ],
                     "id": "a_gain_skill",
                     "uid": "64b6c707-62df-429a-b8c8-bb60519ff36b",
-                    "x": 1722.0,
-                    "y": 516.0
-                },
-                {
-                    "operands": [],
-                    "id": "a_lose_this_skill",
-                    "uid": "8836ae13-d9fa-4a05-93d5-c75d41fb33ff",
-                    "x": 1744.0,
-                    "y": 765.0
+                    "x": 1395.0,
+                    "y": 253.0
                 },
                 {
                     "operands": [
                         {
-                            "linkedBlockIndex": 3,
-                            "uid": "00a5c790-b4c6-4ab2-ade5-94873306e065",
-                            "type": 0,
-                            "data": ""
-                        },
-                        {
-                            "linkedBlockIndex": 4,
-                            "uid": "742b20ec-7720-48c6-bb63-9ddc80d38986",
-                            "type": 0,
-                            "data": ""
+                            "linkedBlockIndex": -1,
+                            "uid": "614e647f-6f73-4323-bdc9-19edd0de79a5",
+                            "type": 3,
+                            "data": "1"
                         }
                     ],
-                    "id": "a_do_things",
-                    "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
-                    "x": 1379.0,
-                    "y": 545.0
+                    "id": "a_self_heal",
+                    "uid": "ee884388-f75e-4de3-aeff-c66d50aafeae",
+                    "x": 1393.0,
+                    "y": 519.0
                 }
             ],
             "attrs": [],
