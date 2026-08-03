@@ -11,14 +11,14 @@
                     "data": ""
                 }
             ],
-            "id": "a_choose_1_unit_take_dmg",
+            "id": "core.action.choose_unit_to_take_damage",
             "uid": "7994d1c6-6feb-4443-952e-e60c83191277",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_dahuifu",
+            "id": "core.action.discard_hand_heal_full_and_draw_next_turn",
             "uid": "1704452b-875c-407e-b4c3-491f4886f3af",
             "x": 623.0,
             "y": 178.0
@@ -32,7 +32,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_draw_from_self_deck",
+            "id": "core.action.draw_from_own_deck",
             "uid": "92ef9eca-65ca-4e9c-959e-2b8996de7c80",
             "x": 623.0,
             "y": 178.0
@@ -46,21 +46,21 @@
                     "data": ""
                 }
             ],
-            "id": "a_foresee_self_deck",
+            "id": "core.action.foresee_own_deck",
             "uid": "21dc80c0-58bd-4f46-8d03-6dae8d559d09",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_put_all_hands_on_top_of_self_deck",
+            "id": "core.action.put_target_hand_on_own_deck",
             "uid": "00a0bc29-2f5f-4ea6-800b-6d9a6383af11",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_search_self_deck",
+            "id": "core.action.search_own_deck",
             "uid": "15f15d82-bbc4-4fe2-9d70-1f6cf091f1ba",
             "x": 623.0,
             "y": 178.0
@@ -74,7 +74,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_gain_skill_this_turn",
+            "id": "core.action.gain_skill_this_turn",
             "uid": "b97bcdfe-1221-49c2-a795-b92da70a3bad",
             "x": 623.0,
             "y": 178.0
@@ -88,7 +88,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_do_to_all_with_no_hands",
+            "id": "core.action.apply_to_all_with_empty_hands",
             "uid": "0dbbd64f-aa06-45a9-b3e1-8c79ee1bf51b",
             "x": 623.0,
             "y": 178.0
@@ -102,7 +102,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_if_target_has_same_num_hands_then",
+            "id": "core.action.if_target_hand_size_equals_own",
             "uid": "befa4e07-9364-46cf-b87a-5a5127b09602",
             "x": 623.0,
             "y": 178.0
@@ -122,7 +122,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_self_choose",
+            "id": "core.action.choose_between_two_effects",
             "uid": "8a6ee5e4-10ce-49fa-9ed5-c5038805ca70",
             "x": 623.0,
             "y": 178.0
@@ -136,14 +136,14 @@
                     "data": ""
                 }
             ],
-            "id": "a_if_target_has_same_num_type_hand_then",
+            "id": "core.action.if_target_has_equal_card_type_counts",
             "uid": "13f52b85-e1f0-434b-86ff-e43ba57f8927",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_watch_hand",
+            "id": "core.action.view_target_hand",
             "uid": "45bdb7c3-d4f1-4cd0-bb4a-e983b40b6eec",
             "x": 623.0,
             "y": 178.0
@@ -163,7 +163,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_self_zhiheng_all_item_if_at_least_x_then",
+            "id": "core.action.discard_all_items_draw_then_if_at_least",
             "uid": "6e412a4a-d982-4f37-b455-19389f6a6341",
             "x": 623.0,
             "y": 178.0
@@ -183,21 +183,21 @@
                     "data": ""
                 }
             ],
-            "id": "a_discard_item_todo_",
+            "id": "core.action.discard_items_then",
             "uid": "207fc6df-c8ac-4ab9-8706-ae7f737e3a52",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_swap_hands",
+            "id": "core.action.swap_hands_with_target",
             "uid": "544bb260-fcb9-4d62-ba99-44ccdff3bacd",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_lose_this_skill",
+            "id": "core.action.lose_current_skill",
             "uid": "8836ae13-d9fa-4a05-93d5-c75d41fb33ff",
             "x": 623.0,
             "y": 178.0
@@ -211,14 +211,14 @@
                     "data": ""
                 }
             ],
-            "id": "a_self_discard_certain_item",
+            "id": "core.action.discard_selected_own_item",
             "uid": "cb581478-208a-48af-855e-8e10592d475e",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_rage",
+            "id": "core.action.increase_next_attack_damage_this_turn_by_one",
             "uid": "8f2e08d6-bb4a-4f26-94b5-e992cc108ea2",
             "x": 623.0,
             "y": 178.0
@@ -232,35 +232,35 @@
                     "data": ""
                 }
             ],
-            "id": "a_check_hand_minus_hp",
+            "id": "core.action.if_hand_below_current_health",
             "uid": "939e6360-7107-43bb-b932-deecec48aa63",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_use_a_steal",
+            "id": "core.action.play_virtual_steal",
             "uid": "856826d0-0e8c-4138-b9b2-9a5635c8e836",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_keji",
+            "id": "core.action.prevent_end_turn_hand_discard",
             "uid": "0049f6f9-c27f-4fa1-8d8f-df1e67416b0d",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_fuchou",
+            "id": "core.action.empower_next_turn_and_unblockable_first_attack",
             "uid": "36304e61-fa50-461c-a884-b36b80a311cc",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_cant_use_yinyang",
+            "id": "core.action.prevent_active_yin_yang_skill_use",
             "uid": "cfcdad3b-4ed5-4107-8942-205142591fb8",
             "x": 623.0,
             "y": 178.0
@@ -274,7 +274,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_reduce_draw_next_turn",
+            "id": "core.action.reduce_draw_next_turn",
             "uid": "83eb51e9-63f2-4c79-877e-c821d80b0caa",
             "x": 623.0,
             "y": 178.0
@@ -288,35 +288,35 @@
                     "data": ""
                 }
             ],
-            "id": "a_review_not_club",
+            "id": "core.action.reveal_then_if_not_club",
             "uid": "372bc64e-9479-4f10-b326-e80c6f6a8bfa",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_chaofeng",
+            "id": "core.action.limit_damage_while_other_enemies_live",
             "uid": "df3d92f2-933e-4778-bfcd-4fe1fd852c87",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_tianbian",
+            "id": "core.action.clash_with_top_deck_card_and_draw",
             "uid": "4627e638-daa9-4fd3-ae65-1453407c6712",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_gongxin",
+            "id": "core.action.view_target_hand_and_discard",
             "uid": "0e016674-b861-4b9b-831a-442fdc7a1549",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_put_card_on_top_of_deck",
+            "id": "core.action.put_selected_card_on_deck",
             "uid": "86667b51-46a6-4447-861e-cb9d7cf5520a",
             "x": 623.0,
             "y": 178.0
@@ -336,7 +336,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_check_if_has_hands",
+            "id": "core.action.if_has_hand_cards",
             "uid": "9eac679f-6220-4806-9ef7-a9ffd80e496d",
             "x": 623.0,
             "y": 178.0
@@ -350,7 +350,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_gain_skill",
+            "id": "core.action.give_target_skill",
             "uid": "64b6c707-62df-429a-b8c8-bb60519ff36b",
             "x": 623.0,
             "y": 178.0
@@ -364,7 +364,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_discard_all_token",
+            "id": "core.action.discard_all_tokens",
             "uid": "221646f1-f161-4ed5-a317-8d18af5fe691",
             "x": 623.0,
             "y": 178.0
@@ -390,14 +390,14 @@
                     "data": ""
                 }
             ],
-            "id": "a_check_token_num",
+            "id": "core.action.if_token_count_at_least",
             "uid": "c1f0b860-5eec-4211-9854-b21beb4bf74c",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_draw_or_heal_when_deal_dmg_this_turn",
+            "id": "core.action.draw_or_heal_after_damage_this_turn",
             "uid": "112ea36e-eb3a-4ff3-bd18-8db97a3e4747",
             "x": 623.0,
             "y": 178.0
@@ -417,7 +417,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_self_get_token",
+            "id": "core.action.gain_tokens",
             "uid": "ff3da21d-081d-45b4-b2e0-a2546658f6e6",
             "x": 623.0,
             "y": 178.0
@@ -431,7 +431,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_reduce_draw_this_turn",
+            "id": "core.action.reduce_draw_this_turn",
             "uid": "d53df211-eaa6-4931-92cd-4dd03379081b",
             "x": 623.0,
             "y": 178.0
@@ -445,14 +445,14 @@
                     "data": ""
                 }
             ],
-            "id": "a_reduce_draw_every_turn",
+            "id": "core.action.reduce_draw_each_turn",
             "uid": "b1b8e260-45d2-4fad-a3c0-4b68acd79a71",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_fog_shield",
+            "id": "core.action.apply_fog_threshold_effects",
             "uid": "252ea7bb-554d-4fca-9069-124e655a84d0",
             "x": 623.0,
             "y": 178.0
@@ -466,21 +466,21 @@
                     "data": ""
                 }
             ],
-            "id": "a_gain_next_base_card",
+            "id": "core.action.gain_next_basic_cards",
             "uid": "11f04247-b670-4af3-a5c2-65ad7ec2a77b",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_reduce_hp_max_instead",
+            "id": "core.action.convert_to_max_health_loss",
             "uid": "e7f23849-c3cd-4ba4-9eaa-d32eaaf1945f",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_discard_remove_fog",
+            "id": "core.action.discard_hand_cards_to_reduce_fog",
             "uid": "552e7e9b-e7bb-499a-bc88-8a251bfc8a70",
             "x": 623.0,
             "y": 178.0
@@ -494,7 +494,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_player_gain_skill",
+            "id": "core.action.give_player_skill",
             "uid": "ab70fd51-76c4-4732-a47d-9e1c7e20abe8",
             "x": 623.0,
             "y": 178.0
@@ -508,28 +508,28 @@
                     "data": ""
                 }
             ],
-            "id": "a_add_hp_max",
+            "id": "core.action.increase_max_health",
             "uid": "cabcaf65-00e2-4eee-84ab-889ba6839d26",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_discard_a_card_or_ignore_this_atk",
+            "id": "core.action.discard_target_card_or_cancel_attack",
             "uid": "5deb3afa-7614-44e1-ab24-37e4ccf1c6d9",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_cant_use_atk_this_turn",
+            "id": "core.action.prevent_attack_use_this_turn",
             "uid": "d1bb9eb4-9845-48b0-9c20-b6cba01c596c",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_dont_need_to_discard",
+            "id": "core.action.prevent_hand_discard",
             "uid": "de5506e9-b29f-40cc-b879-49fd6f7caecf",
             "x": 623.0,
             "y": 178.0
@@ -543,7 +543,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_play_an_atk_with_ex_dmg",
+            "id": "core.action.play_attack_with_extra_damage",
             "uid": "1aa33010-d494-4969-b0ad-ee76482a3cba",
             "x": 623.0,
             "y": 178.0
@@ -557,28 +557,28 @@
                     "data": ""
                 }
             ],
-            "id": "a_transform_skill",
+            "id": "core.action.gain_transformed_skill",
             "uid": "91e69f19-a087-4311-999e-ec82d29e3c1a",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_yanlong_draw",
+            "id": "core.action.draw_for_flame_dragon_pillar",
             "uid": "b695759a-d071-4024-b0d7-aed7bcaf0427",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_yanlongduan",
+            "id": "core.action.discard_two_then_damage_and_gain_health_on_kill",
             "uid": "d41d8316-5f14-49bb-979c-9868f3fce808",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_dragon_egg",
+            "id": "core.action.nurture_dragon_egg",
             "uid": "f5410dfb-9ed9-47f3-b29e-ba00be5598e2",
             "x": 623.0,
             "y": 178.0
@@ -598,14 +598,14 @@
                     "data": ""
                 }
             ],
-            "id": "a_require_2_card",
+            "id": "core.action.require_two_target_cards_or_else",
             "uid": "f8dfd20b-256f-4d83-aa03-f191cf0f8682",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_nothing",
+            "id": "core.action.do_nothing",
             "uid": "2034ee5b-14b5-4ed7-8550-af4d09ff52d8",
             "x": 623.0,
             "y": 178.0
@@ -619,28 +619,28 @@
                     "data": ""
                 }
             ],
-            "id": "a_ex_draw_by_wuzhong",
+            "id": "core.action.increase_supply_draw",
             "uid": "4f250ac1-4ed5-4314-bbda-6f9cbb9c1403",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_no_atk_limit_this_turn",
+            "id": "core.action.remove_attack_limit_this_turn",
             "uid": "9a6ae957-eb69-430d-840a-d8846486b401",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_turn_hands_to_random_suit",
+            "id": "core.action.change_hand_to_random_suit",
             "uid": "0ebbdb83-5da5-46c4-8a30-ca95acfa5338",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_ignore_dmg",
+            "id": "core.action.ignore_current_damage",
             "uid": "3f97d1e3-4757-4765-9d1a-b91bdc159384",
             "x": 623.0,
             "y": 178.0
@@ -654,7 +654,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_same_number_or_suit_with_last_card_played",
+            "id": "core.action.if_same_rank_or_suit_as_last_played_card",
             "uid": "c9dc35db-109a-4f5e-8735-0a27ce96c770",
             "x": 623.0,
             "y": 178.0
@@ -674,7 +674,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_play_atk_ex_dmg_if_point_outnumber_and_cant_respond_lower_then",
+            "id": "core.action.play_rank_based_attack",
             "uid": "763d01b4-a774-4f3c-a39c-7ffb1dcfb3a7",
             "x": 623.0,
             "y": 178.0
@@ -688,7 +688,7 @@
                     "data": "1"
                 }
             ],
-            "id": "a_keep_hands",
+            "id": "core.action.draw_until_hand_size",
             "uid": "1eb3c3c3-4caf-41e8-9255-babe51e2a5d6",
             "x": 623.0,
             "y": 178.0
@@ -702,7 +702,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_get_token_eq_discard_number",
+            "id": "core.action.gain_tokens_for_discarded_cards",
             "uid": "7963d684-b613-4032-bd8c-f9451fbda8ba",
             "x": 623.0,
             "y": 178.0
@@ -728,14 +728,14 @@
                     "data": ""
                 }
             ],
-            "id": "a_review_check_heart_spade_club",
+            "id": "core.action.reveal_then_choose_by_suit",
             "uid": "b6f3289a-d649-45d3-a8db-e8df2439b821",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_discard_x_shence_card_to_deal_dmg",
+            "id": "core.action.discard_matching_rank_cards_for_damage",
             "uid": "297e92ea-0c86-4e39-967f-00d08bc83b04",
             "x": 623.0,
             "y": 178.0
@@ -749,21 +749,21 @@
                     "data": ""
                 }
             ],
-            "id": "a_if_same_suit_shence",
+            "id": "core.action.if_same_suit_as_recorded_card",
             "uid": "3e0e95a4-61ab-4656-8c15-66ab2435234e",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_review_shence",
+            "id": "core.action.reveal_and_record_card",
             "uid": "59fdb877-c12d-4e56-aaa5-929afc9922fc",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_discard_all_hand",
+            "id": "core.action.discard_target_hand",
             "uid": "582826b6-fbe2-4d80-b8da-b07229247aee",
             "x": 623.0,
             "y": 178.0
@@ -777,7 +777,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_lose_hp",
+            "id": "core.action.lose_health",
             "uid": "85e3faa4-a304-423c-b118-c077b7ecceca",
             "x": 623.0,
             "y": 178.0
@@ -803,7 +803,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_target_choose_3",
+            "id": "core.action.let_target_choose_three_effects",
             "uid": "28519862-6f6b-42aa-bf83-8fc1523776c5",
             "x": 623.0,
             "y": 178.0
@@ -829,7 +829,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_spend_token_todo",
+            "id": "core.action.spend_tokens_then",
             "uid": "098463a3-34ee-4693-997f-7ffd90240a14",
             "x": 623.0,
             "y": 178.0
@@ -849,28 +849,28 @@
                     "data": ""
                 }
             ],
-            "id": "a_get_token",
+            "id": "core.action.give_target_tokens",
             "uid": "99ae5a17-7857-46f1-a3d8-43f7526cf362",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_xiongqi",
+            "id": "core.action.reveal_for_lost_health_heal_and_gain",
             "uid": "17919408-8281-443b-a0b5-ca856755aa8a",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_swap_targets_hand",
+            "id": "core.action.swap_two_targets_hands",
             "uid": "e1865e38-40cc-43b6-8f77-ca0e2cb7ed45",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_jiang",
+            "id": "core.action.draw_and_make_black_attack_free",
             "uid": "46eee70c-e448-4dd3-8848-ac71f2b9a66d",
             "x": 623.0,
             "y": 178.0
@@ -884,21 +884,21 @@
                     "data": ""
                 }
             ],
-            "id": "a_self_heal",
+            "id": "core.action.heal_self",
             "uid": "ee884388-f75e-4de3-aeff-c66d50aafeae",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_handlimit_eq_tm_alive",
+            "id": "core.action.set_hand_limit_to_living_allies",
             "uid": "702c8f91-5d9e-46bb-97cf-ecf2d65423db",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_choose_to_discard_base_on_self_hp_lost",
+            "id": "core.action.discard_target_cards_for_lost_health",
             "uid": "c60bb915-a239-4779-a56b-6471bece6c4c",
             "x": 623.0,
             "y": 178.0
@@ -912,7 +912,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_discard_a_card_if_heart",
+            "id": "core.action.discard_target_card_then_if_heart",
             "uid": "1f820179-8f85-498a-a3c2-7e7530226e07",
             "x": 623.0,
             "y": 178.0
@@ -926,7 +926,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_use_card",
+            "id": "core.action.make_target_use_card",
             "uid": "8c930b2f-481b-4175-a8de-63ec08563f56",
             "x": 623.0,
             "y": 178.0
@@ -940,7 +940,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_forever_hand_limit",
+            "id": "core.action.set_base_hand_limit",
             "uid": "28542b5e-a231-4eca-b607-0ffad5b375c8",
             "x": 623.0,
             "y": 178.0
@@ -954,7 +954,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_ex_dmg_by_atk_this_turn",
+            "id": "core.action.increase_attack_damage_this_turn",
             "uid": "21f320bf-9ae4-47ce-aac1-dc2798a14c67",
             "x": 623.0,
             "y": 178.0
@@ -968,14 +968,14 @@
                     "data": ""
                 }
             ],
-            "id": "a_ex_dmg_this_time",
+            "id": "core.action.increase_current_damage",
             "uid": "366e8d1c-3bf6-4866-9673-3a85c211e130",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_cant_respond",
+            "id": "core.action.prevent_response",
             "uid": "749401f2-5ad9-43a2-9934-23fcbb951dd2",
             "x": 623.0,
             "y": 178.0
@@ -995,21 +995,21 @@
                     "data": ""
                 }
             ],
-            "id": "a_review_check_black_and_red",
+            "id": "core.action.reveal_then_choose_by_color",
             "uid": "1fbb6205-a81e-4705-9ddd-1c9b910304e6",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_no_others_can_respond_your_card",
+            "id": "core.action.prevent_others_from_responding_to_cards",
             "uid": "93202833-69a1-4bf3-aef8-a50532042b1f",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_no_atk_limit_this_turn",
+            "id": "core.action.remove_attack_limit_this_turn",
             "uid": "2d0c06e5-3d5a-42e0-9f59-31c05ffcc43d",
             "x": 623.0,
             "y": 178.0
@@ -1023,7 +1023,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_take_the_dmg_instead_and_if_self_full_hp",
+            "id": "core.action.take_damage_instead_then_if_was_full_health",
             "uid": "74ce3088-9ffe-49fd-b773-1284967007a6",
             "x": 623.0,
             "y": 178.0
@@ -1037,7 +1037,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_next_turn_ex_atk_time",
+            "id": "core.action.increase_target_attack_limit_next_turn",
             "uid": "f3069ba7-1a95-46ba-a4d7-8a3b465b826c",
             "x": 623.0,
             "y": 178.0
@@ -1051,7 +1051,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_next_turn_ex_draw",
+            "id": "core.action.increase_target_draw_next_turn",
             "uid": "cfe0c5cf-ec5f-477f-b45d-eaf4b44c3175",
             "x": 623.0,
             "y": 178.0
@@ -1065,21 +1065,21 @@
                     "data": ""
                 }
             ],
-            "id": "a_give_hands",
+            "id": "core.action.give_hand_cards_to_target",
             "uid": "b1b53ff7-f435-41e1-9e23-5419bbb9addf",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_give_all_hands",
+            "id": "core.action.give_all_hand_cards_to_target",
             "uid": "1c10d787-6a6c-40bb-b3d1-54dd26c6b728",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_as_play_a_atk_now",
+            "id": "core.action.make_target_play_attack",
             "uid": "a5d744ae-0706-48d9-8bb3-ef70b162324d",
             "x": 623.0,
             "y": 178.0
@@ -1099,14 +1099,14 @@
                     "data": ""
                 }
             ],
-            "id": "a_review_check_spade_then_black",
+            "id": "core.action.reveal_then_if_spade_or_club",
             "uid": "50b38b23-37a9-4861-86b7-359907d3dc43",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_cant_be_target_on_black_skill",
+            "id": "core.action.prevent_black_spell_targeting",
             "uid": "d60373c5-4610-425b-882b-0de899996258",
             "x": 623.0,
             "y": 178.0
@@ -1126,7 +1126,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_discard_if_last_card_or_item_draw",
+            "id": "core.action.discard_target_cards_and_draw_if_last",
             "uid": "b75b506b-a7b9-48b5-b9b2-959a79798b84",
             "x": 623.0,
             "y": 178.0
@@ -1140,7 +1140,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_self_discard_card",
+            "id": "core.action.discard_own_cards",
             "uid": "2c084724-c252-491a-a2a8-da6b3a786485",
             "x": 623.0,
             "y": 178.0
@@ -1154,7 +1154,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_draw_when_respond_red_atk",
+            "id": "core.action.draw_after_responding_with_red_attack",
             "uid": "7ec0d442-0a3e-4ef7-a874-b5ccdb5cd163",
             "x": 623.0,
             "y": 178.0
@@ -1168,7 +1168,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_ex_discard_on_start",
+            "id": "core.action.discard_additional_cards_at_turn_start",
             "uid": "a98c5584-8d9e-427f-910a-6938e58a4ecc",
             "x": 623.0,
             "y": 178.0
@@ -1182,14 +1182,14 @@
                     "data": ""
                 }
             ],
-            "id": "a_discard_certain_item",
+            "id": "core.action.discard_selected_target_item",
             "uid": "3d61dbf3-c0a7-4374-90d9-e907e836d201",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_jiguan_bird",
+            "id": "core.action.play_equipment_scaled_attack",
             "uid": "51063d9b-f61d-41fd-ae0a-f513ba5c1091",
             "x": 623.0,
             "y": 178.0
@@ -1203,7 +1203,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_ex_heal_next_heal",
+            "id": "core.action.increase_next_healing",
             "uid": "cac08b91-e869-4641-b2f3-69ea52582887",
             "x": 623.0,
             "y": 178.0
@@ -1217,14 +1217,14 @@
                     "data": ""
                 }
             ],
-            "id": "a_ex_dmg_next_atk",
+            "id": "core.action.increase_next_attack_damage",
             "uid": "638849cd-9ce1-469a-ad2d-607819be3370",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_cant_use_heal",
+            "id": "core.action.prevent_heal_use",
             "uid": "ce00252a-de67-4171-8487-1097b3987310",
             "x": 623.0,
             "y": 178.0
@@ -1238,35 +1238,35 @@
                     "data": ""
                 }
             ],
-            "id": "a_draw_less_card_at_start",
+            "id": "core.action.reduce_enemy_draw",
             "uid": "ab210a5e-ad74-477d-88ea-473736514963",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_atk_other_if_poss",
+            "id": "core.action.force_target_to_attack_ally",
             "uid": "cb776270-bab5-4128-a8dc-ae2f4cc6e615",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_lose_half_hp",
+            "id": "core.action.lose_half_health",
             "uid": "4f646eaf-4597-4f62-a2f4-7d6790f41055",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_copy",
+            "id": "core.action.copy_unowned_target_skill",
             "uid": "0e64e332-865f-4c3c-938c-a04070aee126",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_ex_dmg_chongqun",
+            "id": "core.action.add_damage_for_dead_swarm",
             "uid": "ad08da64-1e2b-4aeb-b505-5a8fec4f44f7",
             "x": 623.0,
             "y": 178.0
@@ -1280,7 +1280,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_reduce_dmg_by",
+            "id": "core.action.reduce_damage",
             "uid": "32a75a80-a607-4422-9245-bdd40135c700",
             "x": 623.0,
             "y": 178.0
@@ -1294,7 +1294,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_use_atk_or",
+            "id": "core.action.play_attack_or_else",
             "uid": "f8f6127c-4e2d-4692-9380-e472df060abf",
             "x": 623.0,
             "y": 178.0
@@ -1308,7 +1308,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_summon",
+            "id": "core.action.summon_monster",
             "uid": "7e1c7ab4-0cbb-4f75-81af-a8a201c9664e",
             "x": 623.0,
             "y": 178.0
@@ -1322,7 +1322,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_draw_when_use_red_atk",
+            "id": "core.action.draw_after_using_red_attack",
             "uid": "333349cb-6059-4907-9a66-4d4604142312",
             "x": 623.0,
             "y": 178.0
@@ -1336,7 +1336,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_equip_ex_item",
+            "id": "core.action.increase_weapon_and_armor_capacity",
             "uid": "c4a7ebd4-d81c-4c96-8760-2c093f55b46c",
             "x": 623.0,
             "y": 178.0
@@ -1350,7 +1350,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_sheshenyiji",
+            "id": "core.action.discard_hand_attack_all_and_draw",
             "uid": "c309b243-8bc2-4655-8a5d-424a427e9519",
             "x": 623.0,
             "y": 178.0
@@ -1364,7 +1364,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_add_hand_limitation",
+            "id": "core.action.increase_hand_limit",
             "uid": "616d13e5-8d85-449a-b5ad-889e8a069ed5",
             "x": 623.0,
             "y": 178.0
@@ -1378,14 +1378,14 @@
                     "data": ""
                 }
             ],
-            "id": "a_self_take_dmg",
+            "id": "core.action.take_damage",
             "uid": "28ce07ba-5ac8-4ed0-ae8f-477c3241ca51",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_discard_all_card",
+            "id": "core.action.discard_all_target_cards",
             "uid": "12781181-bc1b-4427-9506-19289ba6e7a4",
             "x": 623.0,
             "y": 178.0
@@ -1399,7 +1399,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_ex_douge_required",
+            "id": "core.action.require_additional_dodges",
             "uid": "8c6abff3-6db9-4eec-b454-c7e4a10b77a4",
             "x": 623.0,
             "y": 178.0
@@ -1413,7 +1413,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_zhiheng",
+            "id": "core.action.discard_and_redraw_same_amount",
             "uid": "6cdd2355-b621-40ab-8f8d-f1968ca70beb",
             "x": 623.0,
             "y": 178.0
@@ -1427,7 +1427,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_draw_after_use_skill_this_turn",
+            "id": "core.action.draw_after_spell_this_turn",
             "uid": "d888407a-e988-4967-8018-acb3fd543b73",
             "x": 623.0,
             "y": 178.0
@@ -1441,7 +1441,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_ex_draw",
+            "id": "core.action.increase_draw_each_turn",
             "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
             "x": 623.0,
             "y": 178.0
@@ -1455,7 +1455,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_next_atk_ex_dmg_this_turn",
+            "id": "core.action.increase_next_attack_damage_this_turn",
             "uid": "04a45657-a8c9-4630-88f2-9ddbccfdfda7",
             "x": 623.0,
             "y": 178.0
@@ -1469,7 +1469,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_add_ex_atk_num",
+            "id": "core.action.increase_attack_limit",
             "uid": "8a1f80ef-8d0f-4fc6-ad12-45a14ce5c0f0",
             "x": 623.0,
             "y": 178.0
@@ -1489,21 +1489,21 @@
                     "data": ""
                 }
             ],
-            "id": "a_self_discard_card_todo",
+            "id": "core.action.discard_own_cards_then",
             "uid": "f8910fd5-c0ee-43fb-8537-08739256aff2",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_satisfy_require",
+            "id": "core.action.satisfy_required_card",
             "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_play_atk_not_count",
+            "id": "core.action.play_attack_without_counting",
             "uid": "bc77892a-df5f-4dc9-ad98-d3cc5da48cc1",
             "x": 623.0,
             "y": 178.0
@@ -1517,7 +1517,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_draw_item_card",
+            "id": "core.action.draw_item_cards",
             "uid": "38e833c2-df60-4060-8a3b-c894b355a6a3",
             "x": 623.0,
             "y": 178.0
@@ -1537,7 +1537,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_search_card",
+            "id": "core.action.search_deck_for_named_cards",
             "uid": "c2c23399-6bdb-49c0-a5cb-935f94be997b",
             "x": 623.0,
             "y": 178.0
@@ -1551,21 +1551,21 @@
                     "data": ""
                 }
             ],
-            "id": "a_self_draw_card",
+            "id": "core.action.draw_cards",
             "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_negation",
+            "id": "core.action.allow_spell_negation",
             "uid": "e8e95f2b-0b06-4dda-aa17-10422c383b0a",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_douge",
+            "id": "core.action.dodge_attack",
             "uid": "f35f15fc-71ed-487b-85f1-09239e9bc2c2",
             "x": 623.0,
             "y": 178.0
@@ -1579,21 +1579,21 @@
                     "data": ""
                 }
             ],
-            "id": "a_add_ex_atk_num_this_turn",
+            "id": "core.action.increase_attack_limit_this_turn",
             "uid": "1135c318-54e8-41c8-a589-e171936fa853",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_play_an_attack",
+            "id": "core.action.play_virtual_attack",
             "uid": "e5374eb0-ce66-4ae7-893a-2eee9c83a649",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_ignore_armor",
+            "id": "core.action.ignore_target_armor",
             "uid": "ea563a5f-9d9b-482d-bb6b-c88023430268",
             "x": 623.0,
             "y": 178.0
@@ -1607,7 +1607,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_review_red",
+            "id": "core.action.reveal_then_if_red",
             "uid": "9a5dfa9c-5a31-4f9a-9dfc-eb868cca6364",
             "x": 623.0,
             "y": 178.0
@@ -1621,28 +1621,28 @@
                     "data": ""
                 }
             ],
-            "id": "a_review_black",
+            "id": "core.action.reveal_then_if_black",
             "uid": "b8b29be4-0318-4786-aa3a-077b5c6d1069",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_cancel_dmg",
+            "id": "core.action.cancel_damage",
             "uid": "ddf38b35-f7c8-4b30-a255-686136aa090c",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_cancel_atk",
+            "id": "core.action.cancel_attack",
             "uid": "c83027e6-696d-4219-b163-c03ac7679157",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_play_douge",
+            "id": "core.action.play_virtual_dodge",
             "uid": "f9147997-f15a-49a6-9fe4-a6bf4588d2c8",
             "x": 623.0,
             "y": 178.0
@@ -1656,7 +1656,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_add_ex_dmg_reduce",
+            "id": "core.action.reduce_large_incoming_damage",
             "uid": "722c7de9-7832-467d-a964-274d0fc99590",
             "x": 623.0,
             "y": 178.0
@@ -1670,7 +1670,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_add_ex_dmg_to_no_hand",
+            "id": "core.action.increase_attack_damage_against_empty_hand",
             "uid": "cf54b746-6726-42a2-8909-9898e9ba8e9d",
             "x": 623.0,
             "y": 178.0
@@ -1684,7 +1684,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_add_ex_atk_num",
+            "id": "core.action.increase_attack_limit",
             "uid": "d63355fc-b126-4e81-8258-3db89cad52ab",
             "x": 623.0,
             "y": 178.0
@@ -1698,7 +1698,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_equip_item",
+            "id": "core.action.equip_item",
             "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
             "x": 623.0,
             "y": 178.0
@@ -1718,7 +1718,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_do_things",
+            "id": "core.action.execute_two_effects",
             "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
             "x": 623.0,
             "y": 178.0
@@ -1732,7 +1732,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_foresee",
+            "id": "core.action.foresee_cards",
             "uid": "9eee9aa0-553c-4bb5-874c-27327f8d56b5",
             "x": 623.0,
             "y": 178.0
@@ -1746,14 +1746,14 @@
                     "data": ""
                 }
             ],
-            "id": "a_draw_card",
+            "id": "core.action.draw_cards_for_target",
             "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_heal_rain",
+            "id": "core.action.heal_all_and_draw",
             "uid": "9d5613ed-bf16-4800-8977-1a42f88815bf",
             "x": 623.0,
             "y": 178.0
@@ -1767,7 +1767,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_steal_card",
+            "id": "core.action.steal_target_cards",
             "uid": "1898310f-a650-471e-b50c-93968fe07bd0",
             "x": 623.0,
             "y": 178.0
@@ -1781,14 +1781,14 @@
                     "data": ""
                 }
             ],
-            "id": "a_steal_hand",
+            "id": "core.action.steal_target_hand_cards",
             "uid": "39cfedf8-799c-4904-b987-15756e45b777",
             "x": 623.0,
             "y": 178.0
         },
         {
             "operands": [],
-            "id": "a_duel",
+            "id": "core.action.start_attack_duel",
             "uid": "c3b5f89b-b928-4418-9797-c1389f267876",
             "x": 623.0,
             "y": 178.0
@@ -1802,7 +1802,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_discard_card",
+            "id": "core.action.discard_target_cards",
             "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
             "x": 623.0,
             "y": 178.0
@@ -1816,7 +1816,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_self_discard_item",
+            "id": "core.action.discard_random_item",
             "uid": "85969750-1b7a-4444-a09e-f130605b3d17",
             "x": 623.0,
             "y": 178.0
@@ -1830,7 +1830,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_discard_item",
+            "id": "core.action.discard_target_items",
             "uid": "d4c98179-5242-49be-9705-884a22cdf5a0",
             "x": 623.0,
             "y": 178.0
@@ -1850,7 +1850,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_target_choose_2",
+            "id": "core.action.let_target_choose_two_effects",
             "uid": "f5ff297a-a9b4-4862-9b77-5156b19bd76b",
             "x": 623.0,
             "y": 178.0
@@ -1871,7 +1871,7 @@
         },
         {
             "operands": [],
-            "id": "a_heal_until_full",
+            "id": "core.action.heal_to_full",
             "uid": "6284328e-ca8f-4cc6-b9bd-514ef838c3c7",
             "x": 623.0,
             "y": 178.0
@@ -1885,7 +1885,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_heal",
+            "id": "core.action.heal_target",
             "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
             "x": 623.0,
             "y": 178.0
@@ -1899,7 +1899,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_take_damage",
+            "id": "core.action.deal_damage_to_target",
             "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
             "x": 623.0,
             "y": 178.0
@@ -1919,7 +1919,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_require_card",
+            "id": "core.action.require_target_card_or_else",
             "uid": "3a4dbdcb-be4f-4cf1-b6a6-d2600828d420",
             "x": 623.0,
             "y": 178.0
@@ -1943,7 +1943,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_require_card",
+                    "id": "core.action.require_target_card_or_else",
                     "uid": "3a4dbdcb-be4f-4cf1-b6a6-d2600828d420",
                     "x": 623.0,
                     "y": 178.0
@@ -1957,7 +1957,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 1223.0,
                     "y": 344.0
@@ -1970,7 +1970,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_douge",
+                    "id": "core.action.dodge_attack",
                     "uid": "f35f15fc-71ed-487b-85f1-09239e9bc2c2",
                     "x": 623.0,
                     "y": 178.0
@@ -1990,7 +1990,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_heal",
+                    "id": "core.action.heal_target",
                     "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
                     "x": 623.0,
                     "y": 178.0
@@ -2024,7 +2024,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 1238.0,
                     "y": 216.0
@@ -2050,7 +2050,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_target_choose_2",
+                    "id": "core.action.let_target_choose_two_effects",
                     "uid": "f5ff297a-a9b4-4862-9b77-5156b19bd76b",
                     "x": 805.0,
                     "y": 281.0
@@ -2064,7 +2064,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 1259.0,
                     "y": 491.0
@@ -2078,7 +2078,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_discard_item",
+                    "id": "core.action.discard_target_items",
                     "uid": "d4c98179-5242-49be-9705-884a22cdf5a0",
                     "x": 1278.0,
                     "y": 197.0
@@ -2098,7 +2098,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_discard_card",
+                    "id": "core.action.discard_target_cards",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
                     "x": 623.0,
                     "y": 178.0
@@ -2111,7 +2111,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_duel",
+                    "id": "core.action.start_attack_duel",
                     "uid": "c3b5f89b-b928-4418-9797-c1389f267876",
                     "x": 623.0,
                     "y": 178.0
@@ -2137,7 +2137,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_require_card",
+                    "id": "core.action.require_target_card_or_else",
                     "uid": "3a4dbdcb-be4f-4cf1-b6a6-d2600828d420",
                     "x": 623.0,
                     "y": 178.0
@@ -2151,7 +2151,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 1185.0,
                     "y": 254.0
@@ -2171,7 +2171,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_steal_hand",
+                    "id": "core.action.steal_target_hand_cards",
                     "uid": "39cfedf8-799c-4904-b987-15756e45b777",
                     "x": 623.0,
                     "y": 178.0
@@ -2184,7 +2184,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_heal_rain",
+                    "id": "core.action.heal_all_and_draw",
                     "uid": "9d5613ed-bf16-4800-8977-1a42f88815bf",
                     "x": 732.0,
                     "y": 210.0
@@ -2197,7 +2197,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_negation",
+                    "id": "core.action.allow_spell_negation",
                     "uid": "e8e95f2b-0b06-4dda-aa17-10422c383b0a",
                     "x": 623.0,
                     "y": 178.0
@@ -2217,7 +2217,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_draw_card",
+                    "id": "core.action.draw_cards_for_target",
                     "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
                     "x": 623.0,
                     "y": 178.0
@@ -2237,7 +2237,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_foresee",
+                    "id": "core.action.foresee_cards",
                     "uid": "9eee9aa0-553c-4bb5-874c-27327f8d56b5",
                     "x": 1120.0,
                     "y": 196.0
@@ -2251,7 +2251,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_draw_card",
+                    "id": "core.action.draw_cards_for_target",
                     "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
                     "x": 1065.0,
                     "y": 477.0
@@ -2271,7 +2271,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
@@ -2291,7 +2291,7 @@
                             "data": "liannu"
                         }
                     ],
-                    "id": "a_equip_item",
+                    "id": "core.action.equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
                     "x": 623.0,
                     "y": 178.0
@@ -2311,7 +2311,7 @@
                             "data": "guding"
                         }
                     ],
-                    "id": "a_equip_item",
+                    "id": "core.action.equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
                     "x": 623.0,
                     "y": 178.0
@@ -2331,7 +2331,7 @@
                             "data": "baiyin"
                         }
                     ],
-                    "id": "a_equip_item",
+                    "id": "core.action.equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
                     "x": 623.0,
                     "y": 178.0
@@ -2351,7 +2351,7 @@
                             "data": "zhuque"
                         }
                     ],
-                    "id": "a_equip_item",
+                    "id": "core.action.equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
                     "x": 623.0,
                     "y": 178.0
@@ -2371,7 +2371,7 @@
                             "data": "bagua"
                         }
                     ],
-                    "id": "a_equip_item",
+                    "id": "core.action.equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
                     "x": 695.0,
                     "y": 200.0
@@ -2391,7 +2391,7 @@
                             "data": "renwang"
                         }
                     ],
-                    "id": "a_equip_item",
+                    "id": "core.action.equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
                     "x": 623.0,
                     "y": 178.0
@@ -2411,7 +2411,7 @@
                             "data": "hanbing"
                         }
                     ],
-                    "id": "a_equip_item",
+                    "id": "core.action.equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
                     "x": 623.0,
                     "y": 178.0
@@ -2431,7 +2431,7 @@
                             "data": "tengjia"
                         }
                     ],
-                    "id": "a_equip_item",
+                    "id": "core.action.equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
                     "x": 623.0,
                     "y": 178.0
@@ -2451,7 +2451,7 @@
                             "data": "guanshi"
                         }
                     ],
-                    "id": "a_equip_item",
+                    "id": "core.action.equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
                     "x": 623.0,
                     "y": 178.0
@@ -2471,7 +2471,7 @@
                             "data": "qinglong"
                         }
                     ],
-                    "id": "a_equip_item",
+                    "id": "core.action.equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
                     "x": 623.0,
                     "y": 178.0
@@ -2491,7 +2491,7 @@
                             "data": "qinggang"
                         }
                     ],
-                    "id": "a_equip_item",
+                    "id": "core.action.equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
                     "x": 623.0,
                     "y": 178.0
@@ -2511,7 +2511,7 @@
                             "data": "zhangba"
                         }
                     ],
-                    "id": "a_equip_item",
+                    "id": "core.action.equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
                     "x": 623.0,
                     "y": 178.0
@@ -2531,7 +2531,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_add_ex_atk_num",
+                    "id": "core.action.increase_attack_limit",
                     "uid": "d63355fc-b126-4e81-8258-3db89cad52ab",
                     "x": 737.0,
                     "y": 187.0
@@ -2551,7 +2551,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_add_ex_dmg_to_no_hand",
+                    "id": "core.action.increase_attack_damage_against_empty_hand",
                     "uid": "cf54b746-6726-42a2-8909-9898e9ba8e9d",
                     "x": 623.0,
                     "y": 178.0
@@ -2571,7 +2571,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_add_ex_dmg_reduce",
+                    "id": "core.action.reduce_large_incoming_damage",
                     "uid": "722c7de9-7832-467d-a964-274d0fc99590",
                     "x": 623.0,
                     "y": 178.0
@@ -2591,7 +2591,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_discard_card",
+                    "id": "core.action.discard_target_cards",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
                     "x": 623.0,
                     "y": 178.0
@@ -2611,14 +2611,14 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_review_red",
+                    "id": "core.action.reveal_then_if_red",
                     "uid": "9a5dfa9c-5a31-4f9a-9dfc-eb868cca6364",
                     "x": 623.0,
                     "y": 178.0
                 },
                 {
                     "operands": [],
-                    "id": "a_play_douge",
+                    "id": "core.action.play_virtual_dodge",
                     "uid": "f9147997-f15a-49a6-9fe4-a6bf4588d2c8",
                     "x": 1066.0,
                     "y": 196.0
@@ -2631,7 +2631,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_cancel_atk",
+                    "id": "core.action.cancel_attack",
                     "uid": "c83027e6-696d-4219-b163-c03ac7679157",
                     "x": 623.0,
                     "y": 178.0
@@ -2657,14 +2657,14 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
                 },
                 {
                     "operands": [],
-                    "id": "a_cancel_dmg",
+                    "id": "core.action.cancel_damage",
                     "uid": "ddf38b35-f7c8-4b30-a255-686136aa090c",
                     "x": 1169.0,
                     "y": 277.0
@@ -2678,7 +2678,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_discard_card",
+                    "id": "core.action.discard_target_cards",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
                     "x": 1153.0,
                     "y": 452.0
@@ -2698,14 +2698,14 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_review_black",
+                    "id": "core.action.reveal_then_if_black",
                     "uid": "b8b29be4-0318-4786-aa3a-077b5c6d1069",
                     "x": 623.0,
                     "y": 178.0
                 },
                 {
                     "operands": [],
-                    "id": "a_cancel_dmg",
+                    "id": "core.action.cancel_damage",
                     "uid": "ddf38b35-f7c8-4b30-a255-686136aa090c",
                     "x": 1155.0,
                     "y": 273.0
@@ -2725,7 +2725,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 623.0,
                     "y": 178.0
@@ -2745,7 +2745,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_add_ex_atk_num_this_turn",
+                    "id": "core.action.increase_attack_limit_this_turn",
                     "uid": "1135c318-54e8-41c8-a589-e171936fa853",
                     "x": 623.0,
                     "y": 178.0
@@ -2758,7 +2758,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_ignore_armor",
+                    "id": "core.action.ignore_target_armor",
                     "uid": "ea563a5f-9d9b-482d-bb6b-c88023430268",
                     "x": 623.0,
                     "y": 178.0
@@ -2771,7 +2771,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_play_an_attack",
+                    "id": "core.action.play_virtual_attack",
                     "uid": "e5374eb0-ce66-4ae7-893a-2eee9c83a649",
                     "x": 623.0,
                     "y": 178.0
@@ -2791,7 +2791,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_discard_card",
+                    "id": "core.action.discard_target_cards",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
                     "x": 623.0,
                     "y": 178.0
@@ -2811,7 +2811,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_draw_card",
+                    "id": "core.action.draw_cards_for_target",
                     "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
                     "x": 623.0,
                     "y": 178.0
@@ -2837,7 +2837,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
@@ -2851,7 +2851,7 @@
                             "data": "4"
                         }
                     ],
-                    "id": "a_draw_card",
+                    "id": "core.action.draw_cards_for_target",
                     "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
                     "x": 1108.0,
                     "y": 249.0
@@ -2865,7 +2865,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_self_discard_card",
+                    "id": "core.action.discard_own_cards",
                     "uid": "2c084724-c252-491a-a2a8-da6b3a786485",
                     "x": 1078.0,
                     "y": 499.0
@@ -2899,7 +2899,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1105.0,
                     "y": 206.0
@@ -2925,7 +2925,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_require_card",
+                    "id": "core.action.require_target_card_or_else",
                     "uid": "3a4dbdcb-be4f-4cf1-b6a6-d2600828d420",
                     "x": 623.0,
                     "y": 178.0
@@ -2939,7 +2939,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_discard_card",
+                    "id": "core.action.discard_target_cards",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
                     "x": 1113.0,
                     "y": 338.0
@@ -2965,7 +2965,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_require_card",
+                    "id": "core.action.require_target_card_or_else",
                     "uid": "3a4dbdcb-be4f-4cf1-b6a6-d2600828d420",
                     "x": 623.0,
                     "y": 178.0
@@ -2979,7 +2979,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 1188.0,
                     "y": 289.0
@@ -3005,7 +3005,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
@@ -3019,7 +3019,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_discard_item",
+                    "id": "core.action.discard_random_item",
                     "uid": "85969750-1b7a-4444-a09e-f130605b3d17",
                     "x": 1176.0,
                     "y": 280.0
@@ -3033,7 +3033,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 1169.0,
                     "y": 561.0
@@ -3046,7 +3046,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_heal_until_full",
+                    "id": "core.action.heal_to_full",
                     "uid": "6284328e-ca8f-4cc6-b9bd-514ef838c3c7",
                     "x": 623.0,
                     "y": 178.0
@@ -3072,7 +3072,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_search_card",
+                    "id": "core.action.search_deck_for_named_cards",
                     "uid": "c2c23399-6bdb-49c0-a5cb-935f94be997b",
                     "x": 623.0,
                     "y": 178.0
@@ -3098,7 +3098,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_search_card",
+                    "id": "core.action.search_deck_for_named_cards",
                     "uid": "c2c23399-6bdb-49c0-a5cb-935f94be997b",
                     "x": 623.0,
                     "y": 178.0
@@ -3118,7 +3118,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_draw_item_card",
+                    "id": "core.action.draw_item_cards",
                     "uid": "38e833c2-df60-4060-8a3b-c894b355a6a3",
                     "x": 623.0,
                     "y": 178.0
@@ -3144,14 +3144,14 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
                 },
                 {
                     "operands": [],
-                    "id": "a_play_atk_not_count",
+                    "id": "core.action.play_attack_without_counting",
                     "uid": "bc77892a-df5f-4dc9-ad98-d3cc5da48cc1",
                     "x": 1068.0,
                     "y": 459.0
@@ -3165,7 +3165,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1080.0,
                     "y": 171.0
@@ -3185,7 +3185,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 623.0,
                     "y": 178.0
@@ -3198,7 +3198,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_satisfy_require",
+                    "id": "core.action.satisfy_required_card",
                     "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
                     "x": 623.0,
                     "y": 178.0
@@ -3211,7 +3211,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_play_an_attack",
+                    "id": "core.action.play_virtual_attack",
                     "uid": "e5374eb0-ce66-4ae7-893a-2eee9c83a649",
                     "x": 623.0,
                     "y": 178.0
@@ -3224,7 +3224,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_satisfy_require",
+                    "id": "core.action.satisfy_required_card",
                     "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
                     "x": 623.0,
                     "y": 178.0
@@ -3244,7 +3244,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 623.0,
                     "y": 178.0
@@ -3264,7 +3264,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 1077.0,
                     "y": 315.0
@@ -3284,7 +3284,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_self_discard_card_todo",
+                    "id": "core.action.discard_own_cards_then",
                     "uid": "f8910fd5-c0ee-43fb-8537-08739256aff2",
                     "x": 623.0,
                     "y": 178.0
@@ -3304,7 +3304,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_heal",
+                    "id": "core.action.heal_target",
                     "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
                     "x": 623.0,
                     "y": 178.0
@@ -3324,7 +3324,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_add_ex_atk_num",
+                    "id": "core.action.increase_attack_limit",
                     "uid": "8a1f80ef-8d0f-4fc6-ad12-45a14ce5c0f0",
                     "x": 696.0,
                     "y": 190.0
@@ -3344,7 +3344,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_next_atk_ex_dmg_this_turn",
+                    "id": "core.action.increase_next_attack_damage_this_turn",
                     "uid": "04a45657-a8c9-4630-88f2-9ddbccfdfda7",
                     "x": 623.0,
                     "y": 178.0
@@ -3364,7 +3364,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_ex_draw",
+                    "id": "core.action.increase_draw_each_turn",
                     "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
                     "x": 623.0,
                     "y": 178.0
@@ -3384,7 +3384,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_foresee",
+                    "id": "core.action.foresee_cards",
                     "uid": "9eee9aa0-553c-4bb5-874c-27327f8d56b5",
                     "x": 623.0,
                     "y": 178.0
@@ -3404,7 +3404,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_draw_after_use_skill_this_turn",
+                    "id": "core.action.draw_after_spell_this_turn",
                     "uid": "d888407a-e988-4967-8018-acb3fd543b73",
                     "x": 623.0,
                     "y": 178.0
@@ -3424,7 +3424,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_zhiheng",
+                    "id": "core.action.discard_and_redraw_same_amount",
                     "uid": "6cdd2355-b621-40ab-8f8d-f1968ca70beb",
                     "x": 623.0,
                     "y": 178.0
@@ -3450,7 +3450,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_self_discard_card_todo",
+                    "id": "core.action.discard_own_cards_then",
                     "uid": "f8910fd5-c0ee-43fb-8537-08739256aff2",
                     "x": 623.0,
                     "y": 178.0
@@ -3464,7 +3464,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_heal",
+                    "id": "core.action.heal_target",
                     "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
                     "x": 1076.0,
                     "y": 308.0
@@ -3484,7 +3484,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_ex_douge_required",
+                    "id": "core.action.require_additional_dodges",
                     "uid": "8c6abff3-6db9-4eec-b454-c7e4a10b77a4",
                     "x": 623.0,
                     "y": 178.0
@@ -3510,7 +3510,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_search_card",
+                    "id": "core.action.search_deck_for_named_cards",
                     "uid": "c2c23399-6bdb-49c0-a5cb-935f94be997b",
                     "x": 623.0,
                     "y": 178.0
@@ -3530,7 +3530,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 623.0,
                     "y": 178.0
@@ -3556,7 +3556,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
@@ -3570,7 +3570,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_take_dmg",
+                    "id": "core.action.take_damage",
                     "uid": "28ce07ba-5ac8-4ed0-ae8f-477c3241ca51",
                     "x": 1113.0,
                     "y": 214.0
@@ -3584,7 +3584,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_discard_card",
+                    "id": "core.action.discard_target_cards",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
                     "x": 1100.0,
                     "y": 523.0
@@ -3604,7 +3604,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_add_hand_limitation",
+                    "id": "core.action.increase_hand_limit",
                     "uid": "616d13e5-8d85-449a-b5ad-889e8a069ed5",
                     "x": 623.0,
                     "y": 178.0
@@ -3630,7 +3630,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 651.0,
                     "y": 176.0
@@ -3644,7 +3644,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1102.0,
                     "y": 378.0
@@ -3658,7 +3658,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_take_dmg",
+                    "id": "core.action.take_damage",
                     "uid": "28ce07ba-5ac8-4ed0-ae8f-477c3241ca51",
                     "x": 1081.0,
                     "y": 171.0
@@ -3678,7 +3678,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_review_black",
+                    "id": "core.action.reveal_then_if_black",
                     "uid": "b8b29be4-0318-4786-aa3a-077b5c6d1069",
                     "x": 623.0,
                     "y": 178.0
@@ -3692,7 +3692,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_discard_card",
+                    "id": "core.action.discard_target_cards",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
                     "x": 1203.0,
                     "y": 303.0
@@ -3726,7 +3726,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 999.0,
                     "y": 262.0
@@ -3746,7 +3746,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 623.0,
                     "y": 178.0
@@ -3772,7 +3772,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_self_discard_card_todo",
+                    "id": "core.action.discard_own_cards_then",
                     "uid": "f8910fd5-c0ee-43fb-8537-08739256aff2",
                     "x": 623.0,
                     "y": 178.0
@@ -3786,7 +3786,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_draw_item_card",
+                    "id": "core.action.draw_item_cards",
                     "uid": "38e833c2-df60-4060-8a3b-c894b355a6a3",
                     "x": 1059.0,
                     "y": 225.0
@@ -3806,7 +3806,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_sheshenyiji",
+                    "id": "core.action.discard_hand_attack_all_and_draw",
                     "uid": "c309b243-8bc2-4655-8a5d-424a427e9519",
                     "x": 623.0,
                     "y": 178.0
@@ -3832,7 +3832,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_self_discard_card_todo",
+                    "id": "core.action.discard_own_cards_then",
                     "uid": "f8910fd5-c0ee-43fb-8537-08739256aff2",
                     "x": 623.0,
                     "y": 178.0
@@ -3846,7 +3846,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 1081.0,
                     "y": 290.0
@@ -3866,7 +3866,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_draw_when_use_red_atk",
+                    "id": "core.action.draw_after_using_red_attack",
                     "uid": "333349cb-6059-4907-9a66-4d4604142312",
                     "x": 623.0,
                     "y": 178.0
@@ -3886,7 +3886,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_equip_ex_item",
+                    "id": "core.action.increase_weapon_and_armor_capacity",
                     "uid": "c4a7ebd4-d81c-4c96-8760-2c093f55b46c",
                     "x": 623.0,
                     "y": 178.0
@@ -3906,7 +3906,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_draw_card",
+                    "id": "core.action.draw_cards_for_target",
                     "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
                     "x": 623.0,
                     "y": 178.0
@@ -3919,7 +3919,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_cancel_atk",
+                    "id": "core.action.cancel_attack",
                     "uid": "c83027e6-696d-4219-b163-c03ac7679157",
                     "x": 623.0,
                     "y": 178.0
@@ -3939,7 +3939,7 @@
                             "data": "14"
                         }
                     ],
-                    "id": "a_summon",
+                    "id": "core.action.summon_monster",
                     "uid": "7e1c7ab4-0cbb-4f75-81af-a8a201c9664e",
                     "x": 623.0,
                     "y": 178.0
@@ -3959,7 +3959,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_use_atk_or",
+                    "id": "core.action.play_attack_or_else",
                     "uid": "f8f6127c-4e2d-4692-9380-e472df060abf",
                     "x": 623.0,
                     "y": 178.0
@@ -3973,7 +3973,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_discard_card",
+                    "id": "core.action.discard_target_cards",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
                     "x": 1018.0,
                     "y": 281.0
@@ -3993,7 +3993,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 623.0,
                     "y": 178.0
@@ -4006,7 +4006,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_satisfy_require",
+                    "id": "core.action.satisfy_required_card",
                     "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
                     "x": 623.0,
                     "y": 178.0
@@ -4026,7 +4026,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_ex_draw",
+                    "id": "core.action.increase_draw_each_turn",
                     "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
                     "x": 623.0,
                     "y": 178.0
@@ -4039,7 +4039,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_satisfy_require",
+                    "id": "core.action.satisfy_required_card",
                     "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
                     "x": 623.0,
                     "y": 178.0
@@ -4079,7 +4079,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 1024.0,
                     "y": 215.0
@@ -4093,7 +4093,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1501.0,
                     "y": 238.0
@@ -4107,7 +4107,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_add_ex_atk_num_this_turn",
+                    "id": "core.action.increase_attack_limit_this_turn",
                     "uid": "1135c318-54e8-41c8-a589-e171936fa853",
                     "x": 1507.0,
                     "y": 492.0
@@ -4127,7 +4127,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_add_ex_atk_num",
+                    "id": "core.action.increase_attack_limit",
                     "uid": "d63355fc-b126-4e81-8258-3db89cad52ab",
                     "x": 623.0,
                     "y": 178.0
@@ -4147,7 +4147,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_reduce_dmg_by",
+                    "id": "core.action.reduce_damage",
                     "uid": "32a75a80-a607-4422-9245-bdd40135c700",
                     "x": 623.0,
                     "y": 178.0
@@ -4160,7 +4160,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_ex_dmg_chongqun",
+                    "id": "core.action.add_damage_for_dead_swarm",
                     "uid": "ad08da64-1e2b-4aeb-b505-5a8fec4f44f7",
                     "x": 623.0,
                     "y": 178.0
@@ -4173,7 +4173,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_copy",
+                    "id": "core.action.copy_unowned_target_skill",
                     "uid": "0e64e332-865f-4c3c-938c-a04070aee126",
                     "x": 623.0,
                     "y": 178.0
@@ -4186,7 +4186,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_lose_half_hp",
+                    "id": "core.action.lose_half_health",
                     "uid": "4f646eaf-4597-4f62-a2f4-7d6790f41055",
                     "x": 623.0,
                     "y": 178.0
@@ -4206,7 +4206,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_take_dmg",
+                    "id": "core.action.take_damage",
                     "uid": "28ce07ba-5ac8-4ed0-ae8f-477c3241ca51",
                     "x": 1097.0,
                     "y": 171.0
@@ -4226,7 +4226,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
@@ -4240,7 +4240,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1144.0,
                     "y": 426.0
@@ -4253,7 +4253,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_atk_other_if_poss",
+                    "id": "core.action.force_target_to_attack_ally",
                     "uid": "cb776270-bab5-4128-a8dc-ae2f4cc6e615",
                     "x": 623.0,
                     "y": 178.0
@@ -4273,7 +4273,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_draw_less_card_at_start",
+                    "id": "core.action.reduce_enemy_draw",
                     "uid": "ab210a5e-ad74-477d-88ea-473736514963",
                     "x": 623.0,
                     "y": 178.0
@@ -4286,7 +4286,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_cant_use_heal",
+                    "id": "core.action.prevent_heal_use",
                     "uid": "ce00252a-de67-4171-8487-1097b3987310",
                     "x": 623.0,
                     "y": 178.0
@@ -4306,7 +4306,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_heal",
+                    "id": "core.action.heal_target",
                     "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
                     "x": 623.0,
                     "y": 178.0
@@ -4326,7 +4326,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_ex_dmg_next_atk",
+                    "id": "core.action.increase_next_attack_damage",
                     "uid": "638849cd-9ce1-469a-ad2d-607819be3370",
                     "x": 661.0,
                     "y": 157.0
@@ -4346,7 +4346,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 623.0,
                     "y": 178.0
@@ -4366,7 +4366,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_ex_heal_next_heal",
+                    "id": "core.action.increase_next_healing",
                     "uid": "cac08b91-e869-4641-b2f3-69ea52582887",
                     "x": 623.0,
                     "y": 178.0
@@ -4386,7 +4386,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_heal",
+                    "id": "core.action.heal_target",
                     "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
                     "x": 623.0,
                     "y": 178.0
@@ -4406,7 +4406,7 @@
                             "data": "fenghuo"
                         }
                     ],
-                    "id": "a_equip_item",
+                    "id": "core.action.equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
                     "x": 623.0,
                     "y": 178.0
@@ -4426,7 +4426,7 @@
                             "data": "yujinxian"
                         }
                     ],
-                    "id": "a_equip_item",
+                    "id": "core.action.equip_item",
                     "uid": "cfa0c91b-a32a-487e-9af3-309b855bda17",
                     "x": 624.0,
                     "y": 186.0
@@ -4439,7 +4439,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_jiguan_bird",
+                    "id": "core.action.play_equipment_scaled_attack",
                     "uid": "51063d9b-f61d-41fd-ae0a-f513ba5c1091",
                     "x": 705.0,
                     "y": 178.0
@@ -4459,7 +4459,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_reduce_dmg_by",
+                    "id": "core.action.reduce_damage",
                     "uid": "32a75a80-a607-4422-9245-bdd40135c700",
                     "x": 1154.0,
                     "y": 257.0
@@ -4479,7 +4479,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 695.0,
                     "y": 282.0
@@ -4499,7 +4499,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 1153.0,
                     "y": 496.0
@@ -4513,7 +4513,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1625.0,
                     "y": 473.0
@@ -4527,7 +4527,7 @@
                             "data": "fenghuo"
                         }
                     ],
-                    "id": "a_self_discard_certain_item",
+                    "id": "core.action.discard_selected_own_item",
                     "uid": "cb581478-208a-48af-855e-8e10592d475e",
                     "x": 1608.0,
                     "y": 746.0
@@ -4553,7 +4553,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 1000.0,
                     "y": 348.0
@@ -4567,7 +4567,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1444.0,
                     "y": 301.0
@@ -4581,7 +4581,7 @@
                             "data": "yujinxian"
                         }
                     ],
-                    "id": "a_discard_certain_item",
+                    "id": "core.action.discard_selected_target_item",
                     "uid": "3d61dbf3-c0a7-4374-90d9-e907e836d201",
                     "x": 1419.0,
                     "y": 581.0
@@ -4601,7 +4601,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
@@ -4615,7 +4615,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_ex_heal_next_heal",
+                    "id": "core.action.increase_next_healing",
                     "uid": "cac08b91-e869-4641-b2f3-69ea52582887",
                     "x": 1099.0,
                     "y": 88.0
@@ -4641,7 +4641,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
@@ -4655,7 +4655,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_ex_draw",
+                    "id": "core.action.increase_draw_each_turn",
                     "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
                     "x": 1253.0,
                     "y": 248.0
@@ -4669,7 +4669,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_ex_discard_on_start",
+                    "id": "core.action.discard_additional_cards_at_turn_start",
                     "uid": "a98c5584-8d9e-427f-910a-6938e58a4ecc",
                     "x": 1240.0,
                     "y": 500.0
@@ -4689,7 +4689,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_discard_card",
+                    "id": "core.action.discard_target_cards",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
                     "x": 623.0,
                     "y": 178.0
@@ -4709,7 +4709,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_discard_card",
+                    "id": "core.action.discard_target_cards",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
                     "x": 623.0,
                     "y": 178.0
@@ -4729,7 +4729,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_draw_when_respond_red_atk",
+                    "id": "core.action.draw_after_responding_with_red_attack",
                     "uid": "7ec0d442-0a3e-4ef7-a874-b5ccdb5cd163",
                     "x": 623.0,
                     "y": 178.0
@@ -4749,7 +4749,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 623.0,
                     "y": 178.0
@@ -4769,7 +4769,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_steal_card",
+                    "id": "core.action.steal_target_cards",
                     "uid": "1898310f-a650-471e-b50c-93968fe07bd0",
                     "x": 721.0,
                     "y": 174.0
@@ -4789,7 +4789,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_heal",
+                    "id": "core.action.heal_self",
                     "uid": "ee884388-f75e-4de3-aeff-c66d50aafeae",
                     "x": 827.0,
                     "y": 201.0
@@ -4815,7 +4815,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_discard_if_last_card_or_item_draw",
+                    "id": "core.action.discard_target_cards_and_draw_if_last",
                     "uid": "b75b506b-a7b9-48b5-b9b2-959a79798b84",
                     "x": 623.0,
                     "y": 178.0
@@ -4828,7 +4828,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_cant_be_target_on_black_skill",
+                    "id": "core.action.prevent_black_spell_targeting",
                     "uid": "d60373c5-4610-425b-882b-0de899996258",
                     "x": 623.0,
                     "y": 178.0
@@ -4854,7 +4854,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_review_check_spade_then_black",
+                    "id": "core.action.reveal_then_if_spade_or_club",
                     "uid": "50b38b23-37a9-4861-86b7-359907d3dc43",
                     "x": 623.0,
                     "y": 178.0
@@ -4868,7 +4868,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 1099.0,
                     "y": 167.0
@@ -4882,7 +4882,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 1080.0,
                     "y": 428.0
@@ -4902,7 +4902,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_draw_card",
+                    "id": "core.action.draw_cards_for_target",
                     "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
                     "x": 623.0,
                     "y": 178.0
@@ -4915,7 +4915,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_as_play_a_atk_now",
+                    "id": "core.action.make_target_play_attack",
                     "uid": "a5d744ae-0706-48d9-8bb3-ef70b162324d",
                     "x": 1113.0,
                     "y": 514.0
@@ -4929,7 +4929,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_give_hands",
+                    "id": "core.action.give_hand_cards_to_target",
                     "uid": "b1b53ff7-f435-41e1-9e23-5419bbb9addf",
                     "x": 1129.0,
                     "y": 212.0
@@ -4949,7 +4949,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
@@ -4969,7 +4969,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_heal",
+                    "id": "core.action.heal_target",
                     "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
                     "x": 623.0,
                     "y": 178.0
@@ -4995,7 +4995,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 573.0,
                     "y": 176.0
@@ -5015,14 +5015,14 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 1084.0,
                     "y": 305.0
                 },
                 {
                     "operands": [],
-                    "id": "a_give_all_hands",
+                    "id": "core.action.give_all_hand_cards_to_target",
                     "uid": "1c10d787-6a6c-40bb-b3d1-54dd26c6b728",
                     "x": 1549.0,
                     "y": 389.0
@@ -5036,7 +5036,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_next_turn_ex_draw",
+                    "id": "core.action.increase_target_draw_next_turn",
                     "uid": "cfe0c5cf-ec5f-477f-b45d-eaf4b44c3175",
                     "x": 1535.0,
                     "y": 579.0
@@ -5050,7 +5050,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_next_turn_ex_atk_time",
+                    "id": "core.action.increase_target_attack_limit_next_turn",
                     "uid": "f3069ba7-1a95-46ba-a4d7-8a3b465b826c",
                     "x": 1027.0,
                     "y": 635.0
@@ -5070,7 +5070,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_take_the_dmg_instead_and_if_self_full_hp",
+                    "id": "core.action.take_damage_instead_then_if_was_full_health",
                     "uid": "74ce3088-9ffe-49fd-b773-1284967007a6",
                     "x": 623.0,
                     "y": 178.0
@@ -5084,7 +5084,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_draw_card",
+                    "id": "core.action.draw_cards_for_target",
                     "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
                     "x": 1273.0,
                     "y": 264.0
@@ -5110,21 +5110,21 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
                 },
                 {
                     "operands": [],
-                    "id": "a_no_atk_limit_this_turn",
+                    "id": "core.action.remove_attack_limit_this_turn",
                     "uid": "2d0c06e5-3d5a-42e0-9f59-31c05ffcc43d",
                     "x": 1049.0,
                     "y": 216.0
                 },
                 {
                     "operands": [],
-                    "id": "a_no_others_can_respond_your_card",
+                    "id": "core.action.prevent_others_from_responding_to_cards",
                     "uid": "93202833-69a1-4bf3-aef8-a50532042b1f",
                     "x": 1045.0,
                     "y": 422.0
@@ -5150,14 +5150,14 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_review_check_black_and_red",
+                    "id": "core.action.reveal_then_choose_by_color",
                     "uid": "1fbb6205-a81e-4705-9ddd-1c9b910304e6",
                     "x": 623.0,
                     "y": 178.0
                 },
                 {
                     "operands": [],
-                    "id": "a_cant_respond",
+                    "id": "core.action.prevent_response",
                     "uid": "749401f2-5ad9-43a2-9934-23fcbb951dd2",
                     "x": 1193.0,
                     "y": 380.0
@@ -5171,7 +5171,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_ex_dmg_this_time",
+                    "id": "core.action.increase_current_damage",
                     "uid": "366e8d1c-3bf6-4866-9673-3a85c211e130",
                     "x": 1208.0,
                     "y": 155.0
@@ -5197,7 +5197,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 973.0,
                     "y": 482.0
@@ -5211,7 +5211,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_ex_dmg_by_atk_this_turn",
+                    "id": "core.action.increase_attack_damage_this_turn",
                     "uid": "21f320bf-9ae4-47ce-aac1-dc2798a14c67",
                     "x": 1422.0,
                     "y": 766.0
@@ -5225,7 +5225,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_reduce_draw_this_turn",
+                    "id": "core.action.reduce_draw_this_turn",
                     "uid": "d53df211-eaa6-4931-92cd-4dd03379081b",
                     "x": 1411.0,
                     "y": 451.0
@@ -5245,7 +5245,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_target_choose_2",
+                    "id": "core.action.let_target_choose_two_effects",
                     "uid": "f5ff297a-a9b4-4862-9b77-5156b19bd76b",
                     "x": 573.0,
                     "y": 177.0
@@ -5259,7 +5259,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_ex_draw",
+                    "id": "core.action.increase_draw_each_turn",
                     "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
                     "x": 1147.0,
                     "y": 122.0
@@ -5279,7 +5279,7 @@
                             "data": "4"
                         }
                     ],
-                    "id": "a_forever_hand_limit",
+                    "id": "core.action.set_base_hand_limit",
                     "uid": "28542b5e-a231-4eca-b607-0ffad5b375c8",
                     "x": 623.0,
                     "y": 178.0
@@ -5292,7 +5292,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_satisfy_require",
+                    "id": "core.action.satisfy_required_card",
                     "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
                     "x": 623.0,
                     "y": 178.0
@@ -5312,7 +5312,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_ex_draw",
+                    "id": "core.action.increase_draw_each_turn",
                     "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
                     "x": 623.0,
                     "y": 178.0
@@ -5325,7 +5325,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_satisfy_require",
+                    "id": "core.action.satisfy_required_card",
                     "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
                     "x": 623.0,
                     "y": 178.0
@@ -5345,7 +5345,7 @@
                             "data": "heal"
                         }
                     ],
-                    "id": "a_use_card",
+                    "id": "core.action.make_target_use_card",
                     "uid": "8c930b2f-481b-4175-a8de-63ec08563f56",
                     "x": 649.0,
                     "y": 149.0
@@ -5365,7 +5365,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_ex_dmg_this_time",
+                    "id": "core.action.increase_current_damage",
                     "uid": "366e8d1c-3bf6-4866-9673-3a85c211e130",
                     "x": 1296.0,
                     "y": 292.0
@@ -5379,7 +5379,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_discard_a_card_if_heart",
+                    "id": "core.action.discard_target_card_then_if_heart",
                     "uid": "1f820179-8f85-498a-a3c2-7e7530226e07",
                     "x": 779.0,
                     "y": 268.0
@@ -5405,7 +5405,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
@@ -5419,14 +5419,14 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_draw_card",
+                    "id": "core.action.draw_cards_for_target",
                     "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
                     "x": 1080.0,
                     "y": 189.0
                 },
                 {
                     "operands": [],
-                    "id": "a_choose_to_discard_base_on_self_hp_lost",
+                    "id": "core.action.discard_target_cards_for_lost_health",
                     "uid": "c60bb915-a239-4779-a56b-6471bece6c4c",
                     "x": 1094.0,
                     "y": 444.0
@@ -5439,7 +5439,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_play_atk_not_count",
+                    "id": "core.action.play_attack_without_counting",
                     "uid": "bc77892a-df5f-4dc9-ad98-d3cc5da48cc1",
                     "x": 623.0,
                     "y": 178.0
@@ -5452,7 +5452,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_handlimit_eq_tm_alive",
+                    "id": "core.action.set_hand_limit_to_living_allies",
                     "uid": "702c8f91-5d9e-46bb-97cf-ecf2d65423db",
                     "x": 623.0,
                     "y": 178.0
@@ -5478,7 +5478,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
@@ -5498,7 +5498,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 1037.0,
                     "y": 389.0
@@ -5512,7 +5512,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_give_hands",
+                    "id": "core.action.give_hand_cards_to_target",
                     "uid": "b1b53ff7-f435-41e1-9e23-5419bbb9addf",
                     "x": 1140.0,
                     "y": 113.0
@@ -5526,7 +5526,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1502.0,
                     "y": 377.0
@@ -5540,7 +5540,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_heal",
+                    "id": "core.action.heal_self",
                     "uid": "ee884388-f75e-4de3-aeff-c66d50aafeae",
                     "x": 1481.0,
                     "y": 643.0
@@ -5553,7 +5553,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_jiang",
+                    "id": "core.action.draw_and_make_black_attack_free",
                     "uid": "46eee70c-e448-4dd3-8848-ac71f2b9a66d",
                     "x": 623.0,
                     "y": 178.0
@@ -5566,7 +5566,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_swap_targets_hand",
+                    "id": "core.action.swap_two_targets_hands",
                     "uid": "e1865e38-40cc-43b6-8f77-ca0e2cb7ed45",
                     "x": 623.0,
                     "y": 178.0
@@ -5579,7 +5579,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_xiongqi",
+                    "id": "core.action.reveal_for_lost_health_heal_and_gain",
                     "uid": "17919408-8281-443b-a0b5-ca856755aa8a",
                     "x": 623.0,
                     "y": 178.0
@@ -5605,7 +5605,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_get_token",
+                    "id": "core.action.give_target_tokens",
                     "uid": "99ae5a17-7857-46f1-a3d8-43f7526cf362",
                     "x": 623.0,
                     "y": 178.0
@@ -5631,7 +5631,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_get_token",
+                    "id": "core.action.gain_tokens",
                     "uid": "ff3da21d-081d-45b4-b2e0-a2546658f6e6",
                     "x": 695.0,
                     "y": 166.0
@@ -5663,7 +5663,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_target_choose_3",
+                    "id": "core.action.let_target_choose_three_effects",
                     "uid": "28519862-6f6b-42aa-bf83-8fc1523776c5",
                     "x": 1069.0,
                     "y": 257.0
@@ -5677,14 +5677,14 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_lose_hp",
+                    "id": "core.action.lose_health",
                     "uid": "85e3faa4-a304-423c-b118-c077b7ecceca",
                     "x": 1543.0,
                     "y": 132.0
                 },
                 {
                     "operands": [],
-                    "id": "a_discard_all_hand",
+                    "id": "core.action.discard_target_hand",
                     "uid": "582826b6-fbe2-4d80-b8da-b07229247aee",
                     "x": 1563.0,
                     "y": 326.0
@@ -5698,7 +5698,7 @@
                             "data": "-1"
                         }
                     ],
-                    "id": "a_ex_draw",
+                    "id": "core.action.increase_draw_each_turn",
                     "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
                     "x": 1599.0,
                     "y": 537.0
@@ -5724,7 +5724,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_spend_token_todo",
+                    "id": "core.action.spend_tokens_then",
                     "uid": "098463a3-34ee-4693-997f-7ffd90240a14",
                     "x": 684.0,
                     "y": 185.0
@@ -5737,7 +5737,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_review_shence",
+                    "id": "core.action.reveal_and_record_card",
                     "uid": "59fdb877-c12d-4e56-aaa5-929afc9922fc",
                     "x": 623.0,
                     "y": 178.0
@@ -5757,7 +5757,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_if_same_suit_shence",
+                    "id": "core.action.if_same_suit_as_recorded_card",
                     "uid": "3e0e95a4-61ab-4656-8c15-66ab2435234e",
                     "x": 623.0,
                     "y": 178.0
@@ -5771,7 +5771,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1102.0,
                     "y": 291.0
@@ -5784,7 +5784,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_discard_x_shence_card_to_deal_dmg",
+                    "id": "core.action.discard_matching_rank_cards_for_damage",
                     "uid": "297e92ea-0c86-4e39-967f-00d08bc83b04",
                     "x": 623.0,
                     "y": 178.0
@@ -5816,7 +5816,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_review_check_heart_spade_club",
+                    "id": "core.action.reveal_then_choose_by_suit",
                     "uid": "b6f3289a-d649-45d3-a8db-e8df2439b821",
                     "x": 623.0,
                     "y": 178.0
@@ -5830,7 +5830,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 1081.0,
                     "y": 685.0
@@ -5844,7 +5844,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1198.0,
                     "y": 453.0
@@ -5858,7 +5858,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_heal",
+                    "id": "core.action.heal_self",
                     "uid": "ee884388-f75e-4de3-aeff-c66d50aafeae",
                     "x": 1111.0,
                     "y": 162.0
@@ -5878,7 +5878,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_discard_card",
+                    "id": "core.action.discard_target_cards",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
                     "x": 623.0,
                     "y": 178.0
@@ -5898,7 +5898,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 623.0,
                     "y": 178.0
@@ -5918,7 +5918,7 @@
                             "data": "fali"
                         }
                     ],
-                    "id": "a_get_token_eq_discard_number",
+                    "id": "core.action.gain_tokens_for_discarded_cards",
                     "uid": "7963d684-b613-4032-bd8c-f9451fbda8ba",
                     "x": 623.0,
                     "y": 178.0
@@ -5950,14 +5950,14 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_spend_token_todo",
+                    "id": "core.action.spend_tokens_then",
                     "uid": "098463a3-34ee-4693-997f-7ffd90240a14",
                     "x": 623.0,
                     "y": 178.0
                 },
                 {
                     "operands": [],
-                    "id": "a_play_atk_not_count",
+                    "id": "core.action.play_attack_without_counting",
                     "uid": "bc77892a-df5f-4dc9-ad98-d3cc5da48cc1",
                     "x": 1218.0,
                     "y": 345.0
@@ -5989,7 +5989,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_spend_token_todo",
+                    "id": "core.action.spend_tokens_then",
                     "uid": "098463a3-34ee-4693-997f-7ffd90240a14",
                     "x": 623.0,
                     "y": 178.0
@@ -6003,7 +6003,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 1045.0,
                     "y": 392.0
@@ -6035,7 +6035,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_spend_token_todo",
+                    "id": "core.action.spend_tokens_then",
                     "uid": "098463a3-34ee-4693-997f-7ffd90240a14",
                     "x": 616.0,
                     "y": 201.0
@@ -6049,7 +6049,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1167.0,
                     "y": 369.0
@@ -6075,7 +6075,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 573.0,
                     "y": 204.0
@@ -6089,7 +6089,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_heal",
+                    "id": "core.action.heal_target",
                     "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
                     "x": 1100.0,
                     "y": 190.0
@@ -6109,7 +6109,7 @@
                             "data": "5"
                         }
                     ],
-                    "id": "a_get_token",
+                    "id": "core.action.give_target_tokens",
                     "uid": "99ae5a17-7857-46f1-a3d8-43f7526cf362",
                     "x": 1094.0,
                     "y": 433.0
@@ -6129,7 +6129,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_keep_hands",
+                    "id": "core.action.draw_until_hand_size",
                     "uid": "1eb3c3c3-4caf-41e8-9255-babe51e2a5d6",
                     "x": 623.0,
                     "y": 178.0
@@ -6142,7 +6142,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_satisfy_require",
+                    "id": "core.action.satisfy_required_card",
                     "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
                     "x": 623.0,
                     "y": 178.0
@@ -6162,7 +6162,7 @@
                             "data": "heal"
                         }
                     ],
-                    "id": "a_use_card",
+                    "id": "core.action.make_target_use_card",
                     "uid": "8c930b2f-481b-4175-a8de-63ec08563f56",
                     "x": 623.0,
                     "y": 178.0
@@ -6175,7 +6175,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_satisfy_require",
+                    "id": "core.action.satisfy_required_card",
                     "uid": "a82a08c9-1ea0-4b4e-8c8b-cff1ffb4108f",
                     "x": 623.0,
                     "y": 178.0
@@ -6201,7 +6201,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_play_atk_ex_dmg_if_point_outnumber_and_cant_respond_lower_then",
+                    "id": "core.action.play_rank_based_attack",
                     "uid": "763d01b4-a774-4f3c-a39c-7ffb1dcfb3a7",
                     "x": 623.0,
                     "y": 178.0
@@ -6214,7 +6214,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_ignore_dmg",
+                    "id": "core.action.ignore_current_damage",
                     "uid": "3f97d1e3-4757-4765-9d1a-b91bdc159384",
                     "x": 623.0,
                     "y": 178.0
@@ -6240,21 +6240,21 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
                 },
                 {
                     "operands": [],
-                    "id": "a_turn_hands_to_random_suit",
+                    "id": "core.action.change_hand_to_random_suit",
                     "uid": "0ebbdb83-5da5-46c4-8a30-ca95acfa5338",
                     "x": 1235.0,
                     "y": 225.0
                 },
                 {
                     "operands": [],
-                    "id": "a_no_atk_limit_this_turn",
+                    "id": "core.action.remove_attack_limit_this_turn",
                     "uid": "9a6ae957-eb69-430d-840a-d8846486b401",
                     "x": 1445.0,
                     "y": 427.0
@@ -6274,14 +6274,14 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 989.0,
                     "y": 428.0
                 },
                 {
                     "operands": [],
-                    "id": "a_draw_or_heal_when_deal_dmg_this_turn",
+                    "id": "core.action.draw_or_heal_after_damage_this_turn",
                     "uid": "112ea36e-eb3a-4ff3-bd18-8db97a3e4747",
                     "x": 1393.0,
                     "y": 656.0
@@ -6301,7 +6301,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_reduce_draw_every_turn",
+                    "id": "core.action.reduce_draw_each_turn",
                     "uid": "b1b8e260-45d2-4fad-a3c0-4b68acd79a71",
                     "x": 941.0,
                     "y": 281.0
@@ -6321,7 +6321,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_ex_draw",
+                    "id": "core.action.increase_draw_each_turn",
                     "uid": "0bc8329c-a79a-40b7-8dda-3b5d47792203",
                     "x": 623.0,
                     "y": 178.0
@@ -6341,7 +6341,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_ex_draw_by_wuzhong",
+                    "id": "core.action.increase_supply_draw",
                     "uid": "4f250ac1-4ed5-4314-bbda-6f9cbb9c1403",
                     "x": 623.0,
                     "y": 178.0
@@ -6375,7 +6375,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 979.0,
                     "y": 243.0
@@ -6388,7 +6388,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_nothing",
+                    "id": "core.action.do_nothing",
                     "uid": "2034ee5b-14b5-4ed7-8550-af4d09ff52d8",
                     "x": 623.0,
                     "y": 178.0
@@ -6401,7 +6401,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_dragon_egg",
+                    "id": "core.action.nurture_dragon_egg",
                     "uid": "f5410dfb-9ed9-47f3-b29e-ba00be5598e2",
                     "x": 623.0,
                     "y": 178.0
@@ -6427,7 +6427,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_require_2_card",
+                    "id": "core.action.require_two_target_cards_or_else",
                     "uid": "f8dfd20b-256f-4d83-aa03-f191cf0f8682",
                     "x": 719.0,
                     "y": 210.0
@@ -6441,7 +6441,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 1131.0,
                     "y": 364.0
@@ -6461,7 +6461,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_same_number_or_suit_with_last_card_played",
+                    "id": "core.action.if_same_rank_or_suit_as_last_played_card",
                     "uid": "c9dc35db-109a-4f5e-8735-0a27ce96c770",
                     "x": 623.0,
                     "y": 178.0
@@ -6475,7 +6475,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1149.0,
                     "y": 238.0
@@ -6495,7 +6495,7 @@
                             "data": "47"
                         }
                     ],
-                    "id": "a_summon",
+                    "id": "core.action.summon_monster",
                     "uid": "7e1c7ab4-0cbb-4f75-81af-a8a201c9664e",
                     "x": 623.0,
                     "y": 178.0
@@ -6515,7 +6515,7 @@
                             "data": "47"
                         }
                     ],
-                    "id": "a_summon",
+                    "id": "core.action.summon_monster",
                     "uid": "7e1c7ab4-0cbb-4f75-81af-a8a201c9664e",
                     "x": 623.0,
                     "y": 178.0
@@ -6535,7 +6535,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_review_red",
+                    "id": "core.action.reveal_then_if_red",
                     "uid": "9a5dfa9c-5a31-4f9a-9dfc-eb868cca6364",
                     "x": 623.0,
                     "y": 178.0
@@ -6549,7 +6549,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1044.0,
                     "y": 249.0
@@ -6562,7 +6562,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_yanlongduan",
+                    "id": "core.action.discard_two_then_damage_and_gain_health_on_kill",
                     "uid": "d41d8316-5f14-49bb-979c-9868f3fce808",
                     "x": 623.0,
                     "y": 178.0
@@ -6575,7 +6575,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_yanlong_draw",
+                    "id": "core.action.draw_for_flame_dragon_pillar",
                     "uid": "b695759a-d071-4024-b0d7-aed7bcaf0427",
                     "x": 623.0,
                     "y": 178.0
@@ -6595,7 +6595,7 @@
                             "data": "s_shuangzi_yang"
                         }
                     ],
-                    "id": "a_transform_skill",
+                    "id": "core.action.gain_transformed_skill",
                     "uid": "91e69f19-a087-4311-999e-ec82d29e3c1a",
                     "x": 1560.0,
                     "y": 162.0
@@ -6609,7 +6609,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1442.0,
                     "y": 795.0
@@ -6623,7 +6623,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_self_discard_card",
+                    "id": "core.action.discard_own_cards",
                     "uid": "2c084724-c252-491a-a2a8-da6b3a786485",
                     "x": 1445.0,
                     "y": 561.0
@@ -6643,7 +6643,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 593.0,
                     "y": 146.0
@@ -6663,7 +6663,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 1013.0,
                     "y": 676.0
@@ -6683,7 +6683,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 687.0,
                     "y": 465.0
@@ -6697,7 +6697,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_play_an_atk_with_ex_dmg",
+                    "id": "core.action.play_attack_with_extra_damage",
                     "uid": "1aa33010-d494-4969-b0ad-ee76482a3cba",
                     "x": 1084.0,
                     "y": 423.0
@@ -6717,7 +6717,7 @@
                             "data": "s_shuangzi_yin"
                         }
                     ],
-                    "id": "a_transform_skill",
+                    "id": "core.action.gain_transformed_skill",
                     "uid": "91e69f19-a087-4311-999e-ec82d29e3c1a",
                     "x": 1445.0,
                     "y": 204.0
@@ -6731,7 +6731,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1504.0,
                     "y": 411.0
@@ -6745,14 +6745,14 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_discard_card",
+                    "id": "core.action.discard_own_cards",
                     "uid": "2c084724-c252-491a-a2a8-da6b3a786485",
                     "x": 1504.0,
                     "y": 681.0
                 },
                 {
                     "operands": [],
-                    "id": "a_cant_use_atk_this_turn",
+                    "id": "core.action.prevent_attack_use_this_turn",
                     "uid": "d1bb9eb4-9845-48b0-9c20-b6cba01c596c",
                     "x": 1382.0,
                     "y": 66.0
@@ -6772,7 +6772,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
@@ -6792,7 +6792,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 1037.0,
                     "y": 510.0
@@ -6812,7 +6812,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 1046.0,
                     "y": 154.0
@@ -6832,7 +6832,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_add_hp_max",
+                    "id": "core.action.increase_max_health",
                     "uid": "cabcaf65-00e2-4eee-84ab-889ba6839d26",
                     "x": 1404.0,
                     "y": 221.0
@@ -6846,7 +6846,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_heal",
+                    "id": "core.action.heal_target",
                     "uid": "c8bad7c3-ba67-496a-9f9f-c6ea9e0ac439",
                     "x": 1237.0,
                     "y": 462.0
@@ -6866,7 +6866,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
@@ -6886,7 +6886,7 @@
                             "data": "s_remove_fog"
                         }
                     ],
-                    "id": "a_player_gain_skill",
+                    "id": "core.action.give_player_skill",
                     "uid": "ab70fd51-76c4-4732-a47d-9e1c7e20abe8",
                     "x": 623.0,
                     "y": 178.0
@@ -6899,7 +6899,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_discard_remove_fog",
+                    "id": "core.action.discard_hand_cards_to_reduce_fog",
                     "uid": "552e7e9b-e7bb-499a-bc88-8a251bfc8a70",
                     "x": 623.0,
                     "y": 178.0
@@ -6925,7 +6925,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_review_check_black_and_red",
+                    "id": "core.action.reveal_then_choose_by_color",
                     "uid": "1fbb6205-a81e-4705-9ddd-1c9b910304e6",
                     "x": 623.0,
                     "y": 178.0
@@ -6939,14 +6939,14 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1207.0,
                     "y": 200.0
                 },
                 {
                     "operands": [],
-                    "id": "a_reduce_hp_max_instead",
+                    "id": "core.action.convert_to_max_health_loss",
                     "uid": "e7f23849-c3cd-4ba4-9eaa-d32eaaf1945f",
                     "x": 1192.0,
                     "y": 465.0
@@ -6966,7 +6966,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_gain_next_base_card",
+                    "id": "core.action.gain_next_basic_cards",
                     "uid": "11f04247-b670-4af3-a5c2-65ad7ec2a77b",
                     "x": 623.0,
                     "y": 178.0
@@ -6979,7 +6979,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_fog_shield",
+                    "id": "core.action.apply_fog_threshold_effects",
                     "uid": "252ea7bb-554d-4fca-9069-124e655a84d0",
                     "x": 623.0,
                     "y": 178.0
@@ -6992,7 +6992,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_dont_need_to_discard",
+                    "id": "core.action.prevent_hand_discard",
                     "uid": "de5506e9-b29f-40cc-b879-49fd6f7caecf",
                     "x": 623.0,
                     "y": 178.0
@@ -7005,7 +7005,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_discard_a_card_or_ignore_this_atk",
+                    "id": "core.action.discard_target_card_or_cancel_attack",
                     "uid": "5deb3afa-7614-44e1-ab24-37e4ccf1c6d9",
                     "x": 623.0,
                     "y": 178.0
@@ -7031,7 +7031,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_get_token",
+                    "id": "core.action.gain_tokens",
                     "uid": "ff3da21d-081d-45b4-b2e0-a2546658f6e6",
                     "x": 623.0,
                     "y": 178.0
@@ -7063,7 +7063,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_check_token_num",
+                    "id": "core.action.if_token_count_at_least",
                     "uid": "c1f0b860-5eec-4211-9854-b21beb4bf74c",
                     "x": 623.0,
                     "y": 178.0
@@ -7083,7 +7083,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 965.0,
                     "y": 329.0
@@ -7097,7 +7097,7 @@
                             "data": "s_jianxinyouzai"
                         }
                     ],
-                    "id": "a_gain_skill",
+                    "id": "core.action.give_target_skill",
                     "uid": "64b6c707-62df-429a-b8c8-bb60519ff36b",
                     "x": 1395.0,
                     "y": 253.0
@@ -7111,7 +7111,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_heal",
+                    "id": "core.action.heal_self",
                     "uid": "ee884388-f75e-4de3-aeff-c66d50aafeae",
                     "x": 1393.0,
                     "y": 519.0
@@ -7143,7 +7143,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_spend_token_todo",
+                    "id": "core.action.spend_tokens_then",
                     "uid": "098463a3-34ee-4693-997f-7ffd90240a14",
                     "x": 623.0,
                     "y": 178.0
@@ -7163,7 +7163,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 981.0,
                     "y": 335.0
@@ -7177,7 +7177,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_self_draw_card",
+                    "id": "core.action.draw_cards",
                     "uid": "36557216-8312-4f56-83cf-6437eccf2bb2",
                     "x": 1366.0,
                     "y": 284.0
@@ -7191,7 +7191,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_add_ex_atk_num_this_turn",
+                    "id": "core.action.increase_attack_limit_this_turn",
                     "uid": "1135c318-54e8-41c8-a589-e171936fa853",
                     "x": 1341.0,
                     "y": 562.0
@@ -7211,7 +7211,7 @@
                             "data": "2"
                         }
                     ],
-                    "id": "a_draw_card",
+                    "id": "core.action.draw_cards_for_target",
                     "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
                     "x": 1097.0,
                     "y": 209.0
@@ -7231,7 +7231,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_check_if_has_hands",
+                    "id": "core.action.if_has_hand_cards",
                     "uid": "9eac679f-6220-4806-9ef7-a9ffd80e496d",
                     "x": 659.0,
                     "y": 283.0
@@ -7245,7 +7245,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_draw_card",
+                    "id": "core.action.draw_cards_for_target",
                     "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
                     "x": 1093.0,
                     "y": 511.0
@@ -7271,21 +7271,21 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 656.0,
                     "y": 234.0
                 },
                 {
                     "operands": [],
-                    "id": "a_put_card_on_top_of_deck",
+                    "id": "core.action.put_selected_card_on_deck",
                     "uid": "86667b51-46a6-4447-861e-cb9d7cf5520a",
                     "x": 1020.0,
                     "y": 220.0
                 },
                 {
                     "operands": [],
-                    "id": "a_gongxin",
+                    "id": "core.action.view_target_hand_and_discard",
                     "uid": "0e016674-b861-4b9b-831a-442fdc7a1549",
                     "x": 1037.0,
                     "y": 449.0
@@ -7298,7 +7298,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_tianbian",
+                    "id": "core.action.clash_with_top_deck_card_and_draw",
                     "uid": "4627e638-daa9-4fd3-ae65-1453407c6712",
                     "x": 623.0,
                     "y": 178.0
@@ -7311,7 +7311,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_chaofeng",
+                    "id": "core.action.limit_damage_while_other_enemies_live",
                     "uid": "df3d92f2-933e-4778-bfcd-4fe1fd852c87",
                     "x": 623.0,
                     "y": 178.0
@@ -7331,7 +7331,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_review_not_club",
+                    "id": "core.action.reveal_then_if_not_club",
                     "uid": "372bc64e-9479-4f10-b326-e80c6f6a8bfa",
                     "x": 648.0,
                     "y": 183.0
@@ -7345,7 +7345,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_reduce_draw_next_turn",
+                    "id": "core.action.reduce_draw_next_turn",
                     "uid": "83eb51e9-63f2-4c79-877e-c821d80b0caa",
                     "x": 1052.0,
                     "y": 245.0
@@ -7371,14 +7371,14 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 598.0,
                     "y": 179.0
                 },
                 {
                     "operands": [],
-                    "id": "a_heal_until_full",
+                    "id": "core.action.heal_to_full",
                     "uid": "6284328e-ca8f-4cc6-b9bd-514ef838c3c7",
                     "x": 1188.0,
                     "y": 216.0
@@ -7392,7 +7392,7 @@
                             "data": "s_fuchou"
                         }
                     ],
-                    "id": "a_gain_skill",
+                    "id": "core.action.give_target_skill",
                     "uid": "64b6c707-62df-429a-b8c8-bb60519ff36b",
                     "x": 1285.0,
                     "y": 653.0
@@ -7412,14 +7412,14 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 912.0,
                     "y": 420.0
                 },
                 {
                     "operands": [],
-                    "id": "a_cant_use_yinyang",
+                    "id": "core.action.prevent_active_yin_yang_skill_use",
                     "uid": "cfcdad3b-4ed5-4107-8942-205142591fb8",
                     "x": 1267.0,
                     "y": 412.0
@@ -7432,7 +7432,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_fuchou",
+                    "id": "core.action.empower_next_turn_and_unblockable_first_attack",
                     "uid": "36304e61-fa50-461c-a884-b36b80a311cc",
                     "x": 623.0,
                     "y": 178.0
@@ -7445,7 +7445,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_keji",
+                    "id": "core.action.prevent_end_turn_hand_discard",
                     "uid": "0049f6f9-c27f-4fa1-8d8f-df1e67416b0d",
                     "x": 1028.0,
                     "y": 236.0
@@ -7465,14 +7465,14 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_check_hand_minus_hp",
+                    "id": "core.action.if_hand_below_current_health",
                     "uid": "939e6360-7107-43bb-b932-deecec48aa63",
                     "x": 623.0,
                     "y": 178.0
                 },
                 {
                     "operands": [],
-                    "id": "a_use_a_steal",
+                    "id": "core.action.play_virtual_steal",
                     "uid": "856826d0-0e8c-4138-b9b2-9a5635c8e836",
                     "x": 1006.0,
                     "y": 241.0
@@ -7485,7 +7485,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_rage",
+                    "id": "core.action.increase_next_attack_damage_this_turn_by_one",
                     "uid": "8f2e08d6-bb4a-4f26-94b5-e992cc108ea2",
                     "x": 623.0,
                     "y": 178.0
@@ -7498,7 +7498,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_swap_hands",
+                    "id": "core.action.swap_hands_with_target",
                     "uid": "544bb260-fcb9-4d62-ba99-44ccdff3bacd",
                     "x": 623.0,
                     "y": 178.0
@@ -7511,7 +7511,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_play_atk_not_count",
+                    "id": "core.action.play_attack_without_counting",
                     "uid": "bc77892a-df5f-4dc9-ad98-d3cc5da48cc1",
                     "x": 1191.0,
                     "y": 385.0
@@ -7531,7 +7531,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_discard_item_todo_",
+                    "id": "core.action.discard_items_then",
                     "uid": "207fc6df-c8ac-4ab9-8706-ae7f737e3a52",
                     "x": 623.0,
                     "y": 178.0
@@ -7557,7 +7557,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_self_zhiheng_all_item_if_at_least_x_then",
+                    "id": "core.action.discard_all_items_draw_then_if_at_least",
                     "uid": "6e412a4a-d982-4f37-b455-19389f6a6341",
                     "x": 623.0,
                     "y": 178.0
@@ -7571,7 +7571,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_choose_1_unit_take_dmg",
+                    "id": "core.action.choose_unit_to_take_damage",
                     "uid": "7994d1c6-6feb-4443-952e-e60c83191277",
                     "x": 1149.0,
                     "y": 304.0
@@ -7597,7 +7597,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_get_token",
+                    "id": "core.action.give_target_tokens",
                     "uid": "99ae5a17-7857-46f1-a3d8-43f7526cf362",
                     "x": 623.0,
                     "y": 178.0
@@ -7629,14 +7629,14 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_spend_token_todo",
+                    "id": "core.action.spend_tokens_then",
                     "uid": "098463a3-34ee-4693-997f-7ffd90240a14",
                     "x": 623.0,
                     "y": 178.0
                 },
                 {
                     "operands": [],
-                    "id": "a_watch_hand",
+                    "id": "core.action.view_target_hand",
                     "uid": "45bdb7c3-d4f1-4cd0-bb4a-e983b40b6eec",
                     "x": 1053.0,
                     "y": 377.0
@@ -7656,7 +7656,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_if_target_has_same_num_type_hand_then",
+                    "id": "core.action.if_target_has_equal_card_type_counts",
                     "uid": "13f52b85-e1f0-434b-86ff-e43ba57f8927",
                     "x": 597.0,
                     "y": 186.0
@@ -7670,7 +7670,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 928.0,
                     "y": 257.0
@@ -7696,7 +7696,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_self_choose",
+                    "id": "core.action.choose_between_two_effects",
                     "uid": "8a6ee5e4-10ce-49fa-9ed5-c5038805ca70",
                     "x": 857.0,
                     "y": 211.0
@@ -7710,7 +7710,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_draw_card",
+                    "id": "core.action.draw_cards_for_target",
                     "uid": "7a74ef87-f868-4a60-9657-82181cc60766",
                     "x": 1213.0,
                     "y": 139.0
@@ -7724,7 +7724,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_discard_card",
+                    "id": "core.action.discard_target_cards",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
                     "x": 1215.0,
                     "y": 400.0
@@ -7744,7 +7744,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 535.0,
                     "y": 435.0
@@ -7758,7 +7758,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_if_target_has_same_num_hands_then",
+                    "id": "core.action.if_target_hand_size_equals_own",
                     "uid": "befa4e07-9364-46cf-b87a-5a5127b09602",
                     "x": 935.0,
                     "y": 755.0
@@ -7772,7 +7772,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_discard_card",
+                    "id": "core.action.discard_target_cards",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
                     "x": 1325.0,
                     "y": 747.0
@@ -7792,7 +7792,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_to_all_with_no_hands",
+                    "id": "core.action.apply_to_all_with_empty_hands",
                     "uid": "0dbbd64f-aa06-45a9-b3e1-8c79ee1bf51b",
                     "x": 623.0,
                     "y": 178.0
@@ -7806,7 +7806,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_take_damage",
+                    "id": "core.action.deal_damage_to_target",
                     "uid": "c488e528-82cb-45d0-bbaa-ae048d9f81e2",
                     "x": 1054.0,
                     "y": 198.0
@@ -7826,7 +7826,7 @@
                             "data": "s_cequan"
                         }
                     ],
-                    "id": "a_gain_skill_this_turn",
+                    "id": "core.action.gain_skill_this_turn",
                     "uid": "b97bcdfe-1221-49c2-a795-b92da70a3bad",
                     "x": 623.0,
                     "y": 178.0
@@ -7852,7 +7852,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_check_if_has_hands",
+                    "id": "core.action.if_has_hand_cards",
                     "uid": "9eac679f-6220-4806-9ef7-a9ffd80e496d",
                     "x": 623.0,
                     "y": 178.0
@@ -7866,7 +7866,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_discard_card",
+                    "id": "core.action.discard_target_cards",
                     "uid": "7a114cca-48ab-438e-8d65-5d612c15d87f",
                     "x": 1078.0,
                     "y": 211.0
@@ -7880,7 +7880,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_ex_dmg_this_time",
+                    "id": "core.action.increase_current_damage",
                     "uid": "366e8d1c-3bf6-4866-9673-3a85c211e130",
                     "x": 1061.0,
                     "y": 473.0
@@ -7893,7 +7893,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_search_self_deck",
+                    "id": "core.action.search_own_deck",
                     "uid": "15f15d82-bbc4-4fe2-9d70-1f6cf091f1ba",
                     "x": 623.0,
                     "y": 178.0
@@ -7906,7 +7906,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_put_all_hands_on_top_of_self_deck",
+                    "id": "core.action.put_target_hand_on_own_deck",
                     "uid": "00a0bc29-2f5f-4ea6-800b-6d9a6383af11",
                     "x": 623.0,
                     "y": 178.0
@@ -7932,7 +7932,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_do_things",
+                    "id": "core.action.execute_two_effects",
                     "uid": "716a988d-d2a2-4a3e-a03a-08c6815f893e",
                     "x": 623.0,
                     "y": 178.0
@@ -7946,7 +7946,7 @@
                             "data": "3"
                         }
                     ],
-                    "id": "a_foresee_self_deck",
+                    "id": "core.action.foresee_own_deck",
                     "uid": "21dc80c0-58bd-4f46-8d03-6dae8d559d09",
                     "x": 1195.0,
                     "y": 196.0
@@ -7960,7 +7960,7 @@
                             "data": "1"
                         }
                     ],
-                    "id": "a_draw_from_self_deck",
+                    "id": "core.action.draw_from_own_deck",
                     "uid": "92ef9eca-65ca-4e9c-959e-2b8996de7c80",
                     "x": 1166.0,
                     "y": 419.0
@@ -7980,7 +7980,7 @@
                             "data": "s_hengsao"
                         }
                     ],
-                    "id": "a_gain_skill",
+                    "id": "core.action.give_target_skill",
                     "uid": "64b6c707-62df-429a-b8c8-bb60519ff36b",
                     "x": 623.0,
                     "y": 178.0
@@ -7993,7 +7993,7 @@
             "blocks": [
                 {
                     "operands": [],
-                    "id": "a_dahuifu",
+                    "id": "core.action.discard_hand_heal_full_and_draw_next_turn",
                     "uid": "1704452b-875c-407e-b4c3-491f4886f3af",
                     "x": 623.0,
                     "y": 178.0
