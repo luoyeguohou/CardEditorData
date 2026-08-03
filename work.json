@@ -1864,7 +1864,7 @@
                     "data": ""
                 }
             ],
-            "id": "a_card_clash",
+            "id": "core.action.card_clash",
             "uid": "ab859d63-7600-4fbb-8e62-bd9302fc3b38",
             "x": 623.0,
             "y": 178.0
@@ -2010,7 +2010,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_card_clash",
+                    "id": "core.action.card_clash",
                     "uid": "ab859d63-7600-4fbb-8e62-bd9302fc3b38",
                     "x": 623.0,
                     "y": 178.0
@@ -2885,7 +2885,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_card_clash",
+                    "id": "core.action.card_clash",
                     "uid": "ab859d63-7600-4fbb-8e62-bd9302fc3b38",
                     "x": 623.0,
                     "y": 178.0
@@ -3712,7 +3712,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_card_clash",
+                    "id": "core.action.card_clash",
                     "uid": "ab859d63-7600-4fbb-8e62-bd9302fc3b38",
                     "x": 623.0,
                     "y": 178.0
@@ -4059,7 +4059,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_card_clash",
+                    "id": "core.action.card_clash",
                     "uid": "ab859d63-7600-4fbb-8e62-bd9302fc3b38",
                     "x": 623.0,
                     "y": 178.0
@@ -6361,7 +6361,7 @@
                             "data": ""
                         }
                     ],
-                    "id": "a_card_clash",
+                    "id": "core.action.card_clash",
                     "uid": "ab859d63-7600-4fbb-8e62-bd9302fc3b38",
                     "x": 623.0,
                     "y": 178.0
